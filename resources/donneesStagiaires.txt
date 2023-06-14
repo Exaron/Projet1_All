@@ -1,0 +1,96 @@
+LACROIX
+Pascale
+91
+BOBI 5
+2008
+*
+CHAVENEAU
+Kim Anh
+92
+ATOD 22
+2014
+*
+GARIJO
+Rosie
+75
+AI 79
+2011
+*
+POTIN
+Thomas
+75
+ATOD 21
+2014
+*
+AUGEREAU
+Kévin
+76
+AI 78
+2010
+*
+UNG
+Jet-Ming
+75
+ATOD 16 CP
+2012
+*
+ROIGNANT
+Pierre-Yves
+77
+ATOD 26 CP
+2015
+*
+CHONE
+Martin
+92
+ATOD 24 CP
+2015
+*
+AKHIAD
+Brahim
+92
+AI 60
+2003
+*
+NOUAR
+Adel
+94
+ATOD 5
+2009
+*
+PUCELLE
+David
+75
+ATOD 12
+2011
+*
+ROIGNANT
+Pierre-Yves
+77
+AI 95
+2015
+*
+LECLERC
+Dominique
+75
+AI 61
+2003
+*
+BOUCHET
+Laurent
+91
+ATOD 19 CP
+2013
+*
+BOUAMAMA
+Yahya
+93
+AROBAS 3
+2008
+*
+KAHLOUL DIA
+Imen
+94
+ATOD 24
+2015
+*
