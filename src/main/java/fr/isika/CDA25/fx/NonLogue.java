@@ -26,6 +26,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
+import javafx.collections.FXCollections;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.DatePicker;
 import javafx.scene.control.CheckBox;
@@ -38,14 +39,18 @@ import javafx.scene.control.ToggleButton;
 import javafx.scene.control.Labeled;
 import javafx.scene.control.Toggle;
 import java.io.File;
+import java.net.URISyntaxException;
+import java.util.ArrayList;
 
-import fr.isika.CDA25.fx.Stagiaire;
+import fr.isika.CDA25.Projet1_All.Stagiaire;
+import fr.isika.CDA25.Projet1_All.TxtToData;
 import javafx.stage.FileChooser;
 
 public class NonLogue extends GridPane {
 
 	private Button login;
 	private TableView<Stagiaire> table;
+	public TxtToData data = new TxtToData();
 
 	public NonLogue() {
 		super();
@@ -72,31 +77,47 @@ public class NonLogue extends GridPane {
 		this.setPadding(new Insets(10, 10, 10, 10));
 		this.setVgap(10);
 		this.setHgap(10);
-		
 
-		
-		
 		TableColumn<Stagiaire, String> nomCol = new TableColumn<Stagiaire, String>("Nom");
-		nomCol.setMinWidth(50);
-//		nomCol.setCellValueFactory(new PropertyValueFactory<Stagiaire, String>("Nom"));
+		nomCol.setMinWidth(50);	
 		TableColumn<Stagiaire, String> prenomCol = new TableColumn<Stagiaire, String>("Prénom");
 		prenomCol.setMinWidth(50);
 		TableColumn<Stagiaire, String> departCol = new TableColumn<Stagiaire, String>("Département");
-		departCol.setMinWidth(50);
+		departCol.setMinWidth(50);	
 		TableColumn<Stagiaire, String> promoCol = new TableColumn<Stagiaire, String>("Promotion");
-		promoCol.setMinWidth(50);
+		promoCol.setMinWidth(50);		
 		TableColumn<Stagiaire, String> anneeCol = new TableColumn<Stagiaire, String>("Année");
 		anneeCol.setMinWidth(50);
 		
+		nomCol.setCellValueFactory(new PropertyValueFactory<Stagiaire, String>("nom"));
+		prenomCol.setCellValueFactory(new PropertyValueFactory<Stagiaire, String>("prenom"));
+		departCol.setCellValueFactory(new PropertyValueFactory<Stagiaire, String>("departement"));
+		promoCol.setCellValueFactory(new PropertyValueFactory<Stagiaire, String>("formation"));
+		anneeCol.setCellValueFactory(new PropertyValueFactory<Stagiaire, String>("annee"));
+	
+		
 		table.getColumns().addAll(nomCol, prenomCol, departCol, promoCol, anneeCol);
+		table.setItems(FXCollections.observableArrayList(getListe()));
+	}
+		
 		
 
+	public ArrayList getListe() {
+		try {
+		data.lireFichier();
+		} catch (URISyntaxException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+		}
+		return data.getListeStagiaires();
 	}
 
 	public Button getLogin() {
 		return login;
 	}
-	
-	
+
+	public TableView<Stagiaire> getTable() {
+		return table;
+	}
 
 }

@@ -11,6 +11,8 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
 
+import fr.isika.CDA25.Projet1_All.Stagiaire;
+
 public class Logue extends GridPane {
 	private Button logOut;
 	private Button modif;

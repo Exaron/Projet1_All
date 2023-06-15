@@ -1,11 +1,15 @@
 package fr.isika.CDA25.fx;
 
+import fr.isika.CDA25.Projet1_All.Stagiaire;
+import fr.isika.CDA25.Projet1_All.TxtToData;
 import javafx.application.Application;
 
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
+
+import java.net.URISyntaxException;
 
 import fr.isika.CDA25.fx.LogIn;
 import fr.isika.CDA25.fx.Logue;
@@ -17,7 +21,7 @@ import javafx.event.EventHandler;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.paint.Color;
-
+import fr.isika.CDA25.Projet1_All.Stagiaire;
 /**
  * JavaFX App
  */
@@ -27,6 +31,17 @@ public class App extends Application {
 	public NonLogue nonLogue;
 	public Logue logue;
 	public Modif modif;
+//	public TxtToData data;
+//	
+//	data= new TxtToData();
+//	try {
+//		data.lireFichier();
+//	} catch (URISyntaxException e) {
+//		// TODO Auto-generated catch block
+//		e.printStackTrace();
+//	};
+	
+	
 
 	@Override
     public void start(Stage stage) {
@@ -35,8 +50,11 @@ public class App extends Application {
     	logIn = new LogIn();
     	logue = new Logue();
     	modif = new Modif();
+    	
         
         Scene scene = new Scene(nonLogue, 640, 480);
+        
+        
         
         nonLogue.getLogin().setOnAction(new EventHandler<ActionEvent>() {
 

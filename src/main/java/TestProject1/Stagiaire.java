@@ -1,4 +1,4 @@
-package fr.isika.CDA25.Projet1_All;
+package TestProject1;
 
 public class Stagiaire {
 	
@@ -66,10 +66,12 @@ public class Stagiaire {
 	@Override
 	public String toString() {
 		return "Stagiaire [nom=" + nom + ", prenom=" + prenom + ", departement=" + departement + ", formation="
-				+ formation + ", annee=" + annee + "]";
+				+ formation + ", annee=" + annee + "]\n";
 	}
 	
-	
+	public int compareTo(Stagiaire stag) {
+		return this.nom.compareTo(stag.nom);
+		}
 	
 
 }

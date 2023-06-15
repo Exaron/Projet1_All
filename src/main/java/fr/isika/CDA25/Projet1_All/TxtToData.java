@@ -13,10 +13,14 @@ import java.util.ArrayList;
 
 
 public class TxtToData {
-	  
+	ArrayList<Stagiaire> listeStagiaires;
 	
-    public void lireFichier() throws URISyntaxException {
-    	ArrayList<Stagiaire> listeStagiaires = new ArrayList <>();
+    public ArrayList<Stagiaire> getListeStagiaires() {
+		return listeStagiaires;
+	}
+
+	public void lireFichier() throws URISyntaxException {
+    	listeStagiaires = new ArrayList <>();
     	URL u = getClass().getClassLoader().getResource("donneesStagiaires.txt");
 //    	InputStream is = getClass().getClassLoader().getResourceAsStream("/Projet1_Annuaire/src/main/resources/donneesStagiaires.txt");
 //       System.out.println(is.toString());
