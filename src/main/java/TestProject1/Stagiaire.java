@@ -16,9 +16,7 @@ public class Stagiaire {
 		this.formation = formation;
 		this.annee = annee;
 	}
-	public Stagiaire() {
-		
-	}
+	
 
 	public String getNom() {
 		return nom;
@@ -28,9 +26,9 @@ public class Stagiaire {
 		this.nom = nom;
 	}
 	
-	public String nomString(){
-		return "nom";
-	}
+	//public String nomString(){
+		//return "nom";
+	//}
 
 	public String getPrenom() {
 		return prenom;

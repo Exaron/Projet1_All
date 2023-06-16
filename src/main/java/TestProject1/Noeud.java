@@ -1,56 +1,55 @@
 package TestProject1;
 
 public class Noeud extends TxtToData {
+    private Stagiaire cle;
+    private Noeud filsGauche;
+    private Noeud filsDroit;
+    private Noeud suivant;
 
-	// attributs
+    public Noeud(Stagiaire cle) {
+        this.cle = cle;
+    }
 
-	public Stagiaire cle;
-	public Noeud filsGauche;
-	public Noeud filsDroit;
-	public Noeud suivant;
+    public Noeud(Stagiaire cle, Noeud filsGauche, Noeud filsDroit, Noeud suivant) {
+        this.cle = cle;
+        this.filsGauche = filsGauche;
+        this.filsDroit = filsDroit;
+        this.suivant = suivant;
+    }
 
-	public Noeud(Stagiaire cle) {
-		this.cle = cle;
-	}
+    public Stagiaire getCle() {
+        return cle;
+    }
 
-	public Noeud(Stagiaire cle, Noeud filsGauche, Noeud filsDroit, Noeud suivant) {
-		super();
+    public void setCle(Stagiaire cle) {
+        this.cle = cle;
+    }
 
-	}
+    public Noeud getFilsGauche() {
+        return filsGauche;
+    }
 
-	public Stagiaire getCle() {
-		return cle;
-	}
+    public void setFilsGauche(Noeud filsGauche) {
+        this.filsGauche = filsGauche;
+    }
 
-	public void setCle(Stagiaire cle) {
-		this.cle = cle;
-	}
+    public Noeud getFilsDroit() {
+        return filsDroit;
+    }
 
-	public Noeud getFilsGauche() {
-		return filsGauche;
-	}
+    public void setFilsDroit(Noeud filsDroit) {
+        this.filsDroit = filsDroit;
+    }
 
-	public void setFilsGauche(Noeud filsGauche) {
-		this.filsGauche = filsGauche;
-	}
+    public Noeud getSuivant() {
+        return suivant;
+    }
 
-	public Noeud getFilsDroit() {
-		return filsDroit;
-	}
+    public void setSuivant(Noeud suivant) {
+        this.suivant = suivant;
+    }
 
-	public void setFilsDroit(Noeud filsDroit) {
-		this.filsDroit = filsDroit;
-	}
-
-	public Noeud getSuivant() {
-		return suivant;
-	}
-
-	public void setSuivant(Noeud suivant) {
-		this.suivant = suivant;
-	}
-
-	public String toString() {
+    public String toString() {
 
 		String res = "";
 
@@ -164,3 +163,8 @@ public class Noeud extends TxtToData {
 //	}
 
 }
+
+    
+    
+    
+

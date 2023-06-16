@@ -7,8 +7,8 @@ public class Annuaire {
         racine = null;
     }
 
-    public void ajouterStagiaire(Stagiaire stagiaire) throws DoublonException { // !! A supprimer qd creation du try and catch 
-    	Noeud nouveauNoeud = new Noeud(stagiaire, null, null); // Prendre tout les argument de stagiaire
+    public void ajouterStagiaire(Stagiaire stagiaire) {
+    	Noeud nouveauNoeud = new Noeud(stagiaire, null, null, null); // Prendre tout les argument de stagiaire
 
         if (racine == null) {
             racine = nouveauNoeud;
@@ -17,17 +17,19 @@ public class Annuaire {
         }
     }
 
-    private Noeud insererNoeud(Noeud parent, Noeud nouveauNoeud) throws DoublonException {
+    private Noeud insererNoeud(Noeud parent, Noeud nouveauNoeud) {
         if (parent == null) {
             return nouveauNoeud;
         }
 
         if (nouveauNoeud.getStagiaire().getNom().compareTo(parent.getStagiaire().getNom()) < 0) {
             parent.setFilsGauche(insererNoeud(parent.getFilsGauche(), nouveauNoeud));
+            
         } else if (nouveauNoeud.getStagiaire().getNom().compareTo(parent.getStagiaire().getNom()) > 0) {
             parent.setFilsDroit(insererNoeud(parent.getFilsDroit(), nouveauNoeud));
+            
         } else {
-        	throw new DoublonException("Le stagiaire existe déjà dans l'annuaire."); // Cas où nom = nom
+        	parent.setSuivant(insererListChain());
         }
             
 
@@ -36,7 +38,12 @@ public class Annuaire {
     
 
 
-    public void supprimerStagiaire(Stagiaire stagiaire) {
+    private ListChain insererListChain() {
+		
+		return null;
+	}
+
+	public void supprimerStagiaire(Stagiaire stagiaire) {
         racine = supprimerNoeud(racine, stagiaire);
     }
 
