@@ -9,6 +9,7 @@ import java.net.URISyntaxException;
 import java.net.URL;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.List;
 
 public class TxtToData {
 
@@ -23,7 +24,7 @@ public class TxtToData {
         URL u = getClass().getClassLoader().getResource("donneesStagiaires.txt");
         File file = new File(Paths.get(u.toURI()).toUri());
 
-        Stagiaire stagiaire = new Stagiaire(null, null, null, null, null);
+        Stagiaire stagiaire = new Stagiaire();
         int ligneCount = 0;
 
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
@@ -61,13 +62,13 @@ public class TxtToData {
         }
     }
 
-    public void ajout() {
-        Noeud racine = new Noeud(new Stagiaire(null, null, null, null, null));
+    /*public void ajout() {
+        Noeud arbre = new Noeud(new Stagiaire());
         for (Stagiaire stagiaire : listeStagiaires) {
-            racine.ajouterStagiaire(stagiaire);
+            arbre.ajouterStagiaire(stagiaire);
         }
-        System.out.println(racine);
-    }
+        System.out.println(arbre);
+    */
 
     public void ecrireFichierBinaire(String nomFichier) {
         try (RandomAccessFile raf = new RandomAccessFile(nomFichier, "test")) {
@@ -83,4 +84,10 @@ public class TxtToData {
             e.printStackTrace();
         }
     }
+
+	public List<Stagiaire> getarbre() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

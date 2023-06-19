@@ -1,32 +1,26 @@
 package TestProject1;
 
-
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.util.List;
 
 public class TxtImport {
 
-    public static void main(String[] args) {
-        TxtToData data = new TxtToData();
-        try {
-            data.lireFichier();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+	public static void main(String[] args) throws IOException {
+		TxtToData data = new TxtToData();
+		Arbre annuaire = new Arbre();
 
-        data.ajout();
+		try {
+			data.lireFichier();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 
-        List<Stagiaire> listeStagiaires = data.getListeStagiaires();
-
-        try (RandomAccessFile raf = new RandomAccessFile("arbre.bin", "rw")) {
-            for (Stagiaire stagiaire : listeStagiaires) {
-                String ligne = stagiaire.toString();
-                raf.writeBytes(ligne);
-            }
-            System.out.println("Données sauvegardées avec succès dans le fichier arbre.bin.");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+		annuaire.ajout();
+		annuaire.lister(0);
+		
+		for (Stagiaire s : annuaire.getListeTrie()) {
+			System.out.println(s);
+		}
+	}
 }

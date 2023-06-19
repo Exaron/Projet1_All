@@ -1,7 +1,7 @@
 package fr.isika.CDA25.fx;
 
-import fr.isika.CDA25.Projet1_All.Stagiaire;
-import fr.isika.CDA25.Projet1_All.TxtToData;
+import TestProject1.Stagiaire;
+import TestProject1.TxtToData;
 import javafx.application.Application;
 
 import javafx.scene.Scene;
@@ -9,6 +9,7 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
+import java.io.IOException;
 import java.net.URISyntaxException;
 
 import fr.isika.CDA25.fx.LogIn;
@@ -21,7 +22,7 @@ import javafx.event.EventHandler;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.paint.Color;
-import fr.isika.CDA25.Projet1_All.Stagiaire;
+import TestProject1.Stagiaire;
 /**
  * JavaFX App
  */
@@ -44,7 +45,7 @@ public class App extends Application {
 	
 
 	@Override
-    public void start(Stage stage) {
+    public void start(Stage stage) throws IOException {
     	
     	nonLogue = new NonLogue();
     	logIn = new LogIn();

@@ -1,6 +1,7 @@
 package fr.isika.CDA25.fx;
 
 import javafx.geometry.Insets;
+
 import javafx.geometry.Pos;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
@@ -11,7 +12,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
 
-import fr.isika.CDA25.Projet1_All.Stagiaire;
+import TestProject1.Stagiaire;
 
 public class Logue extends GridPane {
 	private Button logOut;

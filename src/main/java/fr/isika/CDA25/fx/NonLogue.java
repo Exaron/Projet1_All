@@ -2,6 +2,8 @@ package fr.isika.CDA25.fx;
 
 import javafx.application.Application;
 
+
+
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
@@ -39,22 +41,28 @@ import javafx.scene.control.ToggleButton;
 import javafx.scene.control.Labeled;
 import javafx.scene.control.Toggle;
 import java.io.File;
+import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
 
-import fr.isika.CDA25.Projet1_All.Stagiaire;
-import fr.isika.CDA25.Projet1_All.TxtToData;
+import TestProject1.Arbre;
+import TestProject1.Stagiaire;
 import javafx.stage.FileChooser;
 
 public class NonLogue extends GridPane {
 
 	private Button login;
 	private TableView<Stagiaire> table;
-	public TxtToData data = new TxtToData();
+	public Arbre annuaire = new Arbre();
+	
+	
 
-	public NonLogue() {
+	public NonLogue() throws IOException {
 		super();
 
+		annuaire.ajout();
+		annuaire.lister(0);
+		
 		Label recherche = new Label("Rechercher par :");
 		ChoiceBox<String> filtre = new ChoiceBox<>();
 		filtre.getItems().addAll("Filtre", "Nom", "Prénom", "Département", "Promotion", "Année");
@@ -79,9 +87,9 @@ public class NonLogue extends GridPane {
 		this.setHgap(10);
 
 		TableColumn<Stagiaire, String> nomCol = new TableColumn<Stagiaire, String>("Nom");
-		nomCol.setMinWidth(50);	
+		nomCol.setMinWidth(75);	
 		TableColumn<Stagiaire, String> prenomCol = new TableColumn<Stagiaire, String>("Prénom");
-		prenomCol.setMinWidth(50);
+		prenomCol.setMinWidth(75);
 		TableColumn<Stagiaire, String> departCol = new TableColumn<Stagiaire, String>("Département");
 		departCol.setMinWidth(50);	
 		TableColumn<Stagiaire, String> promoCol = new TableColumn<Stagiaire, String>("Promotion");
@@ -95,21 +103,12 @@ public class NonLogue extends GridPane {
 		promoCol.setCellValueFactory(new PropertyValueFactory<Stagiaire, String>("formation"));
 		anneeCol.setCellValueFactory(new PropertyValueFactory<Stagiaire, String>("annee"));
 	
+		for (Stagiaire s : annuaire.getListeTrie()) {
+			System.out.println(s);
+		}
 		
 		table.getColumns().addAll(nomCol, prenomCol, departCol, promoCol, anneeCol);
-		table.setItems(FXCollections.observableArrayList(getListe()));
-	}
-		
-		
-
-	public ArrayList getListe() {
-		try {
-		data.lireFichier();
-		} catch (URISyntaxException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-		}
-		return data.getListeStagiaires();
+		table.setItems(FXCollections.observableArrayList(annuaire.getListeTrie()));
 	}
 
 	public Button getLogin() {
