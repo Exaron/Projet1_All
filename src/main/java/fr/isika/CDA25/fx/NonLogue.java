@@ -60,9 +60,15 @@ public class NonLogue extends GridPane {
 	public NonLogue() throws IOException {
 		super();
 
-		annuaire.ajout();
-		annuaire.lister(0);
-		
+		if(annuaire.getRaf().length() ==0) {
+			System.out.println("fichier vide création");
+			annuaire.ajout();
+			annuaire.lister(0);
+			
+		} else {
+			System.out.println("arbre existe deja");
+			annuaire.lister(0);
+		}
 		Label recherche = new Label("Rechercher par :");
 		ChoiceBox<String> filtre = new ChoiceBox<>();
 		filtre.getItems().addAll("Filtre", "Nom", "Prénom", "Département", "Promotion", "Année");

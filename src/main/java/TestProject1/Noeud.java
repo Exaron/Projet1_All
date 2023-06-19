@@ -110,7 +110,7 @@ public class Noeud extends TxtToData {
 					annee += raf.readChar();
 				}
 
-				Stagiaire stagiaire = new Stagiaire(nom, prenom, departement, formation, annee);
+				Stagiaire stagiaire = new Stagiaire(nom.trim(), prenom.trim(), departement.trim(), formation.trim(), annee.trim());
 
 				int filsGauche = raf.readInt();
 				int filsDroit = raf.readInt();

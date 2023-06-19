@@ -36,7 +36,7 @@ public class Stagiaire {
 		StringBuilder sb = new StringBuilder(nom);
 		if (nom.length()<NOM_LONG) {
 			while (sb.length()<NOM_LONG) {
-				sb.append('*');
+				sb.append(' ');
 			}
 			return sb.toString();
 		}else if (nom.length()>NOM_LONG) {
@@ -58,7 +58,7 @@ public class Stagiaire {
 		StringBuilder sb = new StringBuilder(prenom);
 		if (prenom.length()<PRENOM_LONG) {
 			while (sb.length()<PRENOM_LONG) {
-				sb.append('*');
+				sb.append(' ');
 			}
 			return sb.toString();
 		}else if (prenom.length()>PRENOM_LONG) {
@@ -76,7 +76,7 @@ public class Stagiaire {
 		StringBuilder sb = new StringBuilder(departement);
 		if (departement.length()<DEPARTEMENT_LONG) {
 			while (sb.length()<DEPARTEMENT_LONG) {
-				sb.append('*');
+				sb.append(' ');
 			}
 			return sb.toString();
 		}else if (departement.length()>DEPARTEMENT_LONG) {
@@ -93,7 +93,7 @@ public class Stagiaire {
 		StringBuilder sb = new StringBuilder(formation);
 		if (formation.length()<FORMATION_LONG) {
 			while (sb.length()<FORMATION_LONG) {
-				sb.append('*');
+				sb.append(' ');
 			}
 			return sb.toString();
 		}else if (formation.length()>FORMATION_LONG) {
@@ -110,7 +110,7 @@ public class Stagiaire {
 		StringBuilder sb = new StringBuilder(annee);
 		if (annee.length()<ANNEE_LONG) {
 			while (sb.length()<ANNEE_LONG) {
-				sb.append('*');
+				sb.append(' ');
 			}
 			return sb.toString();
 		}else if (annee.length()>ANNEE_LONG) {

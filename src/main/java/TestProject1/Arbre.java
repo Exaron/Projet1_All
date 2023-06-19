@@ -1,7 +1,6 @@
 package TestProject1;
 
 import java.io.FileNotFoundException;
-
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.net.URISyntaxException;
@@ -15,6 +14,14 @@ public class Arbre {
 	ArrayList<Stagiaire> listeTrie = new ArrayList<>();
 
 	private static final long TAILLE_NOEUD = Stagiaire.TAILLE_STAGIAIRE_OCTET + 3 * 4;
+
+	public RandomAccessFile getRaf() {
+		return raf;
+	}
+
+	public void setRaf(RandomAccessFile raf) {
+		this.raf = raf;
+	}
 
 	public Arbre() {
 		try {
@@ -87,6 +94,22 @@ public class Arbre {
 		if (noeud1.getFilsDroit()!=-1) {
 			this.lister((int) (noeud1.getFilsDroit()*TAILLE_NOEUD));
 		}
+		
+	}
+	
+	public void supprimer() {
+		
+	}
+	
+//	public String rechercher(String monPrenom) {
+//		for (Stagiaire s : listeTrie) {
+//		if (ListeTrie.) {
+//			recherche = monPrenom;
+//		}
+//	
+//	}
+	
+	public void modifier() {
 		
 	}
 }
