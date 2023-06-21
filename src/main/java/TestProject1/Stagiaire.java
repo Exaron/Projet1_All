@@ -53,6 +53,10 @@ public class Stagiaire {
 		return this.nom;
 	}
 	
+	public String getVraiPrenom() {
+		return this.prenom;
+	}
+	
 	public String getVraiFormation() {
 		return this.formation;
 	}

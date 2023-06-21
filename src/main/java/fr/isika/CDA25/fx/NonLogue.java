@@ -57,38 +57,21 @@ public class NonLogue extends GridPane {
 	
 	
 
-	/*public NonLogue() throws IOException {
+	public NonLogue() throws IOException {
 		super();
 
 		if(annuaire.getRaf().length() ==0) {
 			System.out.println("fichier vide création");
-			annuaire.ajout();
+			annuaire.ajout();		
 			annuaire.lister(0);
 			
 		} else {
 			System.out.println("arbre existe deja");
-			annuaire.lister(0);
-		
-		}*/
-		
-		public NonLogue() throws IOException {
-		super();
-
-		if(annuaire.getRaf().length() ==0) {
-			System.out.println("fichier vide création");
-			annuaire.ajout();
-			annuaire.supprimer("AKHIAD", "AI 60", 0, 0);
 			
-			annuaire.lister(0);
-			
-		} else {
-			System.out.println("arbre existe deja");
-			annuaire.supprimer("AKHIAD", "AI 60", 0, 0);
+			annuaire.supprimer("LACROIX","Pascale", "BOBI 5");
 			annuaire.lister(0);
 		}
-		
-		
-		
+	
 		Label recherche = new Label("Rechercher par :");
 		ChoiceBox<String> filtre = new ChoiceBox<>();
 		filtre.getItems().addAll("Filtre", "Nom", "Prénom", "Département", "Promotion", "Année");

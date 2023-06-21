@@ -16,8 +16,21 @@ public class TxtImport {
 			e.printStackTrace();
 		}
 
-		annuaire.ajout();
-		annuaire.lister(0);
+		if(annuaire.getRaf().length() ==0) {
+			System.out.println("fichier vide création");
+			annuaire.ajout();
+			annuaire.lister(0);
+			
+		} else {
+			System.out.println("arbre existe deja");
+			annuaire.lister(0);
+		}
+		
+		for (Stagiaire s : annuaire.getListeTrie()) {
+			System.out.println(s);
+		}
+		
+		annuaire.supprimer("AKHIAD", "AI 60", 0);
 		
 		for (Stagiaire s : annuaire.getListeTrie()) {
 			System.out.println(s);
