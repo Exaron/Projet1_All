@@ -49,6 +49,13 @@ public class Stagiaire {
 	public void setNom(String nom) {
 		this.nom = nom;
 	}
+	public String getVraiNom() {
+		return this.nom;
+	}
+	
+	public String getVraiFormation() {
+		return this.formation;
+	}
 	
 	//public String nomString(){
 		//return "nom";

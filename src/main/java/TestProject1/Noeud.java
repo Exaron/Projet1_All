@@ -193,7 +193,36 @@ public class Noeud extends TxtToData {
 			e.printStackTrace();
 		}
 	}
-
+	
+	public void sauvegarderNoeudRaf(RandomAccessFile raf) {
+	    try {
+	        raf.writeChars(cle.getNom());
+	        raf.writeChars(cle.getPrenom());
+	        raf.writeChars(cle.getDepartement());
+	        raf.writeChars(cle.getFormation());
+	        raf.writeChars(cle.getAnnee());
+	        raf.writeInt(filsGauche);
+	        raf.writeInt(filsDroit);
+	        raf.writeInt(suivant);
+	    } catch (IOException e) {
+	        e.printStackTrace();
+	    }
+	}
+	public void reecrire(Stagiaire cle, int filsGauche, int filsDroit, int suivant, RandomAccessFile raf) {
+		try {
+			
+			raf.writeChars(cle.getNom());
+			raf.writeChars(cle.getPrenom());
+			raf.writeChars(cle.getDepartement());
+			raf.writeChars(cle.getFormation());
+			raf.writeChars(cle.getAnnee());
+			raf.writeInt(filsGauche);
+			raf.writeInt(filsDroit);
+			raf.writeInt(suivant);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
 	
 	
 
