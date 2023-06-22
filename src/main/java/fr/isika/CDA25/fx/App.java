@@ -1,16 +1,19 @@
 package fr.isika.CDA25.fx;
 
-import TestProject1.Stagiaire;
+import TestProject1.*;
 import TestProject1.TxtToData;
 import javafx.application.Application;
-
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.scene.Scene;
+import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.util.ArrayList;
 
 import fr.isika.CDA25.fx.LogIn;
 import fr.isika.CDA25.fx.Logue;
@@ -110,9 +113,40 @@ public class App extends Application {
 		});
         
         logue.getSuprim().setOnAction(new EventHandler<ActionEvent>() {
+        	//Logue logue = new Logue();
+        	Arbre annuaire = new Arbre();
+        	ArrayList<Stagiaire>listeStagiaires = annuaire.getListeTrie();
 
 			@Override
 			public void handle(ActionEvent event) {
+				StringBuffer sb = new StringBuffer();
+				System.out.println("suppression");
+				
+				
+				//ObservableList<Stagiaire> selectedStagiaires = logue.getSelectedStagiaires(); 
+				//for (Stagiaire stagiaire : selectedStagiaires) {
+		            try {
+		            	Stagiaire stagiaire = logue.getSelectedStagiaire();
+		            	System.out.println("stagiaire a supp " + stagiaire);
+						annuaire.supprimer(stagiaire.getVraiNom(), stagiaire.getVraiPrenom(), stagiaire.getVraiFormation());
+						annuaire.refresh();
+						logue.setStagiaires(annuaire.getListeTrie());
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					} 
+		       // }
+				
+				//logue.setStagiaires(listeStagiaires);
+//				try {
+//					//annuaire.lister(0);
+//					
+//					logue.setStagiaires(annuaire.getListeTrie());
+//					//logue.getTable().setItems(FXCollections.observableArrayList(logue.getsta));
+//				} catch (IOException e) {
+//					// TODO Auto-generated catch block
+//					e.printStackTrace();
+//				}
 			}
 			
 		});

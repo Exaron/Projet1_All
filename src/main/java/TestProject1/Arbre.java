@@ -75,6 +75,13 @@ public class Arbre {
 		}
 	}
 
+	public void refresh() throws IOException {
+		listeTrie = new ArrayList<>();
+		if(raf.length() != 0) {
+			lister(0);
+		}
+	}
+	
 	public void lister(int index) throws IOException {
 
 		// Stagiaire stagiaire = new Stagiaire();
@@ -89,15 +96,18 @@ public class Arbre {
 			this.lister((int) (noeud1.getFilsGauche() * TAILLE_NOEUD));
 
 		}
+		System.out.println(noeud1);
 		listeTrie.add(noeud1.getCle());
+		
+		if (noeud1.getSuivant() != -1) {
+			this.lister((int) (noeud1.getSuivant() * TAILLE_NOEUD));
+		}
 
 		if (noeud1.getFilsDroit() != -1) {
 			this.lister((int) (noeud1.getFilsDroit() * TAILLE_NOEUD));
 		}
 
-		if (noeud1.getSuivant() != -1) {
-			this.lister((int) (noeud1.getSuivant() * TAILLE_NOEUD));
-		}
+		
 
 	}
 

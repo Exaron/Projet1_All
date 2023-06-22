@@ -1,4 +1,4 @@
-package fr.isika.CDA25.fx;
+/*package fr.isika.CDA25.fx;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -20,9 +20,9 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
 
-public class Logue extends GridPane {
+public class Test extends GridPane {
 	private Button logOut;
-	private Button ajouter;
+	//private Button ajouter;
 	private Button modif;
 	private Button suprim;
 	
@@ -30,9 +30,8 @@ public class Logue extends GridPane {
 	private ChoiceBox<String> filtre;
 	private TableView<Stagiaire> table;
 	public Arbre annuaire = new Arbre();
-// private final CheckBox caseACocher = new CheckBox();
 
-	public Logue() throws IOException {
+	public Test() throws IOException {
 		super();
 		annuaire.lister(0);
 
@@ -53,10 +52,10 @@ public class Logue extends GridPane {
 		this.logOut = new Button("Log out");
 		this.modif = new Button("Modifier");
 		this.suprim = new Button("Supprimer");
-		this.ajouter = new Button ("Ajouter");
+		//this.ajouter = new Button ("Ajouter");
 
 		this.add(logOut, 4, 0);
-		this.add(ajouter, 2, 2);
+		//this.add(ajouter, 2, 2);
 		this.add(recherche, 1, 1);
 		this.add(filtre, 2, 1);
 		this.add(txtRecherche, 3, 1);
@@ -82,16 +81,16 @@ public class Logue extends GridPane {
 		promoCol.setMinWidth(50);
 		TableColumn<Stagiaire, String> anneeCol = new TableColumn<Stagiaire, String>("Année");
 		anneeCol.setMinWidth(50);
-	//	TableColumn<Stagiaire, Boolean> caseCol = new TableColumn<>("Sélection");
-	//	caseCol.setMinWidth(50);
+		TableColumn<Stagiaire, Boolean> caseCol = new TableColumn<>("Sélection");
+		caseCol.setMinWidth(50);
 		
 		nomCol.setCellValueFactory(new PropertyValueFactory<Stagiaire, String>("nom"));
 		prenomCol.setCellValueFactory(new PropertyValueFactory<Stagiaire, String>("prenom"));
 		departCol.setCellValueFactory(new PropertyValueFactory<Stagiaire, String>("departement"));
 		promoCol.setCellValueFactory(new PropertyValueFactory<Stagiaire, String>("formation"));
 		anneeCol.setCellValueFactory(new PropertyValueFactory<Stagiaire, String>("annee"));
-	// 	caseCol.setCellFactory(CheckBoxTableCell.forTableColumn(caseCol));
-	// 	caseCol.setCellValueFactory(new PropertyValueFactory<>(" ")) ;
+		caseCol.setCellFactory(CheckBoxTableCell.forTableColumn(caseCol));
+		caseCol.setCellValueFactory(new PropertyValueFactory<>(" ")) ;
 		
 		for (Stagiaire s : annuaire.getListeTrie()) {
 			System.out.println(s);
@@ -126,7 +125,14 @@ public class Logue extends GridPane {
 	public TableView<Stagiaire> getTable() {
 		return table;
 	}
-	
+	public ObservableList<Stagiaire> getSelectedStagiaires() {
+	    return table.getSelectionModel().getSelectedItems();
+	}
+	public void setStagiaires(ArrayList<Stagiaire> stagiaires) {
+		table.setItems(FXCollections.observableArrayList(stagiaires));
+		
+	}
+
 	public void rechercher() {
 	    String critere = filtre.getValue();
 	    String recherche = txtRecherche.getText();
@@ -160,16 +166,4 @@ public class Logue extends GridPane {
 	        table.setItems(FXCollections.observableArrayList(annuaire.getListeTrie()));
 	    }
 	}
-	
-	public ObservableList<Stagiaire> getSelectedStagiaires() {
-	    return table.getSelectionModel().getSelectedItems();
-	}
-	public Stagiaire getSelectedStagiaire() {
-		//System.out.println("methode get selected stafiaires");
-	    return table.getSelectionModel().getSelectedItem();
-	}
-	public void setStagiaires(ArrayList<Stagiaire> stagiaires) {
-		table.setItems(FXCollections.observableArrayList(stagiaires));
-		
-	}
-}
+}*/

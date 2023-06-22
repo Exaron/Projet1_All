@@ -30,7 +30,7 @@ public class TxtImport {
 			System.out.println(s);
 		}
 		
-		annuaire.supprimer("AKHIAD", "AI 60", 0);
+		annuaire.supprimer("AKHIAD","Brahim", "AI 60");
 		
 		for (Stagiaire s : annuaire.getListeTrie()) {
 			System.out.println(s);

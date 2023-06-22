@@ -1,5 +1,4 @@
 package TestProject1;
-
 public class Stagiaire {
 	
 	private String nom;
@@ -26,9 +25,8 @@ public class Stagiaire {
 	
 	//constante taille totale du stagiaire en octet (somme des attributs string *2)
 	public Stagiaire() {
-		 
+		
 	}
-
 	/*public String getNom() {
 		return nom;
 	}*/
@@ -44,8 +42,6 @@ public class Stagiaire {
 		}
 		return sb.toString();
 	}
-
-
 	public void setNom(String nom) {
 		this.nom = nom;
 	}
@@ -64,7 +60,6 @@ public class Stagiaire {
 	//public String nomString(){
 		//return "nom";
 	//}
-
 	public String getPrenom() {
 		StringBuilder sb = new StringBuilder(prenom);
 		if (prenom.length()<PRENOM_LONG) {
@@ -78,11 +73,9 @@ public class Stagiaire {
 		return sb.toString();
 	}
 	
-
 	public void setPrenom(String prenom) {
 		this.prenom = prenom;
 	}
-
 	public String getDepartement() {
 		StringBuilder sb = new StringBuilder(departement);
 		if (departement.length()<DEPARTEMENT_LONG) {
@@ -95,11 +88,9 @@ public class Stagiaire {
 		}
 		return sb.toString();
 	}
-
 	public void setDepartement(String departement) {
 		this.departement = departement;
 	}
-
 	public String getFormation() {
 		StringBuilder sb = new StringBuilder(formation);
 		if (formation.length()<FORMATION_LONG) {
@@ -112,11 +103,9 @@ public class Stagiaire {
 		}
 		return sb.toString();
 	}
-
 	public void setFormation(String formation) {
 		this.formation = formation;
 	}
-
 	public String getAnnee() {
 		StringBuilder sb = new StringBuilder(annee);
 		if (annee.length()<ANNEE_LONG) {
@@ -129,7 +118,6 @@ public class Stagiaire {
 		}
 		return sb.toString();
 	}
-
 	public void setAnnee(String annee) {
 		this.annee = annee;
 	}
@@ -142,5 +130,4 @@ public class Stagiaire {
 		return this.nom.compareTo(stag.nom);
 		}
 	
-
 }

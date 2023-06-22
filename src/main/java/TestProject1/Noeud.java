@@ -62,33 +62,9 @@ public class Noeud extends TxtToData {
 		this.suivant = suivant;
 	}
 
-	/*
-	 * public String toString() {
-	 * 
-	 * String res = "";
-	 * 
-	 * if (filsGauche != null) { res = res + filsGauche.toString(); } res = res +
-	 * this.cle.toString();
-	 * 
-	 * if (suivant !=null) { res = res + suivant.toString(); }
-	 * 
-	 * if (this.filsDroit != null) { res = res + filsDroit.toString(); }
-	 * 
-	 * return res; }
-	 */
-
 	public Noeud lireNoeud(RandomAccessFile raf) {
 		Noeud noeud = null;
 		try {
-
-			// raf = new RandomAccessFile("arbre.bin", "rw");
-//			if (raf.length() == 0) {
-//
-//			} else {
-			// int index = (int) (raf.length() / TAILLE_NOEUD); // Permet d'obtenir l'index
-			// actuel
-			// raf.seek(index * TAILLE_NOEUD);
-			// 5 Boucle for readchar
 
 			String nom = "";
 			for (int i = 0; i < Stagiaire.NOM_LONG; i++) {
@@ -210,67 +186,108 @@ public class Noeud extends TxtToData {
 			e.printStackTrace();
 		}
 	}
-
-	public void rechercherPourSupprimer(String nom, String prenom, String formation, int index, int indexParent,
+	
+	public String rechercherStagiaire(String nom, String prenom, String formation, int index, int indexParent,
 			RandomAccessFile raf) throws IOException {
-
+		String retourner = "";
 		raf.seek(index * TAILLE_NOEUD);
 		Noeud noeud1 = lireNoeud(raf);
 		System.out.println(index + " index");
 		System.out.println(indexParent + " indexParent");
-		if (nom.compareTo(noeud1.getCle().getVraiNom()) == 0) {
-			System.out.println("meme nom");
-			if (prenom.compareTo(noeud1.getCle().getVraiPrenom()) == 0) {
-
-				if (formation.equals(noeud1.getCle().getVraiFormation())) {
-					System.out.println(noeud1);
-					System.out.println("c'est le noeud à supprimer");
-					noeud1.supprimer(index, indexParent, raf);
-				} else {
-
-					if (noeud1.getSuivant() >= 0) {
-
-						this.rechercherPourSupprimer(nom, prenom, formation, (int) (noeud1.getSuivant()), index, raf);
-						System.out.println("suivant");
-
+		
+			if (nom.compareTo(noeud1.getCle().getVraiNom()) == 0) {
+				System.out.println("meme nom");
+				if (prenom.compareTo(noeud1.getCle().getVraiPrenom()) == 0) {
+					
+					if (formation.equals(noeud1.getCle().getVraiFormation())) {
+						System.out.println(noeud1);
+						System.out.println("c'est le noeud à supprimer");
+						System.out.println(nom);
+						return "trouvé";
+						
 					} else {
-						System.out.println("pas trouvé");
+						if (noeud1.getSuivant() >= 0) {
+							return this.rechercherStagiaire(nom, prenom, formation, (int) (noeud1.getSuivant()), index,
+									raf);
+						} else {
+							System.out.println("pas trouvé");
+						}
+					}
+				} else {
+					if (noeud1.getSuivant() >= 0) {
+						return this.rechercherStagiaire(nom, prenom, formation, (int) (noeud1.getSuivant()), index, raf);
+					} else {
+						System.out.println("prenom pas trouvé");
 					}
 				}
 			} else {
-				if (noeud1.getSuivant() >= 0) {
-
-					this.rechercherPourSupprimer(nom, prenom, formation, (int) (noeud1.getSuivant()), index, raf);
-					System.out.println("suivant");
-
-				} else {
-					System.out.println("prenom pas trouvé");
-				}
-				
-			}
-
-		} else {
-
 				if (nom.compareTo(noeud1.getCle().getVraiNom()) < 0) {
-
 					if (noeud1.getFilsGauche() >= 0) {
-						this.rechercherPourSupprimer(nom, prenom, formation, (int) (noeud1.getFilsGauche()), index,
+						return this.rechercherStagiaire(nom, prenom, formation, (int) (noeud1.getFilsGauche()), index,
 								raf);
-						System.out.println("gauche");
+						
 					}
 				} else {
-
 					if (noeud1.getFilsDroit() >= 0) {
-						this.rechercherPourSupprimer(nom, prenom, formation, (int) (noeud1.getFilsDroit()), index, raf);
-						System.out.println("droite");
+						return this.rechercherStagiaire(nom, prenom, formation, (int) (noeud1.getFilsDroit()), index, raf);
+						
 					}
 				}
 		}
 		
-		
-		
+		return "";
 	}
-
+	public String rechercherPourSupprimer(String nom, String prenom, String formation, int index, int indexParent,
+			RandomAccessFile raf) throws IOException {
+		String retourner = "";
+		raf.seek(index * TAILLE_NOEUD);
+		Noeud noeud1 = lireNoeud(raf);
+		System.out.println(index + " index");
+		System.out.println(indexParent + " indexParent");
+		
+			if (nom.compareTo(noeud1.getCle().getVraiNom()) == 0) {
+				System.out.println("meme nom");
+				if (prenom.compareTo(noeud1.getCle().getVraiPrenom()) == 0) {
+					if (formation.equals(noeud1.getCle().getVraiFormation())) {
+						System.out.println(noeud1);
+						System.out.println("c'est le noeud à supprimer");
+						System.out.println(nom);
+						noeud1.supprimer(index, indexParent, raf);
+						return "trouvé";
+					} else {
+						if (noeud1.getSuivant() >= 0) {
+							return this.rechercherPourSupprimer(nom, prenom, formation, (int) (noeud1.getSuivant()), index,
+									raf);
+							
+						} else {
+							System.out.println("pas trouvé");
+						}
+					}
+				} else {
+					if (noeud1.getSuivant() >= 0) {
+						return this.rechercherPourSupprimer(nom, prenom, formation, (int) (noeud1.getSuivant()), index, raf);
+						
+					} else {
+						System.out.println("prenom pas trouvé");
+					}
+				}
+			} else {
+				if (nom.compareTo(noeud1.getCle().getVraiNom()) < 0) {
+					if (noeud1.getFilsGauche() >= 0) {
+						return this.rechercherPourSupprimer(nom, prenom, formation, (int) (noeud1.getFilsGauche()), index,
+								raf);
+						
+					}
+				} else {
+					if (noeud1.getFilsDroit() >= 0) {
+						return this.rechercherPourSupprimer(nom, prenom, formation, (int) (noeud1.getFilsDroit()), index, raf);
+						
+					}
+				}
+		}
+		
+		return "";
+	}
 	public void supprimer(int index, int indexParent, RandomAccessFile raf) throws IOException {
 
 		// si il a un suivant
@@ -286,6 +303,7 @@ public class Noeud extends TxtToData {
 		} else if (this.filsGauche == -1 && this.filsDroit == -1) {
 			raf.seek(indexParent * TAILLE_NOEUD);
 			Noeud noeudParent = this.lireNoeud(raf);
+			System.out.println("parent " + noeudParent);
 			// si c'est une feuille
 			// c'est une feuille
 			System.out.println("pas besoin remplacant");
@@ -295,10 +313,13 @@ public class Noeud extends TxtToData {
 				reecrire(noeudParent.getCle(), -1, noeudParent.getFilsDroit(), noeudParent.getSuivant(), raf);
 
 			} else if (this.getCle().getVraiNom().compareTo(noeudParent.getCle().getVraiNom()) > 0) {
+				System.out.println("noud à supp est un fils droit");
 				// fils droit
 				raf.seek(indexParent * TAILLE_NOEUD);
 				reecrire(noeudParent.getCle(), noeudParent.getFilsGauche(), -1, noeudParent.getSuivant(), raf);
-
+				raf.seek(indexParent * TAILLE_NOEUD);
+				Noeud noeudParentbis = this.lireNoeud(raf);
+				System.out.println("parent " + noeudParentbis);
 			}
 		} else if (this.filsGauche == -1 || this.filsDroit == -1) {
 			raf.seek(indexParent * TAILLE_NOEUD);
@@ -341,17 +362,21 @@ public class Noeud extends TxtToData {
 			raf.seek(this.filsDroit * TAILLE_NOEUD);
 			Noeud droit = lireNoeud(raf);
 			Noeud remplacant = droit.chercherRemplacant(raf);
-			raf.seek(index * TAILLE_NOEUD);
-			reecrire(remplacant.cle, this.filsGauche, this.filsDroit, remplacant.suivant, raf);
-
-			// ensuite on suppriome le remplacant du sous arbre droit
+			
+			// ensuite on supprime le remplacant du sous arbre droit
 			droit.rechercherPourSupprimer(remplacant.cle.getVraiNom(), remplacant.cle.getVraiPrenom(), remplacant.cle.getVraiFormation(),
 					this.filsDroit, index, raf);
 
+			System.out.println("remplacant suprimé on ecrit le remplacant ");
+			raf.seek(index * TAILLE_NOEUD);
+			Noeud aSuppAjour = lireNoeud(raf);
+			raf.seek(index * TAILLE_NOEUD);
+			reecrire(remplacant.cle, aSuppAjour.filsGauche, aSuppAjour.filsDroit, remplacant.suivant, raf);
+			System.out.println("remplacant reecrit");
 		}
 
 	}
-
+	
 	public Noeud chercherRemplacant(RandomAccessFile raf) throws IOException {
 		// Noeud remplacant = null;
 		if (this.filsGauche == -1) {
@@ -361,7 +386,12 @@ public class Noeud extends TxtToData {
 			Noeud gauche = lireNoeud(raf);
 			return gauche.chercherRemplacant(raf);
 		}
-
 		// return remplacant;
 	}
+	@Override
+	public String toString() {
+		return "Noeud [cle=" + cle + ", filsGauche=" + filsGauche + ", filsDroit=" + filsDroit + ", suivant=" + suivant
+				+ "]";
+	}
+	
 }
