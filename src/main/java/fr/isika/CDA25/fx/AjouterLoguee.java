@@ -38,7 +38,7 @@ import javafx.scene.control.Toggle;
 import java.io.File;
 import javafx.stage.FileChooser;
 
-public class AjouterLogue extends StackPane {
+public class AjouterLoguee extends StackPane {
 
 	public StackPane myStack = new StackPane();
 	public VBox myVB = new VBox();
@@ -56,8 +56,9 @@ public class AjouterLogue extends StackPane {
 	public TextField txtAnnee = new TextField();
 	public Button validerAjoutL = new Button("Valider");
 	public Button retourAjoutLogue = new Button ("Retour");
+	private Label erreur;
 
-	public AjouterLogue() {
+	public AjouterLoguee() {
 		super();
 
 		this.myStack = new StackPane();
@@ -76,6 +77,7 @@ public class AjouterLogue extends StackPane {
 		this.txtAnnee = new TextField();
 		this.validerAjoutL = new Button("Valider");
 		this.retourAjoutLogue = new Button("Retour");
+		this.erreur = new Label("");
 
 		this.getChildren().add(myVB);
 
@@ -83,6 +85,7 @@ public class AjouterLogue extends StackPane {
 		myVB.getChildren().add(myGridPane);
 		myVB.getChildren().add(validerAjoutL);
 		myVB.getChildren().add(retourAjoutLogue);
+		myVB.getChildren().add(erreur);
 		myVB.setAlignment(Pos.CENTER);
 		myVB.setStyle("-fx-background-color:lightgrey");
 
@@ -96,6 +99,7 @@ public class AjouterLogue extends StackPane {
 		myGridPane.add(txtProm, 1, 3);
 		myGridPane.add(labelAnnee, 0, 4);
 		myGridPane.add(txtAnnee, 1, 4);
+		
 
 		myGridPane.setAlignment(Pos.CENTER);
 		myGridPane.setStyle("-fx-background-color:lightgrey");
@@ -165,6 +169,9 @@ public class AjouterLogue extends StackPane {
 	}
 	public Button getRetourAjoutLogue() {
 		return retourAjoutLogue;
+	}
+	public Label getErreur() {
+		return erreur;
 	}
 
 }

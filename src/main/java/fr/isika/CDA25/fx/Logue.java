@@ -1,7 +1,9 @@
 package fr.isika.CDA25.fx;
 
 import java.io.IOException;
+
 import java.util.ArrayList;
+import java.util.List;
 
 import TestProject1.Arbre;
 import TestProject1.Stagiaire;
@@ -20,7 +22,15 @@ import javafx.scene.control.cell.CheckBoxTableCell;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
+import javafx.print.PageLayout;
+import javafx.print.PageOrientation;
+import javafx.print.Paper;
+import javafx.print.Printer;
+import javafx.print.PrinterAttributes;
 import javafx.print.PrinterJob;
+import javafx.scene.control.TextArea;
+import javafx.scene.text.Font;
+import javafx.scene.control.Pagination;
 
 public class Logue extends GridPane {
 	private Button logOut;
@@ -28,6 +38,7 @@ public class Logue extends GridPane {
 	private Button modif;
 	private Button suprim;
 	private Button imprimer;
+	private Button rechercheMulti;
 	private Label erreur;
 
 	private TextField txtRecherche;
@@ -58,6 +69,7 @@ public class Logue extends GridPane {
 		this.suprim = new Button("Supprimer");
 		this.ajouter = new Button("Ajouter");
 		this.imprimer = new Button("Imprimer");
+		this.rechercheMulti = new Button("Recherche multicritère");
 		this.erreur = new Label("");
 
 		this.add(logOut, 4, 0);
@@ -66,6 +78,7 @@ public class Logue extends GridPane {
 		this.add(imprimer, 0, 2);
 		this.add(recherche, 1, 1);
 		this.add(filtre, 2, 1);
+		this.add(rechercheMulti, 3, 0);
 		this.add(txtRecherche, 3, 1);
 		this.add(modif, 3, 2);
 		this.add(suprim, 4, 2);
@@ -97,7 +110,7 @@ public class Logue extends GridPane {
 		promoCol.setCellValueFactory(new PropertyValueFactory<Stagiaire, String>("formation"));
 		anneeCol.setCellValueFactory(new PropertyValueFactory<Stagiaire, String>("annee"));
 		imprimer.setOnAction(event -> {
-			imprimerTable();
+//			imprimerTable();
 		});
 		// caseCol.setCellFactory(CheckBoxTableCell.forTableColumn(caseCol));
 		// caseCol.setCellValueFactory(new PropertyValueFactory<>(" ")) ;
@@ -140,6 +153,14 @@ public class Logue extends GridPane {
 
 	public Label getErreur() {
 		return erreur;
+	}
+
+	public Button getRechercheMulti() {
+		return rechercheMulti;
+	}
+
+	public Button getImprimer() {
+		return imprimer;
 	}
 
 	public void rechercher() {
@@ -192,36 +213,59 @@ public class Logue extends GridPane {
 
 	}
 
-	public void imprimerTable() {
+	public void imprimerTable(ArrayList<Stagiaire> listeStagiaires) {
 		PrinterJob job = PrinterJob.createPrinterJob();
 		if (job != null) {
-			TableView<Stagiaire> table = getTable();
 
-			TableView<Stagiaire> tableImprimee = new TableView<>();
-			tableImprimee.getColumns().addAll(table.getColumns());
-			tableImprimee.setItems(FXCollections.observableArrayList(table.getItems()));
-
-			tableImprimee.autosize();
-
-			StackPane stackPane = new StackPane(tableImprimee);
-			stackPane.setStyle("-fx-background-color: white");
-
-			Node tableNode = tableImprimee.lookup(".table-view");
-			if (tableNode != null) {
-				System.out.println("Enregistrement effectué");
+			double printableHeight = job.getJobSettings().getPageLayout().getPrintableHeight();
+			int itemsPerPage = (int) Math.floor(printableHeight / 20);
+			StringBuilder content = new StringBuilder();
+			for (Stagiaire stagiaire : listeStagiaires) {
+				content.append(stagiaire.getNom()).append("\t").append(stagiaire.getPrenom()).append("\t")
+						.append(stagiaire.getDepartement()).append("\t").append(stagiaire.getFormation()).append("\t")
+						.append(stagiaire.getAnnee()).append("\n");
 			}
-
+			TextArea textArea = new TextArea(content.toString());
+			textArea.setFont(Font.font("Monospaced"));
+			Pagination pagination = new Pagination();
+			int pageCount = (int) Math.ceil((double) listeStagiaires.size() / itemsPerPage);
+			pagination.setPageCount(pageCount);
+			pagination.setPageFactory(pageIndex -> {
+				int fromIndex = pageIndex * itemsPerPage;
+				int toIndex = Math.min(fromIndex + itemsPerPage, listeStagiaires.size());
+				if (fromIndex < toIndex) {
+					List<Stagiaire> pageStagiaires = listeStagiaires.subList(fromIndex, toIndex);
+					StringBuilder pageContent = new StringBuilder();
+					for (Stagiaire stagiaire : pageStagiaires) {
+						pageContent.append(stagiaire.getNom()).append("\t").append(stagiaire.getPrenom()).append("\t")
+								.append(stagiaire.getDepartement()).append("\t").append(stagiaire.getFormation())
+								.append("\t").append(stagiaire.getAnnee()).append("\n");
+					}
+					TextArea pageTextArea = new TextArea(pageContent.toString());
+					pageTextArea.setFont(Font.font("Monospaced"));
+					pageTextArea.setEditable(false);
+					pageTextArea.setWrapText(true);
+					return pageTextArea;
+				} else {
+					return null;
+				}
+			});
 			boolean showDialog = job.showPrintDialog(null);
 			if (showDialog) {
-				boolean impressionReussie = job.printPage(stackPane);
-				if (impressionReussie) {
-					System.out.println("Impression reussie");
-					job.endJob();
-				} else {
-					System.out.println("ECHEC ");
+				for (int pageIndex = 0; pageIndex < pageCount; pageIndex++) {
+					pagination.setCurrentPageIndex(pageIndex);
+					boolean impressionReussie = job.printPage(textArea);
+					if (!impressionReussie) {
+						System.out.println("ÉCHEC");
+						break;
+					}
 				}
+				
+				System.out.println("Impression réussie");
+				job.endJob();
 			}
-
 		}
 	}
+
+
 }

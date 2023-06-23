@@ -26,6 +26,7 @@ public class NonLogue extends GridPane {
     private Button ajouter;
     private TextField txtRecherche;
     private ChoiceBox<String> filtre;
+    private Button rechercheMulti;
    
     private TableView<Stagiaire> table;
     public Arbre annuaire = new Arbre();
@@ -55,6 +56,7 @@ public class NonLogue extends GridPane {
         tableau.getChildren().add(table);
         this.login = new Button("Log in");
         this.ajouter = new Button ("Ajouter");
+        this.rechercheMulti = new Button("Recherche multicritère");
        
 
 
@@ -64,6 +66,7 @@ public class NonLogue extends GridPane {
         this.add(login, 4, 0);
         this.add(ajouter, 4, 1);
         this.add(recherche, 1, 1);
+        this.add(rechercheMulti, 3, 0);
         this.add(filtre, 2, 1);
         this.add(txtRecherche, 3, 1);
         this.add(tableau, 0, 2, 5, 6);
@@ -111,7 +114,11 @@ public class NonLogue extends GridPane {
         return table;
     }
 
-    public void rechercher() {
+    public Button getRechercheMulti() {
+		return rechercheMulti;
+	}
+
+	public void rechercher() {
         String critere = filtre.getValue();
         String recherche = txtRecherche.getText();
 

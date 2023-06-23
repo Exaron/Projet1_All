@@ -19,6 +19,12 @@ import fr.isika.CDA25.fx.Modif;
 import fr.isika.CDA25.fx.NonLogue;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
+import javafx.print.PageLayout;
+import javafx.print.PageOrientation;
+import javafx.print.Paper;
+import javafx.print.Printer;
+import javafx.print.PrinterAttributes;
+import javafx.print.PrinterJob;
 import javafx.scene.paint.Color;
 import TestProject1.Stagiaire;
 
@@ -32,11 +38,25 @@ public class App extends Application {
 	public Logue logue;
 	public Modif modif;
 	public AjouterNonLogue ajoutNonLogue;
-	public AjouterLogue ajoutLogue;
+	public AjouterLoguee ajoutLogue;
+	public RechercheMulti multicritere;
 	public Scene scene;
+	public int critere = 0;
 
 	Arbre annuaire = new Arbre();
 	ArrayList<Stagiaire> listeStagiaires = annuaire.getListeTrie();
+
+	public App() {
+		
+	}
+	
+	public Scene getScene() {
+		return scene;
+	}
+
+	public void setScene(Scene scene) {
+		this.scene = scene;
+	}
 
 	@Override
 	public void start(Stage stage) throws IOException {
@@ -46,7 +66,8 @@ public class App extends Application {
 		logue = new Logue();
 		modif = new Modif();
 		ajoutNonLogue = new AjouterNonLogue();
-		ajoutLogue = new AjouterLogue();
+		ajoutLogue = new AjouterLoguee();
+		multicritere = new RechercheMulti();
 
 		Scene scene = new Scene(nonLogue, 640, 480);
 
@@ -109,9 +130,102 @@ public class App extends Application {
 			@Override
 			public void handle(ActionEvent event) {
 				scene.setRoot(ajoutLogue);
+				
 			}
 
 		});
+
+		logue.getRechercheMulti().setOnAction(new EventHandler<ActionEvent>() {
+
+			@Override
+			public void handle(ActionEvent event) {
+				scene.setRoot(multicritere);
+				critere = 1;
+			}
+
+		});
+
+		multicritere.getValider().setOnAction(new EventHandler<ActionEvent>() {
+
+			@Override
+			public void handle(ActionEvent event) {
+				
+				
+				if (multicritere.recherche() > 0) {
+					// Mettre à jour la table avec les résultats de recherche
+					if(critere > 0) {
+					logue.getTable().setItems(FXCollections.observableArrayList(multicritere.getResultatRecherche()));
+					} else {
+						nonLogue.getTable().setItems(FXCollections.observableArrayList(multicritere.getResultatRecherche()));
+					}
+				} else {
+					// Aucun critère de recherche ou valeur sélectionnés, afficher tous les
+					// stagiaires
+					try {
+						annuaire.refresh();
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					try {
+						annuaire.lister(0);
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					logue.getTable().setItems(FXCollections.observableArrayList(annuaire.getListeTrie()));
+				}
+				if (critere > 0) {
+					scene.setRoot(logue);
+				} else {
+					scene.setRoot(nonLogue);
+				}
+
+			}
+
+		});
+
+		multicritere.getRetour().setOnAction(new EventHandler<ActionEvent>() {
+
+			@Override
+			public void handle(ActionEvent event) {
+				if (critere > 0) {
+					scene.setRoot(logue);
+					try {
+						annuaire.refresh();
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					try {
+						annuaire.lister(0);
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					logue.getTable().setItems(FXCollections.observableArrayList(annuaire.getListeTrie()));
+				} else {
+					scene.setRoot(nonLogue);
+				
+					try {
+						annuaire.refresh();
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					try {
+						annuaire.lister(0);
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					nonLogue.getTable().setItems(FXCollections.observableArrayList(annuaire.getListeTrie()));
+				}
+				
+			}
+
+		});
+
 		// Ajout depuis la page Non-Logue
 		nonLogue.getAjouter().setOnAction(new EventHandler<ActionEvent>() {
 
@@ -119,26 +233,33 @@ public class App extends Application {
 			public void handle(ActionEvent event) {
 				scene.setRoot(ajoutNonLogue);
 			}
-
+			
 		});
-		// Bouton retour: de la page ajouter vers la page logue
-		ajoutLogue.getRetourAjoutLogue().setOnAction(new EventHandler<ActionEvent>() {
+		
+		nonLogue.getRechercheMulti().setOnAction(new EventHandler<ActionEvent>() {
 
+			@Override
+			public void handle(ActionEvent event) {
+				scene.setRoot(multicritere);
+				critere = -1;
+			}
+			
+		});
+		
+		// Retour de ajout à Logue
+		ajoutLogue.getRetourAjoutLogue().setOnAction(new EventHandler<ActionEvent>() {
 			@Override
 			public void handle(ActionEvent event) {
 				scene.setRoot(logue);
 			}
 		});
-		// Bouton retour: de la page ajouter vers la page non-logue
+		// Retour de ajout à Non-Logue
 		ajoutNonLogue.getRetourAjoutNonLogue().setOnAction(new EventHandler<ActionEvent>() {
-
 			@Override
 			public void handle(ActionEvent event) {
 				scene.setRoot(nonLogue);
-
 			}
 		});
-		// Validation de l'ajout depuis la page Logue
 
 		ajoutLogue.getValiderAjoutL().setOnAction(new EventHandler<ActionEvent>() {
 			Arbre annuaire = new Arbre();
@@ -149,8 +270,8 @@ public class App extends Application {
 
 				String nom = ajoutLogue.txtNom.getText().toUpperCase();
 				String prenom = ajoutLogue.txtPrenom.getText();
-				prenom = prenom.substring(0,1).toUpperCase()+prenom.substring(1);
-				String department = ajoutLogue.txtDepart.getText();
+				prenom = prenom.substring(0, 1).toUpperCase() + prenom.substring(1);
+				String department = ajoutLogue.txtAnnee.getText();
 				String formation = ajoutLogue.txtProm.getText();
 				String annee = ajoutLogue.txtAnnee.getText();
 				try {
@@ -159,12 +280,12 @@ public class App extends Application {
 						annuaire.ajouter(nom, prenom, department, formation, annee);
 						annuaire.refresh();
 						System.out.println("Ajout bien pris en compte");
-						scene.setRoot(nonLogue);
+						scene.setRoot(logue);
 					} else {
 						ajoutLogue.getErreur().setTextFill(Color.RED);
 						ajoutLogue.getErreur().setText("Toutes les cases doivent être remplies");
 					}
-					nonLogue.setStagiaires(annuaire.getListeTrie());
+					logue.setStagiaires(annuaire.getListeTrie());
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -183,7 +304,7 @@ public class App extends Application {
 
 				String nom = ajoutNonLogue.txtNom.getText().toUpperCase();
 				String prenom = ajoutNonLogue.txtPrenom.getText();
-				prenom = prenom.substring(0,1).toUpperCase()+prenom.substring(1);
+				prenom = prenom.substring(0, 1).toUpperCase() + prenom.substring(1);
 				String department = ajoutNonLogue.txtAnnee.getText();
 				String formation = ajoutNonLogue.txtProm.getText();
 				String annee = ajoutNonLogue.txtAnnee.getText();
@@ -204,6 +325,7 @@ public class App extends Application {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
+
 			}
 		});
 
@@ -254,7 +376,7 @@ public class App extends Application {
 				System.out.println("modification");
 				String nomModif = modif.getTxtNom().getText().toUpperCase();
 				String prenomModif = modif.getTxtPrenom().getText();
-				prenomModif = prenomModif.substring(0,1).toUpperCase()+prenomModif.substring(1);
+				prenomModif = prenomModif.substring(0, 1).toUpperCase() + prenomModif.substring(1);
 				String departModif = modif.getTxtDepart().getText();
 				String promModif = modif.getTxtProm().getText();
 				String anneeModif = modif.getTxtAnnee().getText();
@@ -281,7 +403,22 @@ public class App extends Application {
 				}
 			}
 		});
-
+		
+		modif.getRetour().setOnAction(new EventHandler<ActionEvent>() {
+			@Override
+			public void handle(ActionEvent event) {
+				scene.setRoot(logue);
+			}
+		});
+		
+		logue.getImprimer().setOnAction(new EventHandler<ActionEvent>() {
+			@Override
+			public void handle(ActionEvent event) {
+				logue.imprimerTable(listeStagiaires);
+				scene.setRoot(logue);
+			}
+		});
+			
 		stage.setTitle("Annuaire Isika");
 		stage.setScene(scene);
 		stage.show();
