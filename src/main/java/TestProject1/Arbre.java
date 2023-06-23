@@ -106,70 +106,51 @@ public class Arbre {
 		if (noeud1.getFilsDroit() != -1) {
 			this.lister((int) (noeud1.getFilsDroit() * TAILLE_NOEUD));
 		}
-
-		
-
 	}
 
-	public void supprimer(String nom, String prenom, String formation) throws IOException {
+	public String supprimer(String nom, String prenom, String formation) throws IOException {
 		Noeud noeud = new Noeud(new Stagiaire());
 		if(raf.length() == 0) {
 			System.out.println("arbre vide");
+			return "";
 		} else {
 			raf.seek(0);
 			Noeud racine = noeud.lireNoeud(raf);
-			racine.rechercherPourSupprimer( nom, prenom, formation, 0, -1, raf);
+			return racine.rechercherPourSupprimer( nom, prenom, formation, 0, -1, raf);
 		}
 	}
 	
-	public void modifier(String nom, String prenom, String departement, String formation, String annee) throws IOException {
-
-		this.supprimer(nom, prenom, formation);
-		this.ajout();
+public void modifier(String rechercheNom, String recherchePrenom, String rechercheFormation,String nom, String prenom, String departement, String formation, String annee) throws IOException {
 		
+		String validation = this.supprimer(rechercheNom, recherchePrenom, rechercheFormation);
+		System.out.println("validation = " + validation);
+		
+		if (validation.equals("")) {
+			System.out.println("Stagiaire pas trouvé");
+		} else {
+			Stagiaire stagiaireModif = new Stagiaire(nom, prenom, departement, formation, annee);
+			raf.seek(0);
+			Noeud noeud = new Noeud();
+			Noeud racine = noeud.lireNoeud(raf);
+			racine.ajouterStagiaire(stagiaireModif, raf);
+		}
 		
 	}
 	
-//	
-//	public int rechercherParent(String nom, String formation, int index, int indexParent) throws IOException {
-//		Noeud noeud = new Noeud(new Stagiaire());
-//		raf.seek(index * TAILLE_NOEUD);
-//		Noeud noeud1 = noeud.lireNoeud(raf);
-//		int indexPere = -1;
-//		System.out.println(index + " index");
-//		if (nom.equals(noeud1.getCle().getVraiNom())) {
-//			System.out.println("meme nom");
-//			if (formation.equals(noeud1.getCle().getVraiFormation())) {
-//				System.out.println("trouvé");
-//				indexPere = indexParent;
-//				System.out.println(index + " " + indexPere + " " + noeud1.getCle().getVraiNom());
-//			} else {
-//				if (noeud1.getSuivant() >= 0) {
-//					System.out.println("suivant");
-//					this.rechercherParent(nom, formation, (int) (noeud1.getSuivant()), index);
-//
-//				} else {
-//					System.out.println("pas trouvé");
-//				}
-//			}
-//		} else {
-//			if (nom.compareTo(noeud1.getCle().getVraiNom()) < 0) {
-//				if (noeud1.getFilsGauche() >= 0) {
-//					this.rechercherParent(nom, formation, (int) (noeud1.getFilsGauche()), index);
-//					System.out.println("gauche");
-//				}
-//			} else {
-//				if (noeud1.getFilsDroit() >= 0) {
-//					this.rechercherParent(nom, formation, (int) (noeud1.getFilsDroit()), index);
-//					System.out.println("droite");
-//				}
-//			}
-//		}
-////		System.out.println(indexPere);
-//		return indexPere;
-//	}
-
-	
+public void ajouter(String nom, String prenom, String departement, String formation, String annee) throws IOException {
+	Stagiaire stagiaireModif = new Stagiaire(nom, prenom, departement, formation, annee);
+	raf.seek(0);
+	Noeud noeud = new Noeud();
+	Noeud racine = noeud.lireNoeud(raf);
+		
+		if (noeud.rechercherStagiaire(nom, prenom, formation, 0, -1, raf).equals("")) {
+			racine.ajouterStagiaire(stagiaireModif, raf);
+			
+		} else {
+			System.out.println("Stagiaire pas trouvé");
+			
+		}
+		
+	}
 }
 
-//		

@@ -9,6 +9,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
+import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
@@ -19,13 +20,16 @@ import javafx.scene.control.cell.CheckBoxTableCell;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
+import javafx.print.PrinterJob;
 
 public class Logue extends GridPane {
 	private Button logOut;
 	private Button ajouter;
 	private Button modif;
 	private Button suprim;
-	
+	private Button imprimer;
+	private Label erreur;
+
 	private TextField txtRecherche;
 	private ChoiceBox<String> filtre;
 	private TableView<Stagiaire> table;
@@ -45,18 +49,21 @@ public class Logue extends GridPane {
 		table.setEditable(true);
 		StackPane tableau = new StackPane();
 		tableau.getChildren().add(table);
-		
+
 		filtre.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> rechercher());
 		txtRecherche.textProperty().addListener((observable, oldValue, newValue) -> rechercher());
 
-		
 		this.logOut = new Button("Log out");
 		this.modif = new Button("Modifier");
 		this.suprim = new Button("Supprimer");
-		this.ajouter = new Button ("Ajouter");
+		this.ajouter = new Button("Ajouter");
+		this.imprimer = new Button("Imprimer");
+		this.erreur = new Label("");
 
 		this.add(logOut, 4, 0);
+		this.add(erreur, 1, 0, 2, 1);
 		this.add(ajouter, 2, 2);
+		this.add(imprimer, 0, 2);
 		this.add(recherche, 1, 1);
 		this.add(filtre, 2, 1);
 		this.add(txtRecherche, 3, 1);
@@ -69,7 +76,6 @@ public class Logue extends GridPane {
 		this.setPadding(new Insets(10, 10, 10, 10));
 		this.setVgap(10);
 		this.setHgap(10);
-		
 
 		TableColumn<Stagiaire, String> nomCol = new TableColumn<Stagiaire, String>("Nom");
 		nomCol.setMinWidth(50);
@@ -82,27 +88,32 @@ public class Logue extends GridPane {
 		promoCol.setMinWidth(50);
 		TableColumn<Stagiaire, String> anneeCol = new TableColumn<Stagiaire, String>("Année");
 		anneeCol.setMinWidth(50);
-	//	TableColumn<Stagiaire, Boolean> caseCol = new TableColumn<>("Sélection");
-	//	caseCol.setMinWidth(50);
-		
+		// TableColumn<Stagiaire, Boolean> caseCol = new TableColumn<>("Sélection");
+		// caseCol.setMinWidth(50);
+
 		nomCol.setCellValueFactory(new PropertyValueFactory<Stagiaire, String>("nom"));
 		prenomCol.setCellValueFactory(new PropertyValueFactory<Stagiaire, String>("prenom"));
 		departCol.setCellValueFactory(new PropertyValueFactory<Stagiaire, String>("departement"));
 		promoCol.setCellValueFactory(new PropertyValueFactory<Stagiaire, String>("formation"));
 		anneeCol.setCellValueFactory(new PropertyValueFactory<Stagiaire, String>("annee"));
-	// 	caseCol.setCellFactory(CheckBoxTableCell.forTableColumn(caseCol));
-	// 	caseCol.setCellValueFactory(new PropertyValueFactory<>(" ")) ;
-		
+		imprimer.setOnAction(event -> {
+			imprimerTable();
+		});
+		// caseCol.setCellFactory(CheckBoxTableCell.forTableColumn(caseCol));
+		// caseCol.setCellValueFactory(new PropertyValueFactory<>(" ")) ;
+
 		for (Stagiaire s : annuaire.getListeTrie()) {
 			System.out.println(s);
 		}
-		
+
 		table.getColumns().addAll(nomCol, prenomCol, departCol, promoCol, anneeCol);
 		table.setItems(FXCollections.observableArrayList(annuaire.getListeTrie()));
 	}
+
 	public Button getAjouter() {
 		return ajouter;
 	}
+
 	public Button getLogOut() {
 		return logOut;
 	}
@@ -122,54 +133,95 @@ public class Logue extends GridPane {
 	public ChoiceBox<String> getFiltre() {
 		return filtre;
 	}
-	
+
 	public TableView<Stagiaire> getTable() {
 		return table;
 	}
-	
+
+	public Label getErreur() {
+		return erreur;
+	}
+
 	public void rechercher() {
-	    String critere = filtre.getValue();
-	    String recherche = txtRecherche.getText();
+		String critere = filtre.getValue();
+		String recherche = txtRecherche.getText();
 
-	    // Réinitialiser la liste des stagiaires affichés dans la table
-	    table.getItems().clear();
+		// Réinitialiser la liste des stagiaires affichés dans la table
+		table.getItems().clear();
 
-	    // Vérifier si un critère de recherche et une valeur ont été sélectionnés
-	    if (critere != null && !recherche.isEmpty()) {
-	        ArrayList<Stagiaire> resultatRecherche = new ArrayList<>();
+		// Vérifier si un critère de recherche et une valeur ont été sélectionnés
+		if (critere != null && !recherche.isEmpty()) {
+			ArrayList<Stagiaire> resultatRecherche = new ArrayList<>();
 
-	        // Parcourir la liste des stagiaires pour trouver les correspondances
-	        for (Stagiaire stagiaire : annuaire.getListeTrie()) {
-	            if (critere.equals("Nom") && stagiaire.getNom().trim().equalsIgnoreCase(recherche)) {
-	                resultatRecherche.add(stagiaire);
-	            } else if (critere.equals("Prénom") && stagiaire.getPrenom().trim().equalsIgnoreCase(recherche)) {
-	                resultatRecherche.add(stagiaire);
-	            } else if (critere.equals("Département") && stagiaire.getDepartement().trim().equalsIgnoreCase(recherche)) {
-	                resultatRecherche.add(stagiaire);
-	            } else if (critere.equals("Promotion") && stagiaire.getFormation().trim().equalsIgnoreCase(recherche)) {
-	                resultatRecherche.add(stagiaire);
-	            } else if (critere.equals("Année") && stagiaire.getAnnee().trim().equalsIgnoreCase(recherche)) {
-	                resultatRecherche.add(stagiaire);
-	            }
-	        }
+			// Parcourir la liste des stagiaires pour trouver les correspondances
+			for (Stagiaire stagiaire : annuaire.getListeTrie()) {
+				if (critere.equals("Nom") && stagiaire.getNom().trim().equalsIgnoreCase(recherche)) {
+					resultatRecherche.add(stagiaire);
+				} else if (critere.equals("Prénom") && stagiaire.getPrenom().trim().equalsIgnoreCase(recherche)) {
+					resultatRecherche.add(stagiaire);
+				} else if (critere.equals("Département")
+						&& stagiaire.getDepartement().trim().equalsIgnoreCase(recherche)) {
+					resultatRecherche.add(stagiaire);
+				} else if (critere.equals("Promotion") && stagiaire.getFormation().trim().equalsIgnoreCase(recherche)) {
+					resultatRecherche.add(stagiaire);
+				} else if (critere.equals("Année") && stagiaire.getAnnee().trim().equalsIgnoreCase(recherche)) {
+					resultatRecherche.add(stagiaire);
+				}
+			}
 
-	        // Mettre à jour la table avec les résultats de recherche
-	        table.setItems(FXCollections.observableArrayList(resultatRecherche));
-	    } else {
-	        // Aucun critère de recherche ou valeur sélectionnés, afficher tous les stagiaires
-	        table.setItems(FXCollections.observableArrayList(annuaire.getListeTrie()));
-	    }
+			// Mettre à jour la table avec les résultats de recherche
+			table.setItems(FXCollections.observableArrayList(resultatRecherche));
+		} else {
+			// Aucun critère de recherche ou valeur sélectionnés, afficher tous les
+			// stagiaires
+			table.setItems(FXCollections.observableArrayList(annuaire.getListeTrie()));
+		}
 	}
-	
+
 	public ObservableList<Stagiaire> getSelectedStagiaires() {
-	    return table.getSelectionModel().getSelectedItems();
+		return table.getSelectionModel().getSelectedItems();
 	}
+
 	public Stagiaire getSelectedStagiaire() {
-		//System.out.println("methode get selected stafiaires");
-	    return table.getSelectionModel().getSelectedItem();
+		// System.out.println("methode get selected stafiaires");
+		return table.getSelectionModel().getSelectedItem();
 	}
+
 	public void setStagiaires(ArrayList<Stagiaire> stagiaires) {
 		table.setItems(FXCollections.observableArrayList(stagiaires));
-		
+
+	}
+
+	public void imprimerTable() {
+		PrinterJob job = PrinterJob.createPrinterJob();
+		if (job != null) {
+			TableView<Stagiaire> table = getTable();
+
+			TableView<Stagiaire> tableImprimee = new TableView<>();
+			tableImprimee.getColumns().addAll(table.getColumns());
+			tableImprimee.setItems(FXCollections.observableArrayList(table.getItems()));
+
+			tableImprimee.autosize();
+
+			StackPane stackPane = new StackPane(tableImprimee);
+			stackPane.setStyle("-fx-background-color: white");
+
+			Node tableNode = tableImprimee.lookup(".table-view");
+			if (tableNode != null) {
+				System.out.println("Enregistrement effectué");
+			}
+
+			boolean showDialog = job.showPrintDialog(null);
+			if (showDialog) {
+				boolean impressionReussie = job.printPage(stackPane);
+				if (impressionReussie) {
+					System.out.println("Impression reussie");
+					job.endJob();
+				} else {
+					System.out.println("ECHEC ");
+				}
+			}
+
+		}
 	}
 }

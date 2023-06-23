@@ -94,3 +94,10131 @@ Imen
 ATOD 24
 2015
 *
+KHARROUBI
+Mehdi
+93
+AI 86
+2012
+*
+MOURCHID
+Mohammed
+95
+AI 69
+2006
+*
+LAURENS
+Daniel
+94
+AI 76
+2009
+*
+GRIMM
+Jonathan
+92
+AI 80
+2011
+*
+SCHMIDLIN
+Yann
+94
+AI 63
+2004
+*
+CHARBONNEAU
+Jean
+75
+AI 63
+2004
+*
+HAMRANI
+Idir
+91
+AI 81
+2011
+*
+BUTH
+Elise
+77
+ATOD 23
+2015
+*
+GAUVIN
+Eric
+77
+AI 66
+2005
+*
+SABINE
+Marie-Nathalie
+92
+AI 84
+2012
+*
+SABOUNDJI
+Mehdi
+75
+ATOD 26 CP
+2015
+*
+LE TEXIER
+Alice
+91
+AI 91
+2014
+*
+BUTH
+Elise
+77
+AI 92
+2014
+*
+MADAVANE
+Alice
+78
+AI 93
+2014
+*
+OUZAICH
+Djelloul
+92
+AI 85
+2012
+*
+TABARY
+Cyrille
+75
+AI 65
+2004
+*
+DURAND
+Agnès
+75
+AI 73
+2008
+*
+TRAJCEVSKI
+Stéphane
+78
+AI 75
+2009
+*
+BLIGNY
+Eric
+78
+AI 67
+2005
+*
+MARIMBORDES
+Hervé
+75
+ATOD 23
+2015
+*
+KUOK
+François
+92
+AI 77
+2010
+*
+TAOUALIT
+Dahbia
+94
+AI 86
+2012
+*
+CONTE
+Damien
+94
+AI 73
+2008
+*
+ALLIOT
+Hervé
+94
+AI 58
+2003
+*
+KAYSER
+Bastien
+93
+AI 84
+2012
+*
+AVOUYI-DOVI
+Eddy
+77
+AI 72
+2008
+*
+FEUILLOLEY
+Pierre
+92
+AI 61
+2003
+*
+ANDRIANOROVELO
+Haritiana Ando
+92
+ATOD 5
+2009
+*
+LY
+Christophe
+93
+AROBAS 1
+2007
+*
+SARHAN
+Ayman
+92
+BOBI 3
+2007
+*
+CUFFOLO
+Claude
+94
+AI 57
+2002
+*
+ISAERT
+Olivier
+78
+BOBI 5
+2008
+*
+HEITZ
+Alexandre
+37
+AI 90
+2013
+*
+YAGAN
+Can Cihan
+93
+ATOD 3
+2008
+*
+MOUNIAMA
+Philippe
+92
+AI 65
+2004
+*
+PELLET
+Aurélien
+94
+AI 73
+2008
+*
+DILLENSEGER
+Elsa
+92
+AI 93
+2014
+*
+BIGNON
+Jérôme
+44
+ATOD 12
+2011
+*
+ESTACAILLE
+Julien
+77
+AI 95
+2015
+*
+VANG
+Tot-di 
+94
+ATOD 7
+2009
+*
+GAVARD
+Arnaud
+91
+AI 75
+2009
+*
+DUBERNARD
+Thierry
+93
+ATOD 6
+2009
+*
+BOUGHEDADA
+Ibrahim
+78
+AI 61
+2003
+*
+MASMOUDI
+Abdessamad
+93
+AI 60
+2003
+*
+LEGRAND
+Stéphane
+94
+ATOD 7
+2009
+*
+BOUJIDA
+Rachid
+91
+AROBAS 2
+2007
+*
+ZHANG
+GeGe
+94
+ATOD 26 CP
+2015
+*
+MARHIC
+Cindy
+94
+AI 84
+2012
+*
+GUENEE
+Claire
+75
+AI 90
+2013
+*
+HENG
+Cheanthanette
+75
+ATOD 16 CP
+2012
+*
+RAVELOMANANTSOA
+Hanitriniala
+78
+AI 65
+2004
+*
+RAKROUKI
+Mehdi
+77
+AI 97
+2016
+*
+FAUREL
+Michael
+92
+AI 91
+2014
+*
+LESSENI
+Sylla
+92
+ATOD 11
+2011
+*
+RANO
+Nicolas
+94
+ATOD 24 CP
+2015
+*
+TARD
+Julien
+75
+AI 91
+2014
+*
+PANABIERE
+Eddie
+94
+AI 98
+2016
+*
+EL AIAN
+Younes
+75
+AI 74
+2009
+*
+CREMAZY
+Jérôme
+94
+AI 69
+2006
+*
+CAMARA
+Aboubacar Maciré
+92
+ATOD 19
+2013
+*
+LAU
+My Ling (Caroline)
+92
+BOBI 3
+2007
+*
+LE BARON
+Jérôme
+92
+ATOD 26 CP
+2015
+*
+VIRON
+Yohann
+77
+ATOD 21 CP
+2014
+*
+ROUET
+Régis
+75
+ATOD 3
+2008
+*
+HOECKE
+Matthieu
+94
+AI 58
+2003
+*
+MOUNGOUNGOU
+Cyril
+94
+AI 57
+2002
+*
+PEREIRA
+José
+78
+AI 62
+2004
+*
+BLAVIN
+Michel
+75
+AI 69
+2006
+*
+MOULINIER
+Jeremy
+91
+ATOD 25
+2015
+*
+SAULNIER
+Renaud
+78
+ATOD 11
+2011
+*
+TRIADOU
+Thomas
+92
+AI 80
+2011
+*
+CHALET
+Nicolas
+75
+AI 84
+2012
+*
+DE KINT
+Thierry
+92
+AI 70
+2007
+*
+GABAY
+Dorone
+95
+AI 63
+2004
+*
+NOYES
+Nicolas
+75
+AI 90
+2013
+*
+DECADE
+Marck
+93
+ATOD 11
+2011
+*
+LANCELLE
+Thomas
+92
+AI 88
+2013
+*
+TRAVACI
+Necmi
+93
+AI 80
+2011
+*
+PETIT-RENAUD
+Xavier
+78
+AI 74
+2009
+*
+DOUX-MOULINEUF
+Vincent
+92
+AI 97
+2016
+*
+PETIT
+Regis
+78
+ATOD 18 CP
+2013
+*
+DEROUILLON
+Lucie
+95
+AI 87
+2013
+*
+EN NADI
+Najwa
+94
+ATOD 11
+2011
+*
+SCHUTZ
+Anne-Claire
+93
+ATOD 22 CP
+2014
+*
+COUZON
+François-Régis
+75
+ATOD 14
+2012
+*
+HEBERT
+Louis
+49
+AI 93
+2014
+*
+TAMMA
+Samia
+92
+AI 78
+2010
+*
+PHU
+Nathalie
+93
+AI 80
+2011
+*
+VARNILD
+Sébastien
+94
+AI 74
+2009
+*
+DIXMERAS
+Francois
+75
+AI 88
+2013
+*
+DANGUEUGER
+Raphael
+92
+ATOD 26 CP
+2015
+*
+FIEVET
+Patrick
+78
+BOBI 1
+2004
+*
+CHATILLON
+Cédric
+77
+AI 67
+2005
+*
+FRANCHET
+Bertrand
+92
+AI 70
+2007
+*
+COUDERT
+Nicolas
+78
+AI 100
+2016
+*
+KEBIR
+Saad
+91
+ATOD 20
+2014
+*
+NICOLAS
+Marc
+78
+AI 78
+2010
+*
+MEHIRES
+Abla
+75
+ATOD 22
+2014
+*
+GOUBAUD
+Sylvain
+83
+ATOD 16
+2012
+*
+LISEMBARD
+Loïc
+92
+AI 69
+2006
+*
+CADET
+Ludovic
+92
+AI 100
+2016
+*
+NAZICAL
+Olivier
+75
+ATOD 13
+2011
+*
+CARPENTIER
+Philippe
+78
+AI 57
+2002
+*
+GLOANEC
+Maryline
+78
+ATOD 23
+2015
+*
+TAOUINET
+Nabil
+75
+ATOD 4
+2008
+*
+MUTAMBUE
+Tokotsho
+92
+AI 68
+2006
+*
+MBOMA EWANE
+Black Raoul
+78
+ATOD 19
+2013
+*
+QUERE
+Alexandre
+67
+ATOD 26
+2015
+*
+SENTHILNATHAN
+Geetha
+78
+AI 96
+2015
+*
+BESSE
+Erika
+92
+AI 92
+2014
+*
+IFTIKHAR
+Tahoor
+91
+AI 83
+2012
+*
+TOUZÉ
+Théo
+95
+ATOD 11
+2011
+*
+PACARY
+Laure
+78
+AI 92
+2014
+*
+BIER
+Christian
+94
+BOBI 1
+2004
+*
+SCHMITZ
+Jeremy
+77
+AI 87
+2013
+*
+ESTACAILLE
+Julien
+77
+ATOD 26 CP
+2015
+*
+RAJI - KARROUCHI
+Asmae
+93
+ATOD 19
+2013
+*
+SALL
+Halimata
+94
+ATOD 15 CP
+2012
+*
+BENITO
+Sara
+75
+ATOD 3
+2008
+*
+ALCINDOR
+Jean-Michel
+75
+AI 65
+2004
+*
+SAUVETON
+Benoît
+94
+ATOD 14
+2012
+*
+GAUTRIN
+Sébastien
+75
+ATOD 9
+2010
+*
+LE FEURMOU
+Quentin
+75
+ATOD 19 CP
+2013
+*
+HEBERT
+Louis
+49
+ATOD 24
+2015
+*
+RAHARIJAONA
+Mahatsangy
+92
+AI 86
+2012
+*
+MELINA
+Nelson
+93
+ATOD 16
+2012
+*
+PASQUOTTI
+Cédric
+94
+ATOD 13
+2011
+*
+DELEE
+Stéphane
+91
+AI 76
+2009
+*
+DELECLUSE
+Isabelle
+75
+ATOD 18
+2013
+*
+FIERS
+Alexis
+92
+ATOD 12
+2011
+*
+MOUAZ
+Arezki
+92
+AI 98
+2016
+*
+VATCHNADZE
+David
+95
+AI 65
+2004
+*
+FIZAINE DUPONT
+Céline
+60
+AI 71
+2007
+*
+SABATER
+César
+75
+AI 98
+2016
+*
+LAURENS
+Frédéric
+75
+ATOD 15 CP
+2012
+*
+CAMGOZ
+Silva
+94
+AI 58
+2003
+*
+COSTREJEAN
+Cédric
+92
+AI 63
+2004
+*
+BEN HAMADI
+Mohamed
+77
+ATOD 15
+2012
+*
+CHEVALIER
+Thibaut
+75
+AI 68
+2006
+*
+KASSI
+Abderrezak
+78
+AI 74
+2009
+*
+RIGOLOT
+Ghislain
+75
+ATOD 3
+2008
+*
+OUKOUOMI
+Huguette
+94
+ATOD 11
+2011
+*
+LEROUX
+Simon
+75
+AI 90
+2013
+*
+AUDIANNE
+Fabrice
+78
+ATOD 5
+2009
+*
+WAILLE
+Emilie
+77
+AI 95
+2015
+*
+TAVANI
+Benoît
+75
+AI 64
+2004
+*
+BARBIN
+Eugène Armand
+92
+ATOD 15 CP
+2012
+*
+CALFUQUIR SANTUCHO
+Patricia
+93
+AI 81
+2011
+*
+KEBAïLI
+Khaled-Majid
+78
+AI 61
+2003
+*
+STEINLIN
+Jacques
+75
+ATOD 18
+2013
+*
+GOURSONNET
+Pierre
+75
+AI 59
+2003
+*
+DUBRUEL
+Nicolas
+92
+BOBI 4
+2008
+*
+TANGUY
+Laura
+92
+AI 90
+2013
+*
+BEN YAHYA
+Bessam
+94
+ATOD 3
+2008
+*
+MAHTAR
+Younes
+41
+ATOD 3
+2008
+*
+RENIA
+Angela
+77
+AI 85
+2012
+*
+MULLER
+Sébastien
+78
+AI 68
+2006
+*
+ZRELLI
+Yasamine
+92
+ATOD 26 CP
+2015
+*
+ORLANDINI
+Walter
+94
+AI 58
+2003
+*
+JUILLARD
+Claire
+78
+ATOD 25
+2015
+*
+LAMRANI
+Zineb
+94
+AI 95
+2015
+*
+BERCHEL
+Xavier
+92
+AI 71
+2007
+*
+CRUEL
+Celia
+75
+AI 96
+2015
+*
+KEKE ADJIGNON
+Marylise
+93
+ATOD 21
+2014
+*
+ALIOUECHE
+Faycal
+75
+AI 100
+2016
+*
+ALPHY
+Yannick
+75
+AI 90
+2013
+*
+MAZALTO
+David
+77
+ATOD 3
+2008
+*
+DELAUNAY
+Ariane
+95
+AI 97
+2016
+*
+SOUMHI
+Haroun
+95
+ATOD 18
+2013
+*
+CHANTEUX
+Pamela
+78
+ATOD 23
+2015
+*
+DIFFERDING KABISI
+Amani
+94
+AROBAS 2
+2007
+*
+NAYL RABY
+Mohamed
+75
+AI 82
+2011
+*
+MERCADER
+Léonard
+75
+AI 73
+2008
+*
+SEGATO
+Elena
+92
+AI 85
+2012
+*
+SHIMABUKURO
+Tsuyoshi
+95
+AI 72
+2008
+*
+PRIOUX
+Jérémie
+77
+AI 99
+2016
+*
+MORIN
+Sylvain
+94
+ATOD 26
+2015
+*
+LACHATER
+Ronan
+92
+AI 97
+2016
+*
+ZHANG
+GeGe
+94
+AI 95
+2015
+*
+BALEPA ELOUGA BENG
+Samuel Ange
+92
+AI 78
+2010
+*
+TCHAKOUNTE
+Ivan Russel
+94
+ATOD 22
+2014
+*
+KONE
+Cheick
+78
+AI 74
+2009
+*
+FRANCISQUE
+Jérôme
+94
+ATOD 11
+2011
+*
+NGUYEN
+Anh-Kiet Marcel
+94
+AI 57
+2002
+*
+LASSOUED
+Wahida
+92
+ATOD 16
+2012
+*
+SAROUI
+Nassim
+75
+ATOD 17 CP
+2013
+*
+MAKOUR
+Lamia
+93
+ATOD 15
+2012
+*
+TESSON
+Régis
+92
+AI 78
+2010
+*
+DA SILVA
+Marta
+92
+AROBAS 1
+2007
+*
+LE MESTRE
+Philippe
+91
+ATOD 10
+2010
+*
+RAKOTOMALALA
+Yann
+60
+AI 99
+2016
+*
+SMETS
+Boris
+97
+AI 77
+2010
+*
+DEMEL
+Jean
+75
+ATOD 22
+2014
+*
+BOUGHRARA
+Abdellah
+78
+AI 66
+2005
+*
+TERRACOL
+Emmanuelle
+95
+BOBI 4
+2008
+*
+CHAMPAIN
+Romain
+Ya
+AI 83
+2012
+*
+EL ALAOUI
+Abdessamad
+93
+AI 74
+2009
+*
+REMY
+Maxime
+95
+AI 64
+2004
+*
+LEZAO
+Anicet-Joel
+75
+AI 88
+2013
+*
+BOUSHABA
+Youssef
+92
+AI 76
+2009
+*
+MBAYE
+Babacar
+75
+ATOD 16 CP
+2012
+*
+DIOMANDE
+Lamine
+78
+AI 68
+2006
+*
+LEFERME
+Yann
+75
+ATOD 1
+2012
+*
+MOUMIN BAHDON
+Fatouma
+75
+AI 67
+2005
+*
+OUJA
+Najib
+75
+AI 79
+2011
+*
+SERVE
+Jean-Baptiste
+92
+ATOD 15
+2012
+*
+MERBOUH
+Fatima
+94
+AI 79
+2011
+*
+BOULET
+Hamana
+75
+AI 94
+2015
+*
+KANLAGNA
+Xavier
+94
+ATOD 7
+2009
+*
+LAURIN
+Cilio
+77
+ATOD 22 CP
+2014
+*
+BEAL
+Madeline
+91
+ATOD 23 CP
+2015
+*
+NELSON
+Bertrand
+75
+ATOD 3
+2008
+*
+LEGRAND
+Benoit
+94
+ATOD 25
+2015
+*
+BESSON
+Béatrice
+75
+BOBI 5
+2008
+*
+BLANCHET
+Patrice
+75
+AROBAS 2
+2007
+*
+ANBA
+Faouzi
+91
+ATOD 5
+2009
+*
+SCHUWEY
+Florent
+17
+AI 89
+2013
+*
+LATOUR
+Stéphane
+93
+BOBI 2
+2006
+*
+AZZOUT
+Hisham
+75
+BOBI 1
+2004
+*
+BABAULT
+Christian
+60
+ATOD 13 CP
+2011
+*
+GUILLOU
+Lourdes
+92
+ATOD 5
+2009
+*
+DUMITRASCU
+Andreea-Georgiana
+75
+AI 93
+2014
+*
+WALLACE
+David
+93
+ATOD 10
+2010
+*
+DJAFA TCHUSPA
+Steve
+91
+AI 96
+2015
+*
+SCOUPE
+Adrien
+93
+AI 86
+2012
+*
+GUILLOUX
+Karine
+91
+AI 88
+2013
+*
+MIGEON
+Jérôme
+92
+AI 70
+2007
+*
+TRAN
+Dara
+75
+AI 83
+2012
+*
+FARCY
+Estelle
+94
+AI 67
+2005
+*
+LEMAIRE
+Marion
+75
+AI 96
+2015
+*
+HECKA
+Guillaume
+93
+AI 86
+2012
+*
+VIGNIER
+Adrien
+75
+AI 86
+2012
+*
+TITARENKO
+Irina
+93
+AI 71
+2007
+*
+BLANC
+Marie-Bénédicte
+75
+AI 62
+2004
+*
+DJAOUANE
+Samia
+75
+BOBI 3
+2007
+*
+GAUDEL
+Benoit
+78
+AI 85
+2012
+*
+ANDRE
+Francois
+91
+ATOD 25
+2015
+*
+RICARDE
+Christophe
+95
+AI 81
+2011
+*
+SERRUQUES
+Thomas
+75
+AI 68
+2006
+*
+HENG
+Cheanthanette
+75
+AI 83
+2012
+*
+PASIAN
+Emmanuel
+75
+ATOD 2
+2008
+*
+PALLARDY
+Kévin
+91
+AI 87
+2013
+*
+VERDICKT
+Laetitia
+92
+AI 71
+2007
+*
+OUAR
+Abdelmalek
+91
+ATOD 2
+2008
+*
+SKANDER
+Hassiba
+78
+AI 86
+2012
+*
+ANES
+Zouheir
+93
+AI 97
+2016
+*
+EL-AJI
+Mustapha
+94
+AI 61
+2003
+*
+RODES
+Stéphanie
+75
+AI 74
+2009
+*
+REMERY
+Georges
+91
+ATOD 9
+2010
+*
+BEN TEMIME
+Houssem
+78
+AI 94
+2015
+*
+EL ADEL 
+Aissa
+78
+ATOD 6
+2009
+*
+GUILLEMOT
+Gilles
+95
+AI 67
+2005
+*
+ANDRIAHOBIJAONA
+Raharimbahoaka
+77
+ATOD 8
+2010
+*
+DONCIEU
+Denis
+93
+AI 66
+2005
+*
+GERNIGON
+Nicolas
+91
+AI 98
+2016
+*
+POICHET
+Alexandre
+75
+AI 92
+2014
+*
+CONFORTO
+Alexandra
+20
+AI 86
+2012
+*
+SACCAVINI
+Catherine
+91
+AI 81
+2011
+*
+MABTOULE
+Younès
+78
+AI 99
+2016
+*
+ASSOGBA
+Léon
+91
+AI 59
+2003
+*
+SCHMITT
+Alexandre
+75
+BOBI 5
+2008
+*
+AMROUCHE
+Méziane
+91
+AI 69
+2006
+*
+KARABAN
+Jérôme
+94
+AI 81
+2011
+*
+PORTO RICO
+Sanvee
+94
+AI 63
+2004
+*
+BENHAIM
+Léonard
+75
+ATOD 16
+2012
+*
+SIRE
+Sébastien
+92
+BOBI 2
+2006
+*
+BROCHET
+Chantal
+75
+AI 56
+2002
+*
+GRISON
+Jean-Marc
+94
+ATOD 10
+2010
+*
+BRUN
+Julien
+75
+AI 93
+2014
+*
+HUYNH
+Pascal
+93
+AI 76
+2009
+*
+MERAZGA
+Mohamed
+31
+AI 72
+2008
+*
+EL BRINI
+El Mehdi
+94
+ATOD 19 CP
+2013
+*
+FAVRE
+Nicolas
+75
+AI 76
+2009
+*
+PETIT
+Regis
+78
+AI 85
+2012
+*
+GUAYROSO
+Manuella
+92
+AI 67
+2005
+*
+MELLIAND
+Kevin
+92
+AI 93
+2014
+*
+COCHEREL
+Stéphanie
+95
+AI 59
+2003
+*
+LEFEVRE
+Sebastien
+75
+ATOD 11
+2011
+*
+BELGHARBI
+Ilham
+77
+AROBAS 2
+2007
+*
+ZAMI
+Samuel
+95
+AI 63
+2004
+*
+MOLINIER
+Gabriel
+94
+AROBAS 1
+2007
+*
+DIRIAN
+Lara
+92
+AI 100
+2016
+*
+M'ZEBLA
+Chadlia
+95
+BOBI 1
+2004
+*
+OUAKLIL
+Hacène
+78
+ATOD 8
+2010
+*
+MAILHES
+Pierre
+75
+ATOD 5
+2009
+*
+BIGOT
+Yan
+75
+AI 72
+2008
+*
+THEBAULT
+Julien
+92
+AI 91
+2014
+*
+BRUEL
+Timothée
+75
+AI 99
+2016
+*
+MENET
+Laurent
+93
+ATOD 14
+2012
+*
+MELKI
+Jérémie
+75
+ATOD 6
+2009
+*
+LADET
+Véronique
+SU
+AI 63
+2004
+*
+GRUSON
+Ludovic
+93
+AI 66
+2005
+*
+BOUDJEMAA
+Nacera
+94
+BOBI 3
+2007
+*
+LESAUVAGE
+Julie
+92
+AI 87
+2013
+*
+RAT
+Vincent
+86
+AROBAS 1
+2007
+*
+FAUREL
+Michael
+92
+ATOD 22 CP
+2014
+*
+EL MIDAOUI
+Manal
+93
+AI 85
+2012
+*
+LECOCQ
+Cédric
+77
+ATOD 16
+2012
+*
+VAUDAINE
+Astrild
+92
+AI 83
+2012
+*
+ACHARD
+Claire
+92
+ATOD 25 CP
+2015
+*
+BOISSAY
+Thierry
+75
+ATOD 23
+2015
+*
+BERCHI
+Kamel
+92
+AROBAS 2
+2007
+*
+WAREZ
+Florent
+75
+AI 87
+2013
+*
+MICHEL
+Max
+93
+AI 98
+2016
+*
+HODJE
+Edgar
+94
+AI 58
+2003
+*
+XERCAVINS-GUARRO
+Sarah
+78
+AI 82
+2011
+*
+YAFI
+Anna
+94
+AI 76
+2009
+*
+DIARRA
+Moussa
+94
+BOBI 5
+2008
+*
+DIALLO
+Thierno Mawiatou
+77
+AI 86
+2012
+*
+KAGBA
+Kouadja Alexis
+75
+BOBI 4
+2008
+*
+BREVET
+Sébastien
+92
+AI 58
+2003
+*
+SIROT
+Lamia 
+93
+AI 73
+2008
+*
+SUN
+Huanrong
+75
+BOBI 5
+2008
+*
+GHAZALA
+Houssam
+91
+ATOD 6
+2009
+*
+CHABAUD
+Julien
+75
+AI 91
+2014
+*
+MADELAIGUE
+Pascal
+92
+BOBI 3
+2007
+*
+DAVID
+Aurélie
+75
+ATOD 2
+2008
+*
+RIOU
+Nicole
+75
+BOBI 4
+2008
+*
+LABATIE
+Fanny
+78
+AI 94
+2015
+*
+FIOT
+Clément
+75
+ATOD 14
+2012
+*
+BABA
+Fadoua
+93
+AI 91
+2014
+*
+DUMAS
+Julien
+94
+AI 79
+2011
+*
+DJENGA
+Amos
+93
+ATOD 7
+2009
+*
+LUPO
+Silvestro
+94
+BOBI 2
+2006
+*
+MAHA
+Lucia
+78
+ATOD 16 CP
+2012
+*
+NGUYEN
+Thi Anh Ngoc
+94
+AI 64
+2004
+*
+RHAMAID
+Mohamed
+78
+AI 66
+2005
+*
+PRIGENT
+David
+95
+AI 75
+2009
+*
+EL MRISSANI
+Idi Amine
+75
+AROBAS 2
+2007
+*
+RANDRIANALIVELO
+Manohisoa
+92
+AI 90
+2013
+*
+ZBERRO
+Maxime
+78
+AI 96
+2015
+*
+YAFI
+Anna
+94
+ATOD 10
+2010
+*
+BNOUMARZOUK
+Abdelaziz
+92
+AI 73
+2008
+*
+MACAMBOU TOUCHARD
+Williams
+92
+ATOD 13 CP
+2011
+*
+KUGEL
+Rainer
+93
+ATOD 7
+2009
+*
+ALTEFROHNE
+Gaelle
+78
+ATOD 18 CP
+2013
+*
+GANESSANE
+Dourga Céline
+45
+ATOD 24
+2015
+*
+BELORGANE
+Dalina
+77
+AI 79
+2011
+*
+KEKE ADJIGNON
+Marylise
+93
+AI 89
+2013
+*
+TRAN
+Quoc  Anh
+75
+AI 59
+2003
+*
+SORIN
+Gaétan
+75
+ATOD 15 CP
+2012
+*
+CHERGUI
+Mohamed
+60
+AI 82
+2011
+*
+ANBAR
+Mohamed
+75
+AI 88
+2013
+*
+AGUILERA
+Mathieu
+78
+AI 91
+2014
+*
+PROSPER
+Boris
+94
+AI 88
+2013
+*
+FERREIRA REIS
+Zeferino
+75
+ATOD 4
+2008
+*
+RANDRIAMORAMANANA
+Dina Estèle 
+94
+AROBAS 3
+2008
+*
+DESCHAMPS
+Cyril
+78
+AI 99
+2016
+*
+SACAU
+Laurent
+75
+AI 68
+2006
+*
+JOSEPH
+Ingrid
+77
+AI 70
+2007
+*
+TALEB
+Omar
+95
+AI 84
+2012
+*
+BARENGHI
+Nathalie
+94
+BOBI 1
+2004
+*
+LALIETTE
+Paméla
+93
+AI 89
+2013
+*
+LEBLANC
+Julie
+75
+BOBI 5
+2008
+*
+LAMBERT
+Alban
+60
+ATOD 10
+2010
+*
+LATOUR
+Naziha
+93
+AI 69
+2006
+*
+VANSPEYBROCK
+Fabrice
+75
+AI 62
+2004
+*
+BALET
+Charles
+75
+ATOD 25 CP
+2015
+*
+GARIADOR
+Thierry
+75
+AI 72
+2008
+*
+GRALL
+Sarah
+75
+AI 79
+2011
+*
+FORTIER
+Guillaume
+91
+ATOD 22 CP
+2014
+*
+MARCHAND
+Nadège
+91
+AI 59
+2003
+*
+LANGLOIS
+Camille
+75
+ATOD 22 CP
+2014
+*
+EGOUY
+Mickael
+75
+AI 98
+2016
+*
+GAUDEL
+Benoit
+78
+ATOD 18 CP
+2013
+*
+ROMAIN
+Berangere
+92
+AI 91
+2014
+*
+QUINTIN-LEPINE
+Christine
+78
+BOBI 1
+2004
+*
+MICHEZ
+Jean-François
+92
+ATOD 8
+2010
+*
+CABALLERO
+Maria Luisa
+92
+AI 75
+2009
+*
+ANDRE
+Francois
+91
+AI 94
+2015
+*
+GUENNADIEV
+Boris
+75
+BOBI 2
+2006
+*
+FRIAA
+Manel
+94
+AI 85
+2012
+*
+DE ALMEIDA
+Candido
+92
+ATOD 9
+2010
+*
+PLUMASSEAU
+Jean-Yves
+92
+AI 57
+2002
+*
+NADOT
+Alexis
+92
+AI 60
+2003
+*
+YESSE
+Thierry
+91
+ATOD 11
+2011
+*
+CHEBLI
+Hamid
+94
+AROBAS 1
+2007
+*
+PELLIER
+Nicolas
+44
+AI 56
+2002
+*
+MOUMMED
+Rachid
+21
+ATOD 11
+2011
+*
+GUYOT
+Caroline
+75
+AI 60
+2003
+*
+POREE
+Jean-Jacques
+94
+ATOD 2
+2008
+*
+BAILLY
+Pascal
+92
+BOBI 1
+2004
+*
+NGUYEN
+Marcel Anh Kiet
+94
+BOBI 3
+2007
+*
+BIAGIANTI
+Julie
+75
+AROBAS 1
+2007
+*
+DAVERY
+Laurent
+92
+ATOD 11
+2011
+*
+JACQUOT
+Camille
+91
+AI 98
+2016
+*
+FREVA
+Benjamin
+95
+ATOD 7
+2009
+*
+TELLIEZ
+François
+92
+ATOD 11
+2011
+*
+PEDRO
+Jean-Louis
+78
+ATOD 6
+2009
+*
+COSTA
+Francois
+77
+ATOD 25 CP
+2015
+*
+IAKOVLEV
+Dimitri
+93
+AROBAS 2
+2007
+*
+THEO
+Yann
+92
+ATOD 10
+2010
+*
+LIRZIN
+Charles
+91
+AI 82
+2011
+*
+LARRE-PASQUALINI
+Baptiste
+75
+AI 90
+2013
+*
+TRINQUET
+Jean-Charles
+93
+ATOD 17 CP
+2013
+*
+FRANCOIS
+Manuel
+94
+ATOD 12
+2011
+*
+SARI
+Abdallah
+31
+ATOD 2
+2008
+*
+CHOUAIB
+Najib
+75
+AI 78
+2010
+*
+MENDY
+Stebou
+78
+AI 85
+2012
+*
+CHARBONNEL
+Jean-Christophe
+77
+ATOD 8
+2010
+*
+DAHMANI 
+Lounis 
+94
+ATOD 17
+2013
+*
+TELILI
+Imed
+94
+ATOD 23
+2015
+*
+BELHADROUF
+Khaled
+93
+AROBAS 1
+2007
+*
+SALEMI
+Alexandre
+77
+AI 86
+2012
+*
+RIBEIRO
+Cindy
+92
+AI 69
+2006
+*
+KEOUA
+Hector
+BR
+AI 68
+2006
+*
+CHELLALI
+Soraya
+91
+ATOD 20
+2014
+*
+RENIA
+Angela
+77
+ATOD 18 CP
+2013
+*
+SHIBURA
+Lydia
+92
+AI 63
+2004
+*
+NAJI
+Soulaymane
+95
+AI 62
+2004
+*
+WAREZ
+Florent
+75
+ATOD 19 CP
+2013
+*
+MOHAMED
+Ali
+91
+AI 89
+2013
+*
+TAHRI
+Nabil
+77
+AI 69
+2006
+*
+BROUILLARD
+Frédéric
+91
+AI 58
+2003
+*
+YATALIT
+Mourad
+95
+AI 82
+2011
+*
+SCHVAN
+Olivier
+92
+AI 79
+2011
+*
+MIGUENS
+Victor
+75
+ATOD 13
+2011
+*
+FANTA
+Martin
+92
+ATOD 20
+2014
+*
+GOMIS
+Nicolas
+78
+AI 95
+2015
+*
+MALDANT
+Luc
+60
+AI 56
+2002
+*
+DAVID
+Lindsay
+91
+AI 79
+2011
+*
+CHERON
+Dominique
+94
+ATOD 5
+2009
+*
+ALBAR
+Guillaume
+92
+AI 85
+2012
+*
+AUSSEL
+Frédérique
+95
+ATOD 1
+2012
+*
+BEAL
+Madeline
+91
+AI 92
+2014
+*
+BELAY-MAURICE
+Jean-Yves
+75
+AI 60
+2003
+*
+BOUICHE
+Toufik
+94
+ATOD 21 CP
+2014
+*
+VIGNIER
+Matthieu
+91
+ATOD 9
+2010
+*
+VALENDOFF
+Laurent
+93
+AI 92
+2014
+*
+SABAPATHEE
+Devarajen
+92
+AI 85
+2012
+*
+AKRID
+Omar
+94
+BOBI 4
+2008
+*
+CHOQUET
+Catherine
+75
+AI 75
+2009
+*
+LA TORRE GARAY
+Cesar
+94
+AI 96
+2015
+*
+GUEGUEN
+Thomas
+75
+AI 86
+2012
+*
+ADELYS
+Vincent
+28
+AI 84
+2012
+*
+POICHET
+Alexandre
+75
+ATOD 23
+2015
+*
+SAUNIER
+Matthieu (D)
+91
+AI 64
+2004
+*
+BERGEMONT
+Mickael
+75
+AI 71
+2007
+*
+SAUVAGE DE BRANTES
+Domoina
+75
+AI 91
+2014
+*
+LELIME
+Tania
+94
+ATOD 15
+2012
+*
+BENGUIGUI
+Amelie
+75
+AI 86
+2012
+*
+TSE
+Willy H.L.
+92
+AI 88
+2013
+*
+BASDEVANT
+Adrien
+75
+AI 97
+2016
+*
+BACHELLIER
+Christian
+92
+BOBI 1
+2004
+*
+FRIAA
+Manel
+94
+ATOD 18 CP
+2013
+*
+LEMAIRE
+Claude
+75
+AI 60
+2003
+*
+ANTOINE
+François
+
+BOBI 2
+2006
+*
+SIMON
+Julien
+95
+AI 88
+2013
+*
+BOUNGOU
+Chancelvie
+77
+ATOD 8
+2010
+*
+MEDJAHED
+Warda
+78
+ATOD 12
+2011
+*
+CALFUQUIR SANTUCHO
+Patricia
+93
+ATOD 15 CP
+2012
+*
+VALENZA
+Jocelyn
+75
+AI 69
+2006
+*
+TRIQUET
+Stéphane
+92
+AI 67
+2005
+*
+MASSE
+Sylvain
+77
+AI 82
+2011
+*
+TANG
+Alex
+93
+AI 96
+2015
+*
+HIRRIEN
+Gwenaelle
+75
+AI 86
+2012
+*
+ALEXANDRE
+Matthieu
+93
+ATOD 24 CP
+2015
+*
+LEFEVRE
+Florian
+77
+AI 96
+2015
+*
+YOUYOUTTE
+Jonathan
+78
+AI 78
+2010
+*
+GARMOUMA
+Mourad
+91
+AI 75
+2009
+*
+PLETEN
+Alevtina
+75
+BOBI 2
+2006
+*
+SIFI
+Rosa
+94
+AROBAS 3
+2008
+*
+BALDY
+Jérémie
+78
+ATOD 7
+2009
+*
+DJIKINE
+Kartoum
+75
+AI 80
+2011
+*
+PIAS
+Olivia
+92
+AI 62
+2004
+*
+BANCELIN
+Pierrick
+45
+AI 81
+2011
+*
+NASTALCZYK
+Piotr
+91
+AI 58
+2003
+*
+LEBAS
+Christophe
+75
+AI 58
+2003
+*
+HAREAU
+Denis
+92
+ATOD 20
+2014
+*
+BEN REJEB
+Meriem
+92
+ATOD 25 CP
+2015
+*
+JULIEN
+Arokiam
+91
+AROBAS 3
+2008
+*
+FUSAY
+Marion
+78
+AI 90
+2013
+*
+STRAEBLER
+Hubert
+91
+AI 59
+2003
+*
+CARE
+Laetitia
+78
+ATOD 21
+2014
+*
+DAVID
+Baptiste
+75
+AI 94
+2015
+*
+AL KOTOB
+Nour
+92
+AI 97
+2016
+*
+MONFLEUR
+Maria
+94
+AI 94
+2015
+*
+DURAND
+Cédric
+95
+AI 67
+2005
+*
+KEDI NGAM
+Dieudonné
+92
+AI 67
+2005
+*
+BOUYOUCEF
+Imene
+91
+ATOD 21
+2014
+*
+MAKHLOUFI
+Souad
+92
+BOBI 1
+2004
+*
+BONNEAU
+Frédéric
+92
+AI 74
+2009
+*
+LEGRAND
+Charles-Antoine 
+75
+ATOD 4
+2008
+*
+KHADIR
+Rachid
+92
+AI 82
+2011
+*
+KRAIEM
+Anissa
+78
+AI 74
+2009
+*
+BERDJEGHLOUL
+Kama-Djemel
+92
+AI 66
+2005
+*
+FRANCISCO
+Remy
+31
+AI 58
+2003
+*
+MELLIAND
+Kévin
+92
+ATOD 24 CP
+2015
+*
+ZAKA
+Naoual
+92
+AI 73
+2008
+*
+LOYER
+Jean-Claude
+91
+AI 57
+2002
+*
+POUSSIN
+Nicolas
+78
+AI 91
+2014
+*
+MALDAVSKY
+Nicolai
+75
+AI 85
+2012
+*
+DEVARADJALOU
+Sarumathi
+91
+ATOD 1
+2012
+*
+de L'ESCALOPIER
+Agnès
+45
+AI 61
+2003
+*
+MOUJOU
+Maurad
+93
+AI 81
+2011
+*
+GOFFIN
+Xavier
+85
+ATOD 3
+2008
+*
+RAHARIVELO
+Remy
+94
+AI 98
+2016
+*
+DJURASEVIC
+Mirko
+93
+AI 78
+2010
+*
+POPOV
+Marjan
+75
+ATOD 19
+2013
+*
+HASSOUNI
+Omar
+94
+ATOD 1
+2012
+*
+WOLOCH
+Emmanuel
+91
+AI 76
+2009
+*
+DRAME
+Mohamed Moustapha
+78
+AI 99
+2016
+*
+SEGHOUR
+Amirouche
+93
+AI 56
+2002
+*
+TAUVEL
+Sébastien
+92
+ATOD 12
+2011
+*
+BARA
+Abdelrezzak
+94
+ATOD 13
+2011
+*
+DARRIEUTORT
+Christian
+93
+BOBI 5
+2008
+*
+BOUQALLABA
+Samir
+7
+AI 79
+2011
+*
+AUDENARD
+Jean-François
+59
+AI 60
+2003
+*
+FARSI
+Toufik
+93
+AI 77
+2010
+*
+BENHARROUS
+Elie
+77
+BOBI 2
+2006
+*
+ATLAN
+Karen
+75
+AI 100
+2016
+*
+MATHERN
+Julie
+75
+AI 99
+2016
+*
+SCHARFF
+Olivier
+78
+AI 100
+2016
+*
+SABOUNDJI
+Mehdi
+75
+AI 94
+2015
+*
+ZAIRI
+Mohamed
+91
+AI 94
+2015
+*
+BOURDON
+Fabrice
+92
+ATOD 22
+2014
+*
+KHALDI
+Naïma
+93
+AI 81
+2011
+*
+BENSAFTA
+Mohamed Riadh
+92
+AI 60
+2003
+*
+LE RAYER
+André
+95
+BOBI 1
+2004
+*
+CHASEZ
+Nadine
+77
+AI 64
+2004
+*
+RUFFAULT
+Guillaume
+75
+AI 71
+2007
+*
+AMIMAR
+Mounaim
+93
+AROBAS 1
+2007
+*
+DEGREMONT
+Eric
+92
+AI 77
+2010
+*
+CHERKAOUI
+Maryam
+75
+ATOD 13
+2011
+*
+DENIS
+Serges
+94
+AI 66
+2005
+*
+BARJOU
+Thomas
+92
+AI 72
+2008
+*
+HAYAR
+Saïd
+60
+AI 69
+2006
+*
+AICH-BERHAL
+Malia
+75
+AI 83
+2012
+*
+MONFLEUR
+Maria
+94
+ATOD 25
+2015
+*
+LEROY
+Thibault
+91
+ATOD 17
+2013
+*
+PUENTE
+Magalie
+75
+AI 60
+2003
+*
+TOURE
+Khadiatou Diane
+92
+AROBAS 1
+2007
+*
+NOBLECOURT
+Carole
+75
+BOBI 1
+2004
+*
+SEGOUIN
+Vincent
+92
+ATOD 23
+2015
+*
+GUERIN
+Emmanuel
+75
+AI 94
+2015
+*
+BOUTAINE
+Etienne
+75
+AI 95
+2015
+*
+BOUDJEMAA
+Zina
+92
+ATOD 15
+2012
+*
+CHALET
+Nicolas
+75
+ATOD 17 CP
+2013
+*
+LASSELLE
+Jean-Baptiste
+92
+ATOD 13
+2011
+*
+BAXTER
+Julien
+92
+AI 71
+2007
+*
+ALLAIN
+Didier
+78
+BOBI 4
+2008
+*
+BELHADJ CHAIDI
+Mohamed
+95
+AI 58
+2003
+*
+KHAMSOUK
+Bounhong
+75
+ATOD 2
+2008
+*
+MENSALA
+Takaou
+93
+AI 92
+2014
+*
+ABBI
+adil
+
+AROBAS 3
+2008
+*
+AUGEREAU
+Kévin
+76
+ATOD 12
+2011
+*
+NGUYEN
+Le-Huy
+92
+ATOD 14
+2012
+*
+NOUMI SOMEN
+Franc Romaric
+77
+AI 92
+2014
+*
+SIBAI
+Tchimou
+91
+AI 73
+2008
+*
+LE CHAUX
+Bruno
+75
+BOBI 1
+2004
+*
+MORSLI
+Réda
+31
+AI 74
+2009
+*
+VICTOIRE
+Jean-Philippe
+75
+AI 56
+2002
+*
+GUY
+Micael
+92
+ATOD 11
+2011
+*
+SPIELMANN
+Samuel
+78
+ATOD 22
+2014
+*
+NICOLAI-DASHWOOD
+Philippe
+75
+AI 66
+2005
+*
+DURRANT
+Régis
+93
+AROBAS 3
+2008
+*
+PANDOURANGAM
+Gilles - Ravi
+94
+AI 70
+2007
+*
+BAILLON
+Jonathan
+92
+AI 80
+2011
+*
+FTITI
+Fadia
+93
+ATOD 11
+2011
+*
+AZIZIAN
+David
+92
+AI 74
+2009
+*
+SAHNOUN
+Réda
+92
+ATOD 13
+2011
+*
+DORE
+Xavier
+94
+ATOD 9
+2010
+*
+LAUHON
+Wilfrid
+92
+ATOD 8
+2010
+*
+MANIERE
+Pierre
+75
+AI 75
+2009
+*
+PEPIN
+Patricia
+92
+ATOD 18 CP
+2013
+*
+SOBRAL
+Nicolas
+93
+AROBAS 2
+2007
+*
+FERNANDEZ
+Patrice
+94
+AI 74
+2009
+*
+BOILEVIN
+Marc
+78
+ATOD 17
+2013
+*
+AYLAL
+Hamid
+92
+ATOD 5
+2009
+*
+RAHARISON
+Lova
+94
+AI 78
+2010
+*
+TANOH
+Sonia
+75
+AI 70
+2007
+*
+FERAILLE
+Matthieu
+94
+ATOD 20
+2014
+*
+DONZE
+Philippe
+91
+ATOD 6
+2009
+*
+ZANOL
+Vincent
+78
+AI 98
+2016
+*
+LACROIX
+Alain
+93
+ATOD 2
+2008
+*
+L'HÃ”TE
+Caroline
+92
+ATOD 7
+2009
+*
+PIERRE
+Alix
+92
+AI 96
+2015
+*
+GUERIN
+Emmanuel
+75
+ATOD 26 CP
+2015
+*
+AOUN
+Mohamed Sadok
+75
+AI 73
+2008
+*
+PROUST
+Bernard
+91
+ATOD 16
+2012
+*
+HAMRANI
+Idir
+91
+ATOD 15 CP
+2012
+*
+DILLENSEGER
+Elsa
+92
+ATOD 24 CP
+2015
+*
+RUHLMANN
+Caroline
+75
+ATOD 16 CP
+2012
+*
+TAUSSAC
+Philippe
+91
+BOBI 1
+2004
+*
+DELAHAYE
+Emmanuel
+77
+AI 56
+2002
+*
+BOUTEILLE
+Pascal
+77
+BOBI 1
+2004
+*
+MAYEUX
+Eric
+92
+ATOD 25
+2015
+*
+MARTINEZ
+Rosa
+75
+BOBI 4
+2008
+*
+WAILLE
+Emilie
+77
+ATOD 26
+2015
+*
+RAKOTOMALALA
+Hery Fanantenana
+49
+AI 63
+2004
+*
+PANHALEUX
+Olivier
+91
+AI 56
+2002
+*
+RAY
+Anas
+93
+AROBAS 2
+2007
+*
+AHMIM
+Ferhat
+93
+AI 95
+2015
+*
+MARTINEZ
+Antonio
+US
+ATOD 5
+2009
+*
+DANGUEUGER
+Raphael
+92
+AI 94
+2015
+*
+LEPANTE
+Willy
+95
+AI 78
+2010
+*
+LECLERC
+Stéphane
+92
+AROBAS 2
+2007
+*
+STEPANOVA
+Tatiana
+75
+AI 96
+2015
+*
+COMAN
+Silvia
+92
+BOBI 1
+2004
+*
+NEU
+Olivier
+75
+ATOD 15 CP
+2012
+*
+PAYOL
+Rosaire
+93
+AI 64
+2004
+*
+RATOVOHERINDRAINY
+Hanta
+94
+BOBI 2
+2006
+*
+SUMIYA
+Asako
+92
+ATOD 10
+2010
+*
+EL YAGOUBI
+Jamel
+51
+AI 87
+2013
+*
+BONTE
+Maxence
+75
+AI 70
+2007
+*
+OUAZIR
+Areski
+94
+AI 83
+2012
+*
+FEITAMA
+Vianelle
+94
+AI 92
+2014
+*
+ESSID
+Amal
+91
+ATOD 26
+2015
+*
+ASSOGANE
+Pouarassane Razesh
+78
+ATOD 6
+2009
+*
+HARDING
+Nicolas
+78
+AI 97
+2016
+*
+MONTRESOR
+Tony
+91
+AI 77
+2010
+*
+FELLAG
+Said
+94
+AI 85
+2012
+*
+THACH
+Nicolas
+91
+AI 80
+2011
+*
+CHEKROUNI
+Youssef
+78
+AI 77
+2010
+*
+LE TEXIER
+Vincent
+28
+ATOD 3
+2008
+*
+GOUGIS
+Pierre
+95
+ATOD 9
+2010
+*
+KECHAOU
+Amine
+92
+ATOD 20
+2014
+*
+CURTY
+Denis
+75
+BOBI 5
+2008
+*
+ES SAKHI 
+Mustapha
+45
+ATOD 2
+2008
+*
+KERTAL
+Ahmed
+91
+ATOD 17
+2013
+*
+BAUME
+Pascal
+75
+ATOD 22
+2014
+*
+BOUTET
+Karine
+92
+AI 57
+2002
+*
+BENHAMOU
+Okacha
+93
+AI 62
+2004
+*
+AMROUNI
+Samir
+95
+ATOD 17
+2013
+*
+ELHIMA
+Asmaa
+93
+AI 91
+2014
+*
+BARBIER
+Olivier
+94
+ATOD 4
+2008
+*
+LE TEXIER
+Alice
+91
+ATOD 22
+2014
+*
+MOUHLI
+Idriss
+95
+AI 95
+2015
+*
+IBRAHIM
+Mohamed
+92
+AI 78
+2010
+*
+OUAKLIL
+Hacène
+78
+AI 73
+2008
+*
+SERVE
+Jean-Baptiste
+92
+AI 82
+2011
+*
+FOUCHAL
+Nabil
+93
+ATOD 25
+2015
+*
+FLORENTIN
+Frédéric
+91
+AI 68
+2006
+*
+BOUVERET
+Armelle
+83
+ATOD 6
+2009
+*
+MAISONNIAL
+Ingrid
+93
+AI 66
+2005
+*
+ZAMOUN 
+Mourad
+93
+ATOD 7
+2009
+*
+NGUYEN
+Kevin
+77
+AI 85
+2012
+*
+ETEMADE
+Simine
+6
+BOBI 4
+2008
+*
+DE MONTAIGNE
+Christian
+75
+AI 56
+2002
+*
+MIRAILLES
+Béatrice
+91
+ATOD 7
+2009
+*
+COUEDOR
+Yann
+78
+AI 87
+2013
+*
+LINEL
+Gervaise
+77
+AI 87
+2013
+*
+HERZBERG
+Yanick
+77
+ATOD 24
+2015
+*
+MAYEUX
+Eric
+92
+AI 94
+2015
+*
+MACAMBOU-SILLON
+Olivier
+92
+ATOD 9
+2010
+*
+VINCENT
+Adrien
+75
+AI 86
+2012
+*
+GAULIN
+Ingvild
+78
+AI 91
+2014
+*
+LORENZINI
+Johnathan
+94
+BOBI 5
+2008
+*
+PEPIN
+Jérôme
+94
+AROBAS 3
+2008
+*
+VIRON
+Yohann
+77
+AI 90
+2013
+*
+CHARLEUX
+Morgane
+78
+AI 87
+2013
+*
+BOFF
+Alexandre
+75
+ATOD 16
+2012
+*
+WELCKER
+Julien
+75
+AI 96
+2015
+*
+AMROUCHE
+Méziane
+91
+ATOD 6
+2009
+*
+LOR
+Johan
+77
+AI 96
+2015
+*
+ALOJEVIC
+Slobodan
+93
+AI 56
+2002
+*
+GADRIM
+Driss
+92
+AI 81
+2011
+*
+HADJADJ AOUL
+Elias
+94
+AI 71
+2007
+*
+RAJOELA
+Faly
+92
+AI 87
+2013
+*
+BOURNOF
+Grégory
+75
+AI 73
+2008
+*
+MARQUES
+Franklin
+91
+ATOD 4
+2008
+*
+LOULENDO
+Stephane
+78
+AI 89
+2013
+*
+AUDIC
+Emmanuel
+91
+ATOD 8
+2010
+*
+DELAVAULT
+Romain
+75
+AI 83
+2012
+*
+BARDIN
+Frédéric
+92
+AI 58
+2003
+*
+RANARIVELO
+Sébastien
+75
+ATOD 21 CP
+2014
+*
+EZELIN
+Gladys
+75
+ATOD 21 CP
+2014
+*
+ORDONEZ FLORES
+Karina
+75
+AI 61
+2003
+*
+BOULTIF
+Thierry
+75
+AI 59
+2003
+*
+MARECAR
+Hazira
+93
+AI 88
+2013
+*
+GRANIER
+Bernard
+93
+ATOD 10
+2010
+*
+TOUITOU
+Guy
+93
+ATOD 5
+2009
+*
+BORNE
+Christophe
+92
+AI 71
+2007
+*
+AL KOTOB
+Hoda
+92
+AI 94
+2015
+*
+BONNEVILLE
+Loïc
+94
+AI 58
+2003
+*
+GAMBS
+Florian
+92
+AI 65
+2004
+*
+SISSOKO
+Boubou
+91
+AROBAS 2
+2007
+*
+FALCON
+Alain
+91
+AI 75
+2009
+*
+JOSSERAND (GHENEA)
+Florina
+92
+ATOD 13
+2011
+*
+BETH
+Bertrand
+94
+ATOD 23
+2015
+*
+MEHIRES
+Abla
+75
+AI 65
+2004
+*
+SIMON
+Julien
+95
+ATOD 20 CP
+2014
+*
+ADRASTE
+Médéric
+75
+AI 73
+2008
+*
+SAKHO
+Mamadou
+78
+AI 71
+2007
+*
+KHELIJ
+Fedia
+75
+AI 61
+2003
+*
+LEPICARD
+Frédéric
+75
+AI 64
+2004
+*
+STEVA
+Nathalie
+77
+ATOD 23
+2015
+*
+CONFAIS
+Jean-Jacques
+94
+BOBI 2
+2006
+*
+MAFFEI
+André
+93
+ATOD 5
+2009
+*
+PERETOU
+Béatrice
+78
+BOBI 4
+2008
+*
+AMROUNI
+Samir
+95
+AI 84
+2012
+*
+TAMMA
+Samia
+92
+ATOD 12
+2011
+*
+LOUIS
+Odile
+78
+AI 56
+2002
+*
+LATOUR
+Jean-Claude
+75
+AI 62
+2004
+*
+TSIAZONALY
+Diamondra
+91
+AI 73
+2008
+*
+SITBON
+Nathalie
+93
+BOBI 1
+2004
+*
+IVANOV
+Oleg
+91
+AI 62
+2004
+*
+POUGNAULT
+Marc Antoine
+91
+AI 100
+2016
+*
+PERIAN
+Ophélie
+91
+AI 75
+2009
+*
+BENTAHRA
+Saïd
+75
+AI 65
+2004
+*
+KRESTEV
+Pascal
+63
+AI 65
+2004
+*
+N'DIAYE
+Ladi
+92
+BOBI 2
+2006
+*
+MARROUA
+Rachid
+75
+ATOD 10
+2010
+*
+HAROUN
+Hakim
+78
+ATOD 13
+2011
+*
+OLIVIER
+Fabien
+92
+AI 77
+2010
+*
+MADANI
+Djelloul
+75
+ATOD 4
+2008
+*
+STEIN
+Terii
+75
+ATOD 10
+2010
+*
+BAMBA
+Machami
+92
+AI 81
+2011
+*
+MAURY
+Georges
+91
+AI 61
+2003
+*
+DAHAN
+Joseph
+92
+ATOD 8
+2010
+*
+WEBEN
+Léa
+44
+ATOD 15 CP
+2012
+*
+SARI
+Mélina
+94
+AI 83
+2012
+*
+SLIMANI
+Mohamed
+95
+AI 78
+2010
+*
+MARTEAU
+Rémy
+95
+AI 81
+2011
+*
+ABDELLATIF
+Sobhi
+94
+AI 56
+2002
+*
+ATIG
+Thouraya
+92
+AI 89
+2013
+*
+GOULOIS
+Bertrand
+92
+AI 100
+2016
+*
+BENZIMRA
+Marc
+93
+BOBI 4
+2008
+*
+EM
+Thakvyka
+94
+AI 58
+2003
+*
+BRUN
+Julien
+75
+ATOD 24
+2015
+*
+BENOIST
+Jean-Jacques
+75
+ATOD 13 CP
+2011
+*
+BAHRI
+Chafik
+75
+ATOD 12
+2011
+*
+BA
+Bocar
+75
+AI 83
+2012
+*
+HECKA
+Julien
+93
+ATOD 13 CP
+2011
+*
+DEMENOIS
+Mickael
+79
+AI 57
+2002
+*
+GAUTIER
+Florian
+94
+AI 97
+2016
+*
+MAGA
+Cyril
+75
+AROBAS 2
+2007
+*
+BOUDJEMAA
+Zina
+92
+AI 85
+2012
+*
+HASSAN
+Omnia
+92
+ATOD 17
+2013
+*
+OLIVER
+Gilles
+38
+AI 57
+2002
+*
+ZHABCHYK CHOUTEAU
+Tetyana
+94
+AI 78
+2010
+*
+TAUVEL
+Sébastien
+92
+AI 78
+2010
+*
+CHARRADI
+Reda
+93
+ATOD 5
+2009
+*
+LATOUR
+François
+91
+AI 58
+2003
+*
+MAZOUZI
+Khaoula
+75
+AI 96
+2015
+*
+CHEN
+Yuyuan
+75
+AI 76
+2009
+*
+MURET
+Yann
+94
+AI 84
+2012
+*
+KADIRI
+Imad
+93
+AROBAS 2
+2007
+*
+BOISSY
+Josselin
+75
+ATOD 24 CP
+2015
+*
+LONGUET
+Michel
+75
+ATOD 14
+2012
+*
+GASPARD
+Solenne
+92
+AI 91
+2014
+*
+GHUZEL
+Olivier
+75
+AI 66
+2005
+*
+MARHIC
+Cindy
+94
+ATOD 17 CP
+2013
+*
+COURTOIS
+Jeremie
+75
+AI 91
+2014
+*
+BEKLAOUZ
+Mohamed
+95
+AROBAS 3
+2008
+*
+BENAMARA
+Sophien
+95
+AI 87
+2013
+*
+BELAHCENE
+Farid
+75
+ATOD 14
+2012
+*
+NGO NGOC
+Danny
+75
+ATOD 6
+2009
+*
+DUPUY
+Pascal
+78
+AI 79
+2011
+*
+KHAOUY HAJJAR
+Houda
+92
+AI 75
+2009
+*
+BENABDELMOUMENE
+Linda
+93
+AROBAS 3
+2008
+*
+TCHANGA
+Rodrigue
+77
+AI 100
+2016
+*
+GIROUD
+Stephane
+94
+AI 89
+2013
+*
+AKIR
+Sofiane
+54
+ATOD 10
+2010
+*
+OUZIEL
+Barbara
+92
+AI 68
+2006
+*
+LAZREG
+Fouad
+92
+ATOD 21
+2014
+*
+NGUYEN
+Anh Duy
+75
+ATOD 9
+2010
+*
+LALLEMAND
+Anne-Sophie
+75
+AI 99
+2016
+*
+VACCARO
+Carmelo
+92
+AI 87
+2013
+*
+LERAT
+Guy
+93
+ATOD 18
+2013
+*
+KHAN
+Shahrukh
+93
+ATOD 15 CP
+2012
+*
+GIACOMEL
+Christophe
+75
+AI 66
+2005
+*
+MANCHON
+Gaëtan
+78
+ATOD 10
+2010
+*
+DUTEL
+Pascal
+75
+AI 71
+2007
+*
+DOOH
+Hans
+95
+AI 86
+2012
+*
+KASSEM
+Sarah
+75
+AI 80
+2011
+*
+KHAN
+Shahrukh
+93
+AI 79
+2011
+*
+MUNOS
+Olivier
+75
+AI 90
+2013
+*
+BENTEUR
+Jérôme
+93
+AI 60
+2003
+*
+VIGNIER
+Quentin
+75
+AI 77
+2010
+*
+LIGIER 
+Christophe
+94
+AI 73
+2008
+*
+HEITZ
+Alexandre
+37
+ATOD 21
+2014
+*
+GRONDARD
+Pierre
+92
+AI 82
+2011
+*
+PERIGOIS
+Claire
+93
+AI 74
+2009
+*
+GERARDIN
+Maeva
+13
+AI 74
+2009
+*
+VESIC
+Dejan
+93
+AI 68
+2006
+*
+TROUSSIER
+Charlotte
+92
+AI 74
+2009
+*
+UNG
+Sigride
+78
+AI 84
+2012
+*
+FELDTHAUS
+Josefine
+75
+AI 62
+2004
+*
+LAMECHE
+Badra
+38
+ATOD 10
+2010
+*
+TERNIER
+Hadrien
+78
+ATOD 17 CP
+2013
+*
+GIBIER
+Jean-Charles
+93
+ATOD 20
+2014
+*
+VALENDOFF
+Laurent
+93
+ATOD 23
+2015
+*
+SARRAZIN
+Olivier
+77
+BOBI 4
+2008
+*
+BOUYANFIF
+Yahya
+45
+AI 73
+2008
+*
+GUERINET
+Richard
+93
+AI 75
+2009
+*
+AKIR
+Sofiane
+54
+AI 73
+2008
+*
+ANES
+Rabah
+78
+AI 76
+2009
+*
+BOURGET
+Alexandre
+91
+ATOD 23
+2015
+*
+DESSIRIER
+Vincent
+75
+ATOD 19
+2013
+*
+PAGNON
+Magali
+91
+AI 79
+2011
+*
+GHOUMID
+Mohamed
+78
+AROBAS 2
+2007
+*
+BURAIS
+Christophe
+92
+AI 60
+2003
+*
+DE SAINT SALVY
+Henri
+92
+AROBAS 3
+2008
+*
+MAAREF
+Cerine
+94
+AI 96
+2015
+*
+EYRIGNOUX
+Thomas
+77
+AI 90
+2013
+*
+CHAUVET
+Rémi
+94
+ATOD 16 CP
+2012
+*
+SEGONNE
+Miri
+93
+ATOD 21
+2014
+*
+GUION
+Alexandre
+75
+ATOD 20
+2014
+*
+BELKASMI
+Michaël
+94
+AI 64
+2004
+*
+AGBODJI
+Dédé
+95
+ATOD 17
+2013
+*
+KECIRI
+Rachid
+95
+AI 94
+2015
+*
+LEROY
+Samantha
+92
+AI 69
+2006
+*
+DUBOIS
+Sébastien
+75
+AI 57
+2002
+*
+HANG
+Hai Tuan
+75
+ATOD 8
+2010
+*
+RANDRIANANDRIANINA
+Jean-Francis
+92
+ATOD 23
+2015
+*
+ADELYS
+Vincent
+28
+ATOD 17 CP
+2013
+*
+DEJARDIN
+Paul- Guillaume
+75
+ATOD 12
+2011
+*
+BENAYOUN
+Gisèle
+94
+ATOD 14
+2012
+*
+ABDOULAMIDE
+Riyadh
+95
+AI 95
+2015
+*
+BENICHOU
+Arié
+75
+ATOD 11
+2011
+*
+SADOU
+Karim
+92
+AI 72
+2008
+*
+MOUREY
+David
+92
+AI 58
+2003
+*
+MAI
+Thi Thoa
+92
+AI 88
+2013
+*
+CARUSO
+Angelo
+94
+AI 72
+2008
+*
+SAINTON
+Laurent
+95
+AI 67
+2005
+*
+CHOLLET
+Cyril
+91
+AI 100
+2016
+*
+TOMADAKIS
+Nicolas
+92
+ATOD 17
+2013
+*
+LONGLADE
+Célia
+92
+AI 81
+2011
+*
+ARNOUX
+Céline
+92
+AI 67
+2005
+*
+IBOUDGHACEM
+Monia
+95
+AI 89
+2013
+*
+RANAIVOARISOA
+Gino
+95
+BOBI 2
+2006
+*
+GUILLET LHOMAT
+Pierre
+75
+AI 80
+2011
+*
+BARUTAUT
+Marion
+75
+ATOD 18 CP
+2013
+*
+MIARD
+Anastasia
+78
+AI 99
+2016
+*
+ANDRIAMIHAJA
+Serge
+75
+AI 87
+2013
+*
+BEN REJEB
+Meriem
+92
+AI 94
+2015
+*
+MACAMBOU TOUCHARD
+Williams
+92
+AI 79
+2011
+*
+LEVY
+Stéphane
+78
+AI 83
+2012
+*
+MOKOBODZKI
+Tristan
+94
+ATOD 22
+2014
+*
+ABDALLAH
+Mehdi
+93
+ATOD 12
+2011
+*
+XERCAVINS-GUARRO
+Sarah
+78
+ATOD 15 CP
+2012
+*
+ROUX
+Laurent
+78
+AI 65
+2004
+*
+KATET
+Soufiene
+92
+ATOD 14
+2012
+*
+BENKOC
+Jennifer
+75
+AI 63
+2004
+*
+DE LAULANIE
+Anne
+75
+AI 69
+2006
+*
+OTHMANE
+Ahlem
+95
+AI 97
+2016
+*
+TOUITOU
+Ralph
+75
+ATOD 2
+2008
+*
+BOUSSARI
+Ismael
+77
+AI 71
+2007
+*
+FLAN
+Kemintinhi
+59
+AI 62
+2004
+*
+CHEVRIER
+Marion
+75
+AI 87
+2013
+*
+AMIAR
+Youcef
+92
+AI 71
+2007
+*
+BLANCO
+Romain
+75
+AI 93
+2014
+*
+ABERWAG
+Ahmed
+78
+ATOD 23
+2015
+*
+EL BOUMESHOULI
+Jalal
+93
+ATOD 4
+2008
+*
+BENBOUZID
+Moussa
+92
+AI 96
+2015
+*
+BOUICHE
+Toufik
+94
+AI 90
+2013
+*
+RAMAROZAKA
+Naïs
+75
+AI 93
+2014
+*
+HAMMI GHANOUCHI
+Hamza
+67
+AI 99
+2016
+*
+HUYNH
+Pascal
+93
+ATOD 9
+2010
+*
+REYSZ
+Joranne
+75
+ATOD 16 CP
+2012
+*
+LEROI
+Bernard
+94
+BOBI 3
+2007
+*
+REGRADJ
+Hakim
+77
+ATOD 24
+2015
+*
+ORTIZ MAINGUY
+Sybille
+78
+AI 85
+2012
+*
+FATIHI
+Abdelkader
+75
+AI 73
+2008
+*
+NANA
+Sandrine
+93
+AI 79
+2011
+*
+JEAN-THEODORE
+Fabien
+94
+AI 69
+2006
+*
+RAZMAKHNINA
+Katia
+92
+ATOD 14
+2012
+*
+DUVIGNEAU
+Isabelle
+75
+AI 72
+2008
+*
+PERICARD
+Sébastien
+77
+AI 59
+2003
+*
+MDIDECH
+Amine
+75
+AI 79
+2011
+*
+OSMANI
+Mehdi
+92
+AI 71
+2007
+*
+ITICSOHN
+Marc
+75
+BOBI 3
+2007
+*
+TRIADOU
+Christophe
+94
+AI 68
+2006
+*
+AMAT
+Jean-Gilles 
+75
+ATOD 8
+2010
+*
+EL MANTI
+Radwan
+94
+AI 83
+2012
+*
+BAILLON
+Jonathan
+92
+ATOD 15
+2012
+*
+FARHAT
+Mérième
+60
+AI 70
+2007
+*
+THOOL
+Thierry
+78
+ATOD 18
+2013
+*
+PLANEIX
+François
+75
+AI 100
+2016
+*
+ALAVOINE
+Herve
+93
+ATOD 22
+2014
+*
+BARUTAUT
+Marion
+75
+AI 86
+2012
+*
+JAMIL
+Usman
+93
+AI 91
+2014
+*
+BOUSSALAH
+Mourad
+92
+ATOD 9
+2010
+*
+SANCHO
+Fabien
+92
+AI 77
+2010
+*
+FOURNIER
+Jeremy
+92
+AI 88
+2013
+*
+GERENTE
+Jacqueline
+13
+BOBI 1
+2004
+*
+GAUCHOT
+Claire
+92
+ATOD 1
+2012
+*
+PALLARDY
+Kevin
+91
+ATOD 19 CP
+2013
+*
+BOUQALLABA
+Samir
+7
+ATOD 13 CP
+2011
+*
+AUBERGER
+Benoit
+92
+AI 86
+2012
+*
+ABERWAG
+Ahmed
+78
+AI 92
+2014
+*
+HAMDOUN
+Malika
+28
+AI 63
+2004
+*
+DEXTREIT
+Joris
+75
+AI 80
+2011
+*
+PATRY
+Arnaud
+94
+AI 84
+2012
+*
+LELIME
+Tania
+94
+AI 80
+2011
+*
+VERON
+Wilfried
+59
+AI 87
+2013
+*
+HAMELBERG
+Carl
+92
+ATOD 19
+2013
+*
+DEJARDIN
+Paul- Guillaume
+75
+AI 78
+2010
+*
+LU
+Haiyan
+92
+AI 98
+2016
+*
+AL KOTOB
+Hoda
+92
+ATOD 25
+2015
+*
+ALBAR
+Guillaume
+92
+ATOD 18 CP
+2013
+*
+ITARD
+Alexandre
+95
+AI 98
+2016
+*
+TOWLSON
+Marie-Pierre
+75
+AI 65
+2004
+*
+BLEUZE
+Patrice
+78
+ATOD 15
+2012
+*
+LIPSZYC
+Linda
+93
+BOBI 4
+2008
+*
+ZRELLI
+Yasamine
+92
+AI 94
+2015
+*
+SLIVCA
+Diana
+95
+AI 84
+2012
+*
+LAUTREDOUX
+Karine
+92
+AI 93
+2014
+*
+PELLET
+Aurélien
+94
+ATOD 6
+2009
+*
+LEONIDAS
+Enrico
+78
+ATOD 18
+2013
+*
+TULLIEZ
+Gilles
+91
+ATOD 9
+2010
+*
+BOUYOUCEF
+El Khier
+94
+ATOD 4
+2008
+*
+REYSZ
+Joranne
+75
+AI 83
+2012
+*
+UNG
+Jet-Ming
+75
+AI 83
+2012
+*
+MOUSSI
+Bilal
+93
+AI 88
+2013
+*
+DEVDA
+Vandanakumari
+75
+ATOD 9
+2010
+*
+SALL
+Halimata
+94
+AI 82
+2011
+*
+MOAL
+Grégory
+92
+AI 59
+2003
+*
+LI
+Bing
+77
+AI 79
+2011
+*
+QUINT
+Stéphane
+92
+ATOD 10
+2010
+*
+BODO NGAH
+Danielle
+92
+ATOD 8
+2010
+*
+MSAOUBI
+Kamel
+77
+AI 95
+2015
+*
+SALHI
+Samir
+92
+AI 81
+2011
+*
+CHEN
+You
+94
+AROBAS 1
+2007
+*
+CHAUVET
+Rémi
+94
+AI 83
+2012
+*
+ZEACHANDIRIN
+Vassoudevan
+77
+AI 59
+2003
+*
+MBUYI-TUMBA
+Jacques
+94
+ATOD 11
+2011
+*
+YAHIAOUI
+Marwan
+92
+AI 82
+2011
+*
+JACQUIN
+Charles
+75
+ATOD 12
+2011
+*
+NARJIS
+Abdelhadi
+78
+AI 62
+2004
+*
+DELAVAULT
+Romain
+75
+ATOD 16 CP
+2012
+*
+MORTIER
+Emmanuel
+12
+AI 62
+2004
+*
+LI
+Bing
+77
+ATOD 13 CP
+2011
+*
+TRINQUET
+Jean-Charles
+93
+AI 83
+2012
+*
+SHAHRAM
+Kasra
+75
+AI 79
+2011
+*
+MONNET
+Bastien
+92
+ATOD 25
+2015
+*
+BRUN
+Emmanuel
+75
+AI 100
+2016
+*
+FERNANDEZ
+Patrice
+94
+ATOD 7
+2009
+*
+LOYAL
+Nathalie
+94
+AI 99
+2016
+*
+KOT
+Alex
+93
+AI 60
+2003
+*
+ABDESSELAM
+Thamin
+75
+ATOD 24
+2015
+*
+ALBRECHT
+Sylvie
+75
+ATOD 22
+2014
+*
+MEDJAHED
+Warda
+78
+AI 78
+2010
+*
+BERGEMONT
+Mickael
+75
+ATOD 9
+2010
+*
+GARTISER
+Alain
+94
+ATOD 9
+2010
+*
+CERVA-PEDRIN
+Nadia
+44
+AI 66
+2005
+*
+AIDAM
+Kwasi
+95
+ATOD 7
+2009
+*
+DELHUMEAU
+Marie-Christine
+75
+BOBI 4
+2008
+*
+DUMITRASCU
+Andreea-Georgiana
+75
+ATOD 24 CP
+2015
+*
+ALTEFROHNE
+Gaelle
+78
+AI 85
+2012
+*
+PEPIN
+Patricia
+92
+AI 85
+2012
+*
+VIEIRA
+Michaël
+92
+ATOD 15
+2012
+*
+HASSAN
+Omnia
+92
+AI 83
+2012
+*
+RAZAFINDRATSIMA
+Stephen
+92
+ATOD 2
+2008
+*
+LEGAY
+Clément
+78
+AI 61
+2003
+*
+OULD-HAMOUDA
+Mehdi
+92
+AI 93
+2014
+*
+PETROSSIAN
+Armen
+94
+AI 88
+2013
+*
+BUA
+Cyril
+06
+AI 66
+2005
+*
+PAPLORAY
+Samuel
+75
+AROBAS 1
+2007
+*
+DERIO
+Maël
+75
+ATOD 6
+2009
+*
+DABIENS
+Elisa
+95
+ATOD 10
+2010
+*
+BLANCO
+Romain
+75
+ATOD 24 CP
+2015
+*
+CTORZA
+Yohan
+75
+AI 65
+2004
+*
+BARRIERE
+Laurent
+91
+AI 92
+2014
+*
+ARUNAGIRI
+Mina
+69
+AI 84
+2012
+*
+LEFEBVRE
+Theo
+77
+AI 100
+2016
+*
+DIBOUT
+Thomas
+75
+AI 74
+2009
+*
+TOURNANT
+Loic
+75
+AI 90
+2013
+*
+BOISSY
+Josselin
+75
+AI 93
+2014
+*
+FORTIER
+Guillaume
+91
+AI 91
+2014
+*
+SKANDER
+Hassiba
+78
+ATOD 18 CP
+2013
+*
+KARDI
+Zouhayra
+93
+AI 71
+2007
+*
+BEROLATTI
+Alexis
+92
+AI 85
+2012
+*
+MENSALA
+Takaou
+93
+ATOD 23
+2015
+*
+RAPANANA
+Rija-Hery 
+92
+AI 73
+2008
+*
+DEFRANCE
+Arnaud
+95
+AI 77
+2010
+*
+CHARVET
+Yannick
+91
+AI 80
+2011
+*
+ZARA
+Romain
+75
+AI 76
+2009
+*
+LIRZIN
+Charles
+91
+AI 93
+2014
+*
+RISAL
+Jessy
+95
+ATOD 9
+2010
+*
+CHIKHI
+Fayçal
+93
+ATOD 14
+2012
+*
+PHAM
+Anh Minh
+92
+AI 72
+2008
+*
+BENOIST
+Jean-Jacques
+75
+AI 78
+2010
+*
+MAHA
+Lucia
+78
+AI 82
+2011
+*
+BAGLIN
+Françoise
+75
+AI 57
+2002
+*
+VIDON
+Benjamin
+92
+ATOD 21
+2014
+*
+NGUYEN
+Kevin
+77
+ATOD 19 CP
+2013
+*
+LOUBANE
+Khalid
+93
+ATOD 3
+2008
+*
+MAHIDI
+Mohamed
+59
+ATOD 16
+2012
+*
+CARETTE
+Alain
+59
+AI 83
+2012
+*
+NIANG
+Lise
+92
+AI 68
+2006
+*
+RAKOTOSON
+Andriamahefa Mahay
+77
+AI 100
+2016
+*
+KETAM
+Zahir
+93
+AROBAS 3
+2008
+*
+PHILIPPOT
+Blandine
+25
+ATOD 13
+2011
+*
+LEGALL
+Guillaume
+94
+ATOD 16
+2012
+*
+HUGUIER
+Damien
+77
+ATOD 13
+2011
+*
+AICH-BERHAL
+Malia
+75
+ATOD 16 CP
+2012
+*
+BRION
+Lucie
+94
+AI 84
+2012
+*
+CHANTEUX
+Pamela
+78
+AI 92
+2014
+*
+BARAT
+Mathieu
+95
+ATOD 12
+2011
+*
+AHMIM
+Ferhat
+93
+ATOD 26
+2015
+*
+MOUATADIRI
+Hichem
+78
+AI 87
+2013
+*
+BARRY
+Véronique
+75
+BOBI 4
+2008
+*
+PARIENTE
+Mickael
+92
+AI 87
+2013
+*
+KOUEDY
+Corinne
+59
+AI 56
+2002
+*
+GAULIN
+Ingvild
+78
+ATOD 22 CP
+2014
+*
+GEORGES
+Guillaume
+74
+AI 61
+2003
+*
+AIT TALEB
+Lahcen
+95
+ATOD 26
+2015
+*
+LARRE-PASQUALINI
+Baptiste
+75
+ATOD 21
+2014
+*
+VIGNIER
+Matthieu
+91
+AI 76
+2009
+*
+PAGAND
+Guilaine
+92
+BOBI 5
+2008
+*
+PERRIER
+Francois Regis
+75
+AI 90
+2013
+*
+GAUMONT
+Florence
+94
+AI 73
+2008
+*
+ALLANIC
+Hervé
+78
+ATOD 12
+2011
+*
+AVERBOUCH
+Xavier (D)
+75
+AI 64
+2004
+*
+COULON
+Eric
+75
+BOBI 4
+2008
+*
+MAIZA
+Amina
+94
+AI 100
+2016
+*
+EZELIN
+Gladys
+75
+AI 89
+2013
+*
+GENTET
+Lina
+75
+BOBI 3
+2007
+*
+LANDOLSI
+Mohamed
+75
+AI 86
+2012
+*
+HEBERT
+Valentine
+75
+ATOD 15 CP
+2012
+*
+HECKA
+Julien
+93
+AI 79
+2011
+*
+BRACONNIER
+Fabien
+92
+AI 96
+2015
+*
+FINE
+Bruno
+77
+AI 64
+2004
+*
+PERRIN
+Sandrine
+91
+AI 99
+2016
+*
+LAURET
+Fabrice
+75
+AI 90
+2013
+*
+DEBLACIAT
+Ludovic
+94
+AI 75
+2009
+*
+BOTELHO
+Thais
+75
+AI 90
+2013
+*
+MORCELL
+Guillaume
+95
+AI 84
+2012
+*
+NGOR
+Hero
+92
+AI 82
+2011
+*
+HASSINE
+Halim
+94
+AI 69
+2006
+*
+DEPIERREUX
+Bertrand
+94
+AROBAS 3
+2008
+*
+CONGY
+Vincent
+51
+AI 93
+2014
+*
+MANETTE
+Peggy
+93
+AI 68
+2006
+*
+RENAUD
+Nathaelle
+94
+AROBAS 1
+2007
+*
+WEBEN
+Léa
+44
+AI 82
+2011
+*
+OREILLY
+Laurent
+92
+AI 76
+2009
+*
+PEREZ
+Michael 
+75
+ATOD 5
+2009
+*
+ROSE
+Nicolas
+77
+ATOD 6
+2009
+*
+SCOUPE
+Adrien
+93
+ATOD 19 CP
+2013
+*
+TOURE
+Guillaume
+92
+ATOD 17 CP
+2013
+*
+BEN HAMED
+Mouadh
+75
+AI 83
+2012
+*
+BAIJOT
+Marie Paule
+75
+AI 74
+2009
+*
+RODRIGUES
+Albert
+93
+AI 75
+2009
+*
+KARABADJI
+Dhaouia
+78
+AI 85
+2012
+*
+LAFAIX
+Martin
+75
+ATOD 3
+2008
+*
+BERTRAND
+Sylvie
+93
+AI 57
+2002
+*
+CADET
+Didier
+75
+BOBI 3
+2007
+*
+LINISE
+Gérald
+92
+AI 60
+2003
+*
+TRAN
+Thi Van Quynh
+75
+AI 100
+2016
+*
+LIOT
+Noah
+92
+ATOD 17
+2013
+*
+FRIKHA EL AMOURI
+Anowar
+94
+ATOD 15
+2012
+*
+BONNOT
+Charline
+75
+AI 98
+2016
+*
+BOUCHEMA
+Samir
+28
+ATOD 14
+2012
+*
+BESSE
+Erika
+92
+ATOD 23
+2015
+*
+LEHONGRE
+Maïmouna
+77
+BOBI 3
+2007
+*
+DUCET
+Timothée
+92
+AI 83
+2012
+*
+KABACHE
+Cyril
+75
+ATOD 24
+2015
+*
+BOUCHET
+Laurent
+91
+AI 86
+2012
+*
+HADI
+Fatima
+91
+BOBI 1
+2004
+*
+ELGHOUCH
+Yassin
+93
+AI 82
+2011
+*
+WOIVRÉ
+Wilfried
+92
+ATOD 10
+2010
+*
+LEVERT
+Gwenaelle 
+75
+AI 91
+2014
+*
+NGUYEN
+Christian
+94
+AI 69
+2006
+*
+RAHAMEFY
+Dominique
+75
+BOBI 3
+2007
+*
+ACHARD
+Claire
+92
+AI 94
+2015
+*
+HUET
+Antoine
+94
+AI 98
+2016
+*
+SCHREMPP
+Jean Baptiste
+75
+ATOD 2
+2008
+*
+ESCHENBRENNER
+Céline
+92
+AI 70
+2007
+*
+CRAND
+Louise
+75
+AI 94
+2015
+*
+DEHAINSALA
+Sylviane
+28
+AI 97
+2016
+*
+VASSEUR
+Chantal
+95
+ATOD 5
+2009
+*
+ALIX
+Vincent
+78
+AI 70
+2007
+*
+KABBOUCHI
+Sabar
+92
+AI 87
+2013
+*
+COLIBOEUF
+Marine
+92
+AI 92
+2014
+*
+BARNOUIN
+Régis
+77
+AI 63
+2004
+*
+DAVID
+Benoit
+75
+BOBI 1
+2004
+*
+VENES
+Aubin
+75
+AI 100
+2016
+*
+AIDER KRIMED
+Kahina
+93
+AI 97
+2016
+*
+GRAA
+Mehdi
+93
+AI 72
+2008
+*
+WOJCIK
+Agnieszka
+75
+AI 95
+2015
+*
+THERY JAVRY
+Igor
+75
+AI 88
+2013
+*
+SMADJA
+Clara
+93
+AI 96
+2015
+*
+SECK
+Amadou Doudou -12/06
+VE
+BOBI 2
+2006
+*
+CHENAOUI
+Abdelmadjid
+78
+AI 73
+2008
+*
+TCHAI
+Jacques
+94
+ATOD 20
+2014
+*
+SCHUTZ
+Anne-Claire
+93
+AI 91
+2014
+*
+MOALIC
+Esther
+94
+AROBAS 3
+2008
+*
+RICHARD
+Pierre-Claude
+75
+BOBI 1
+2004
+*
+OUAR
+Salah Eddine 
+94
+AI 77
+2010
+*
+PORTE
+Matthieu
+95
+AI 97
+2016
+*
+MAGNERON
+Christelle
+78
+AI 64
+2004
+*
+ABENDOH
+Wilfrid
+93
+AI 68
+2006
+*
+BOUTAGUERMOUCHET
+Driss
+94
+AI 77
+2010
+*
+LE BARON
+Jerome
+92
+AI 95
+2015
+*
+BENHACHOUM
+mohamed
+93
+AI 70
+2007
+*
+MARTEAU
+Rémy
+95
+ATOD 15 CP
+2012
+*
+ROCH
+Nicolas
+78
+ATOD 21
+2014
+*
+GRALL
+Sarah
+75
+ATOD 13 CP
+2011
+*
+LASHERMES
+Laurent
+94
+BOBI 2
+2006
+*
+SOUIDI
+Abdelmoula
+91
+ATOD 25
+2015
+*
+VIGNIER
+Quentin
+75
+ATOD 10
+2010
+*
+IBAZIZENE
+Malek
+75
+AI 61
+2003
+*
+CHABANE
+Lyazid
+94
+AROBAS 3
+2008
+*
+COVA
+Stéphane
+75
+AI 72
+2008
+*
+HELMBACHER
+Christine
+75
+AI 71
+2007
+*
+HADJ MOKHNECHE
+Ryadh
+91
+ATOD 21
+2014
+*
+BERTRO
+Julien
+94
+AI 74
+2009
+*
+COUZIC
+Mikael
+75
+ATOD 7
+2009
+*
+PICHON
+Sébastien
+10
+AI 75
+2009
+*
+SADON
+Claude
+75
+ATOD 5
+2009
+*
+MANCHON
+Matthieu
+92
+ATOD 11
+2011
+*
+SAY
+Patrick
+93
+AI 68
+2006
+*
+ZANIFE
+Dawé
+77
+BOBI 4
+2008
+*
+ABOULKER
+Guy
+94
+ATOD 2
+2008
+*
+GARCIA
+Emmanuelle
+75
+AI 75
+2009
+*
+DE SEROUX
+Edmond
+75
+BOBI 3
+2007
+*
+RANARIVELO
+Sebastien
+75
+AI 89
+2013
+*
+GRELIER
+Gael
+75
+AI 73
+2008
+*
+LOUVET
+Thérèse
+94
+AI 58
+2003
+*
+BARBIN
+Eugène Armand
+92
+AI 82
+2011
+*
+BELKEFOUL
+Messaoud
+93
+ATOD 1
+2012
+*
+LASRI
+Jamal
+92
+AI 95
+2015
+*
+ADEBUJI ONIKOYI
+Ifegbemiga
+93
+AI 90
+2013
+*
+LE CALVEZ
+Cyrille
+94
+AI 67
+2005
+*
+SADELER
+Joël
+92
+AI 79
+2011
+*
+LABATIE
+Fanny
+78
+ATOD 25
+2015
+*
+MBAYE
+Babacar
+75
+AI 83
+2012
+*
+LANDRE
+Emeline
+94
+AI 75
+2009
+*
+JOLLY
+Grégoire
+77
+AROBAS 1
+2007
+*
+AICH
+Samy
+94
+AI 81
+2011
+*
+RAMASWAMI
+Gita
+92
+ATOD 24
+2015
+*
+PAVETO
+Eduardo
+93
+BOBI 1
+2004
+*
+KASSEM
+Sarah
+75
+ATOD 15
+2012
+*
+FATAOUI
+Khalid
+87
+ATOD 14
+2012
+*
+ETTARROUZI
+Ahmed
+75
+ATOD 3
+2008
+*
+GREVIN
+Christophe
+91
+AI 90
+2013
+*
+AZZIMANI
+Abderrachid
+93
+AI 70
+2007
+*
+FAVIER
+Liliana Alicia 
+78
+ATOD 8
+2010
+*
+SOUFIT
+Omar
+94
+AROBAS 2
+2007
+*
+CHONE
+Martin
+92
+AI 93
+2014
+*
+YAHIAOUI
+Marwan
+92
+ATOD 15 CP
+2012
+*
+MOUSSOUNDA
+Fanelly
+94
+AI 92
+2014
+*
+SIRI
+Benoît
+78
+AI 77
+2010
+*
+SELLAM
+Cyril
+93
+ATOD 17
+2013
+*
+JARRIER
+Nicolas
+31
+ATOD 11
+2011
+*
+BAZIN
+Eric
+94
+AI 58
+2003
+*
+MARCHAND
+Guillaume
+78
+ATOD 4
+2008
+*
+LEFEVRE
+Florence
+94
+AROBAS 3
+2008
+*
+CHICHEPORTICHE
+Stéphane
+95
+ATOD 8
+2010
+*
+CALAFAT
+Eric
+75
+AI 98
+2016
+*
+LE GOFF
+Loic
+94
+AI 90
+2013
+*
+LAÏ
+Rodolphe
+75
+ATOD 13
+2011
+*
+GUIGNARD
+Ollivier
+75
+ATOD 18
+2013
+*
+JARRY
+Rémi
+91
+AI 99
+2016
+*
+SORIN
+Gaétan
+75
+AI 82
+2011
+*
+LANGLOIS
+Camille
+75
+AI 91
+2014
+*
+NAIT BRAHIM
+Ahmed
+91
+AI 74
+2009
+*
+GONZALES
+Arnaud
+75
+AI 65
+2004
+*
+KONG
+Ledine
+92
+ATOD 11
+2011
+*
+LATRECHE
+Sabrina
+92
+AI 95
+2015
+*
+GUENZI
+Filippo
+75
+ATOD 24
+2015
+*
+ALEXIS
+Cedric
+75
+AI 90
+2013
+*
+CANY
+Jérôme
+78
+AI 77
+2010
+*
+LE FEURMOU
+Quentin
+75
+AI 86
+2012
+*
+SLEEM-AMER
+Mona
+75
+ATOD 16
+2012
+*
+EL HACHIMI EL IDRISSI
+Fouad
+77
+BOBI 3
+2007
+*
+WILLYBIRO
+Joshua
+77
+AI 92
+2014
+*
+MICHEL
+Franck
+78
+AI 60
+2003
+*
+BOITTIAUX
+Arnaud
+95
+AI 98
+2016
+*
+GARCIA
+Patrick
+78
+ATOD 13
+2011
+*
+DAPHNÉ
+Dario
+93
+AI 56
+2002
+*
+BLONDEAU
+Benoit
+77
+AI 66
+2005
+*
+RAKOTOMALALA
+Mikaël
+75
+AI 69
+2006
+*
+TERAI
+Nordine
+94
+AI 59
+2003
+*
+VINAYAGAME
+Vincent
+93
+AI 67
+2005
+*
+GURFEIN
+Evelyne
+75
+BOBI 5
+2008
+*
+BOUIZEM
+Assia
+78
+AI 79
+2011
+*
+DUPUY
+Pascal
+78
+ATOD 13 CP
+2011
+*
+CLOT
+Jean-Baptiste
+75
+AI 57
+2002
+*
+KORRICHE
+Amine
+31
+AI 70
+2007
+*
+RAZAFINDRAKOTO
+Mamy
+77
+ATOD 16
+2012
+*
+SOULAIMANE
+Ismail
+75
+ATOD 22
+2014
+*
+RAKOTOBE
+Nalisoa
+92
+AI 88
+2013
+*
+HOLMES
+Kelly
+93
+AI 71
+2007
+*
+TEMMAN
+Elie
+93
+AI 58
+2003
+*
+AMARELIS
+Patrick
+75
+AI 68
+2006
+*
+TAN
+Rosane
+13
+AI 95
+2015
+*
+BROCHIER
+Renaud
+92
+AI 68
+2006
+*
+ORTIZ MAINGUY
+Sybille
+78
+ATOD 18 CP
+2013
+*
+ALAIME
+Jean-Christophe
+95
+AI 60
+2003
+*
+SUISSA
+Jonathan
+92
+AI 71
+2007
+*
+MOHAMED
+Ali
+91
+ATOD 22 CP
+2014
+*
+STEHR
+Gabriel
+75
+ATOD 20
+2014
+*
+GUILLOUX
+Karine
+91
+ATOD 20 CP
+2014
+*
+LIN
+Ling
+75
+AI 76
+2009
+*
+TRAN
+Vinh San Carole
+75
+AI 72
+2008
+*
+TAMOUZA
+Karim
+75
+AI 71
+2007
+*
+BERNAUD
+Philippe
+77
+AROBAS 3
+2008
+*
+DE LAROCHE
+Laure
+75
+AI 87
+2013
+*
+DIARRASSOUBA
+Lassina
+75
+AI 81
+2011
+*
+AMACH
+Mourad
+95
+AI 77
+2010
+*
+WANG
+Fen
+78
+AI 97
+2016
+*
+RASOLOFOMIADANA
+Mamy
+94
+AI 77
+2010
+*
+BIRIBIN
+Delphine
+94
+AI 81
+2011
+*
+ARAB
+Bouchta
+91
+AI 82
+2011
+*
+MOUATADIRI
+Hichem
+78
+ATOD 21 CP
+2014
+*
+DEGENETAIS
+Eric
+92
+AI 61
+2003
+*
+BACHA
+Souhila
+75
+AI 86
+2012
+*
+STEVA
+Nathalie
+77
+AI 92
+2014
+*
+DALLAN
+Albina
+28
+ATOD 3
+2008
+*
+RUHLMANN
+Caroline
+75
+AI 84
+2012
+*
+MIRZA
+Mimouna
+93
+ATOD 8
+2010
+*
+ANDRIANASOLO
+Tatiana
+77
+AI 97
+2016
+*
+BOUTABBA
+Abdellali
+93
+AI 59
+2003
+*
+SEVERI
+Emmanuel
+94
+ATOD 4
+2008
+*
+KOSKAS
+Thierry
+78
+BOBI 2
+2006
+*
+BELZINCE
+Pierre
+94
+AI 83
+2012
+*
+PILON
+Christine
+93
+ATOD 1
+2012
+*
+TRAN
+Dara
+75
+ATOD 17 CP
+2013
+*
+TALBI
+Malika
+91
+ATOD 3
+2008
+*
+LOPEZ
+Jean-Paul 
+91
+ATOD 8
+2010
+*
+IDRISSI
+Radoin
+75
+AI 80
+2011
+*
+GALLAN
+Romain
+94
+ATOD 18
+2013
+*
+SOURY
+Stéphane
+75
+AI 61
+2003
+*
+RAZAFITSALAMA
+Hoby
+91
+ATOD 5
+2009
+*
+DE LATOUR
+Isabelle
+06
+AI 67
+2005
+*
+MILON
+Michèle
+93
+BOBI 2
+2006
+*
+ARICI
+Ozcan
+61
+ATOD 6
+2009
+*
+HADJ AHMED
+Karim
+93
+AI 97
+2016
+*
+HABBAS
+Samir
+75
+AI 64
+2004
+*
+MAYOUF
+Mickael
+94
+AI 87
+2013
+*
+FIERS
+Alexis
+92
+AI 78
+2010
+*
+GOBARD
+Jamila
+93
+AI 56
+2002
+*
+AMBARKI
+Youssef
+93
+AI 73
+2008
+*
+TRAN
+Van Phuong
+93
+ATOD 3
+2008
+*
+CHAIRAT
+Ali
+93
+AI 88
+2013
+*
+BERKENNOU
+Kamel
+59
+ATOD 3
+2008
+*
+MERCIER
+Stéphane
+93
+ATOD 14
+2012
+*
+AMOUSSOU
+Régis
+75
+ATOD 10
+2010
+*
+OUCHETTO
+Ouail
+92
+ATOD 6
+2009
+*
+RAMASWAMI
+Gita
+92
+AI 93
+2014
+*
+HAMOUDI
+Kamal
+94
+BOBI 5
+2008
+*
+BERDAH
+Elie
+92
+ATOD 2
+2008
+*
+LY
+Bounsy
+77
+AI 59
+2003
+*
+MIMOUNI
+Hicham
+92
+ATOD 4
+2008
+*
+RIO
+Benoît
+94
+ATOD 6
+2009
+*
+THEBAULT
+Julien
+92
+ATOD 22
+2014
+*
+PITOU
+Alexandre
+91
+AI 75
+2009
+*
+CORNICE
+Idriss
+78
+ATOD 20
+2014
+*
+DIABY
+Siyata
+93
+AI 75
+2009
+*
+MICHOLET
+Christian
+75
+ATOD 12
+2011
+*
+ABERWAG
+Boubker
+59
+ATOD 25
+2015
+*
+BUTEL
+Stéphane
+78
+AI 78
+2010
+*
+MUNOS
+Olivier
+75
+ATOD 21 CP
+2014
+*
+LABALETTE
+François
+92
+ATOD 13
+2011
+*
+YEE KUI CHOI
+Rodrigue
+98
+ATOD 18
+2013
+*
+CHARLERY
+Fabrice
+93
+ATOD 15 CP
+2012
+*
+BATANA
+Célia
+93
+AI 97
+2016
+*
+MEILLON
+Hélène
+75
+AI 73
+2008
+*
+FUNG
+Limine
+75
+AI 84
+2012
+*
+LE MEUR
+Thierry
+75
+BOBI 5
+2008
+*
+MESSOLO
+Jules
+77
+AI 79
+2011
+*
+AUTIER
+Philippe
+75
+BOBI 2
+2006
+*
+HOFF
+Frédéric
+92
+ATOD 20
+2014
+*
+HATEY
+Anne
+78
+ATOD 20
+2014
+*
+LITTMAN
+Kate
+94
+AI 91
+2014
+*
+MILLER
+Patrick
+93
+AI 77
+2010
+*
+NGUYEN-HUU
+Cecile
+75
+AI 94
+2015
+*
+HARRIOUI
+Boubker
+94
+AI 90
+2013
+*
+HIRRIEN
+Gwénaëlle
+75
+ATOD 19 CP
+2013
+*
+BEN AISSA 
+Mohamed Fadhel
+95
+AI 84
+2012
+*
+GUILLAUME
+Patrice
+75
+AI 85
+2012
+*
+KINYONGO
+Jacques
+93
+AI 74
+2009
+*
+CORJON
+Vincent
+92
+ATOD 19
+2013
+*
+JEREMIE
+Aurore
+93
+AI 91
+2014
+*
+BONFILS
+Laëtitia
+92
+ATOD 9
+2010
+*
+DE MOURA
+Frédéric
+78
+AI 65
+2004
+*
+CHAMOIN
+Laurent
+14
+ATOD 9
+2010
+*
+DAVID
+Baptiste
+75
+ATOD 25
+2015
+*
+LADREIT
+Mathias
+75
+AI 89
+2013
+*
+HICHRI
+Sabrine
+95
+ATOD 26
+2015
+*
+EL MIR
+Hafid
+37
+AI 72
+2008
+*
+CASSIRAME
+Muriel
+92
+AI 62
+2004
+*
+MORTAS
+Patrick
+94
+AI 67
+2005
+*
+GILLME
+Thomas
+75
+ATOD 23
+2015
+*
+ABDENNEBI
+Dalila
+94
+AI 71
+2007
+*
+CHAU D'ALENÇON
+Thanh 
+78
+AI 99
+2016
+*
+POUANT
+Justin
+92
+AI 64
+2004
+*
+CHARDAVOINE-ROQUES
+Patrick
+94
+AI 56
+2002
+*
+BABEL
+Frédéric
+31
+AROBAS 3
+2008
+*
+DE MIJOLLA
+Thibaud
+94
+AI 98
+2016
+*
+ALEXANDRE
+Matthieu
+93
+AI 93
+2014
+*
+YACINI
+Samir
+92
+AI 88
+2013
+*
+KARRAY
+Rafiaa
+93
+AI 67
+2005
+*
+CHAUDHRY
+Carine
+94
+AROBAS 1
+2007
+*
+PEPIN
+Azanguim Faustin
+78
+AI 95
+2015
+*
+MITYAR
+Hedi
+93
+AROBAS 2
+2007
+*
+RAHMOUNI
+Chahrazede
+75
+ATOD 15
+2012
+*
+RAOELINA
+Jean-Henri
+78
+ATOD 17
+2013
+*
+RAMEY
+Guillaume
+75
+AI 71
+2007
+*
+CHABREUIL
+Christophe
+91
+AI 60
+2003
+*
+RICAUD
+Benoît
+92
+AI 83
+2012
+*
+ABIKCHI
+Sabrina
+94
+AROBAS 1
+2007
+*
+AMANI
+Annick
+92
+AI 65
+2004
+*
+HEBERT
+Valentine
+75
+AI 81
+2011
+*
+HANG
+Hai Tuan
+75
+AI 74
+2009
+*
+BOTELHO
+Thais
+75
+ATOD 21
+2014
+*
+CANONNE
+Frédéric
+78
+AI 75
+2009
+*
+ALEXIS
+Cedric
+75
+ATOD 21 CP
+2014
+*
+BAKOULA
+Arnaud
+94
+ATOD 10
+2010
+*
+DELOL
+Marie-France
+75
+AI 96
+2015
+*
+JALLAIN
+Pierre
+95
+AI 96
+2015
+*
+COZANET
+Sophie
+94
+AI 81
+2011
+*
+EYRIGNOUX
+Thomas
+77
+ATOD 21
+2014
+*
+FOUILLIT
+Magali
+78
+AI 71
+2007
+*
+BOUNGNARITH
+Alexandre
+75
+AI 69
+2006
+*
+SAID AHMED
+Hosni
+75
+AI 80
+2011
+*
+FLAMBARD
+Thierry
+92
+ATOD 16
+2012
+*
+CHEN
+Qu Ava
+75
+AI 96
+2015
+*
+BEN SALAH
+Faouzi
+75
+AI 87
+2013
+*
+BIRIBIN
+Delphine
+94
+ATOD 15 CP
+2012
+*
+VIALLEFOND
+Jean-Yves
+35
+AI 60
+2003
+*
+RHELLAB
+Imad
+91
+AROBAS 2
+2007
+*
+POGNON
+Christophe
+92
+ATOD 5
+2009
+*
+BRAGATTO
+Ivan
+75
+AI 99
+2016
+*
+GHAFFAR
+Shafquat
+94
+AI 65
+2004
+*
+RAKOTOMALALA
+Yann
+60
+AI 72
+2008
+*
+CHAPUIS
+Romuald
+75
+AI 59
+2003
+*
+RATKOVIC
+Vladimir
+94
+AI 58
+2003
+*
+GUILLAUME
+Patrice
+75
+ATOD 19 CP
+2013
+*
+CHAMTYOO
+Micheline
+95
+AI 66
+2005
+*
+MBAYE
+Mame Diarra
+91
+AI 70
+2007
+*
+THIOUNE
+Elhadji
+37
+AI 100
+2016
+*
+AZZOUT
+Hisham
+75
+ATOD 3
+2008
+*
+ALIZE
+Francoise
+75
+ATOD 18
+2013
+*
+BELLOCQ
+Christophe
+75
+AI 66
+2005
+*
+DRIFI
+Karim
+78
+ATOD 20
+2014
+*
+GUENZI
+Filippo
+75
+AI 93
+2014
+*
+AYARI
+Ilyes
+75
+ATOD 13
+2011
+*
+ZOUAOUI
+Faouzi
+75
+ATOD 10
+2010
+*
+PANNIER
+Vincent
+92
+AI 99
+2016
+*
+CHOUAIB
+Najib
+75
+ATOD 12
+2011
+*
+MOSES
+Nicholas
+75
+AI 89
+2013
+*
+MIDASSI
+Ayda
+77
+AI 100
+2016
+*
+HUBENS
+Stéphane
+75
+AI 67
+2005
+*
+CHARLERY
+Fabrice
+93
+AI 82
+2011
+*
+FOUCHAL
+Nabil
+93
+AI 94
+2015
+*
+RANO
+Nicolas
+94
+AI 93
+2014
+*
+LAURIN
+Cilio
+77
+AI 88
+2013
+*
+BENDJEDA
+Mouna
+75
+AI 84
+2012
+*
+EMBOUAZZA
+Rachid
+77
+AI 96
+2015
+*
+NGUYEN THANH
+William
+75
+AI 60
+2003
+*
+BAL
+Pierre
+75
+AI 57
+2002
+*
+AIRAUD
+Maxime
+75
+AI 100
+2016
+*
+PEM PAGBE
+Andre Joseph
+94
+AI 62
+2004
+*
+LEROUSSEAUD
+Cédric
+31
+AI 76
+2009
+*
+PEREIRA
+Fernando
+77
+AI 70
+2007
+*
+AMENZOU
+Naoufel
+80
+CDA 01
+2018
+*
+BATARINA
+Nataliya
+75
+CDA 01
+2018
+*
+BOUIN
+Sarah
+92
+CDA 01
+2018
+*
+GUELLIL
+Youcef
+75
+CDA 01
+2018
+*
+KIYOSE
+Miyuki
+94
+CDA 01
+2018
+*
+MORAWSKI
+Arthur
+93
+CDA 01
+2018
+*
+NTOUTOUME
+Marcel
+93
+CDA 01
+2018
+*
+PATERNITI
+Francesca
+75
+CDA 01
+2018
+*
+RIOLLET
+Christine
+93
+CDA 01
+2018
+*
+SAMI
+Hinde
+92
+CDA 01
+2018
+*
+VERGER
+Nicolas
+77
+CDA 01
+2018
+*
+ANDRIANTSOAVINA
+Tsitohaina
+94
+CDA 02
+2018
+*
+BARKER
+Sarah-Marie
+93
+CDA 02
+2018
+*
+BARTHELEMY
+Jean-Baptiste
+92
+CDA 02
+2018
+*
+COTEL
+Valérie
+75
+CDA 02
+2018
+*
+D'AMBROSIO
+Anthony
+95
+CDA 02
+2018
+*
+DOAN
+Amélie
+75
+CDA 02
+2018
+*
+FAFOURI
+Assia
+75
+CDA 02
+2018
+*
+JACOB
+Laetitia
+93
+CDA 02
+2018
+*
+JOVENIAUX
+Julien
+44
+CDA 02
+2018
+*
+LAOUIREM
+Fatma-Zohra
+92
+CDA 02
+2018
+*
+MAGALHAES
+Lucas
+91
+CDA 02
+2018
+*
+NAVRUZ
+David Selcuk
+75
+CDA 02
+2018
+*
+PALLUEL
+Nicolas
+92
+CDA 02
+2018
+*
+PATEY
+Julien
+93
+CDA 02
+2018
+*
+PETIT
+François
+94
+CDA 02
+2018
+*
+VLASIC
+Tristan
+91
+CDA 02
+2018
+*
+YAMASHITA
+François
+75
+CDA 02
+2018
+*
+ANDRIANOMENJANAHARY
+Timothy
+93
+CDA 03
+2019
+*
+BESSALLA
+Stéphane
+94
+CDA 03
+2019
+*
+CHIFA
+Anamaria
+95
+CDA 03
+2019
+*
+CHOPIN
+Sébastien
+78
+CDA 03
+2019
+*
+GAJNY
+Qin
+91
+CDA 03
+2019
+*
+GIBSON
+Thomas
+94
+CDA 03
+2019
+*
+HAMMAMI
+Soumaya
+78
+CDA 03
+2019
+*
+KHODER
+Rabih
+92
+CDA 03
+2019
+*
+LOFFLER
+Ludwig
+95
+CDA 03
+2019
+*
+LUSHNIKOVA
+Irina
+75
+CDA 03
+2019
+*
+MAIGA
+Hadeye
+94
+CDA 03
+2019
+*
+MARCHAL
+Héloïse
+75
+CDA 03
+2019
+*
+MERCK
+Daphné
+94
+CDA 03
+2019
+*
+TCHINDA MALA
+Tatiana
+91
+CDA 03
+2019
+*
+AGIL ASSOUVIE
+Angélique
+95
+CDA 04
+2019
+*
+BELAID
+Lylia
+94
+CDA 04
+2019
+*
+BERQOUCH
+Nawel
+77
+CDA 04
+2019
+*
+BUYUKISPIR
+Clément
+92
+CDA 04
+2019
+*
+CHOLAY
+Michael
+94
+CDA 04
+2019
+*
+DELANOE
+Nadège
+94
+CDA 04
+2019
+*
+FANG
+Ying
+94
+CDA 04
+2019
+*
+KAM
+Michael
+93
+CDA 04
+2019
+*
+LEGEAY
+Camille
+75
+CDA 04
+2019
+*
+LEONARD
+David
+91
+CDA 04
+2019
+*
+LIANG
+Zhifeng
+92
+CDA 04
+2019
+*
+MABROUK
+Hanane
+78
+CDA 04
+2019
+*
+NIANG
+Alpha Boubou
+94
+CDA 04
+2019
+*
+ONDO NGUEMA
+André
+78
+CDA 04
+2019
+*
+VARNIER
+Stéphane
+75
+CDA 04
+2019
+*
+VAYAS PEDERSEN
+Sofia
+78
+CDA 04
+2019
+*
+ZAKARIA
+Abdoul Mouize
+91
+CDA 04
+2019
+*
+AZEDDINE
+Myriam
+76
+CDA 05
+2019
+*
+CHERFA
+Nassim
+93
+CDA 05
+2019
+*
+CHIBA
+Ons
+92
+CDA 05
+2019
+*
+CREVIEUX
+Anthony
+91
+CDA 05
+2019
+*
+EL OUESLETI
+Afef
+78
+CDA 05
+2019
+*
+FAUVEL-BERINGS
+Alexandre
+75
+CDA 05
+2019
+*
+GUECHOUD
+Idir
+92
+CDA 05
+2019
+*
+JACQUET
+Thomas
+75
+CDA 05
+2019
+*
+KTATA
+Marwa
+92
+CDA 05
+2019
+*
+LAQUITAINE
+Marjorie
+94
+CDA 05
+2019
+*
+MARTEAU
+Robin
+75
+CDA 05
+2019
+*
+MERLE
+Juliette
+94
+CDA 05
+2019
+*
+MONTASSAR
+Nouha-Touzeur
+92
+CDA 05
+2019
+*
+PLESSIS
+Luying
+92
+CDA 05
+2019
+*
+SLAIMIA
+Marouen
+94
+CDA 05
+2019
+*
+SRHIR
+Abdeljalil
+75
+CDA 05
+2019
+*
+TASDELEN
+Ebru
+93
+CDA 05
+2019
+*
+TRIESTE
+Wendy
+91
+CDA 05
+2019
+*
+HARLE
+Audrey
+75
+CDA 05
+2019
+*
+ALLOUCHE
+Halim
+75
+CDA 06
+2020
+*
+BENFAIDA
+Amine
+94
+CDA 06
+2020
+*
+BOSSARD
+Pierre-Baptiste
+75
+CDA 06
+2020
+*
+CHASTAING
+Sandrine
+93
+CDA 06
+2020
+*
+DAHER YAHFOUFI
+Mohamed
+94
+CDA 06
+2020
+*
+GALEA
+Nolwenn
+92
+CDA 06
+2020
+*
+MALALA
+Vonjiniaina
+94
+CDA 06
+2020
+*
+MEHALLA
+Massinissa
+78
+CDA 06
+2020
+*
+NUMPAQUE MORCOTE
+Marlon Andres
+69
+CDA 06
+2020
+*
+PAGENEL
+Amélie
+75
+CDA 06
+2020
+*
+PLOYART
+Florane
+59
+CDA 06
+2020
+*
+TIKOMBOUO MATSIAZE
+Claudia
+77
+CDA 06
+2020
+*
+AMARI
+Nora
+75
+CDA 07
+2020
+*
+BARKHATOVA
+Maria
+21
+CDA 07
+2020
+*
+BOUFLIJA
+Amira
+95
+CDA 07
+2020
+*
+BOUSQUET
+Margaux
+92
+CDA 07
+2020
+*
+CHOUAIB
+Fatima
+75
+CDA 07
+2020
+*
+DELOFFRE
+Thomas
+62
+CDA 07
+2020
+*
+JAMMY
+Najat
+78
+CDA 07
+2020
+*
+KULBACKI
+Roman
+38
+CDA 07
+2020
+*
+MOISON
+Michael
+78
+CDA 07
+2020
+*
+MONTEIRO
+Valentin
+94
+CDA 07
+2020
+*
+NANFANG
+Axelle
+95
+CDA 07
+2020
+*
+PETIT
+Jean-Baptiste
+91
+CDA 07
+2020
+*
+POULET MATHIS
+Pierre
+92
+CDA 07
+2020
+*
+QI
+Lu
+75
+CDA 07
+2020
+*
+TRAN
+Michel
+94
+CDA 07
+2020
+*
+AAMOUM
+Lamiaa
+91
+CDA 08
+2020
+*
+ABDENNAJI
+Hibatallah
+92
+CDA 08
+2020
+*
+ANDRIAMBAHOAKA
+Tefi
+31
+CDA 08
+2020
+*
+CARDINALI
+Alexandre
+75
+CDA 08
+2020
+*
+CELANIE
+Corinne
+94
+CDA 08
+2020
+*
+EL OUARTASSI
+Iliès
+14
+CDA 08
+2020
+*
+KADI
+Abderrahmane Khaled
+94
+CDA 08
+2020
+*
+KANTE
+Moriféré
+94
+CDA 08
+2020
+*
+KAROUN
+Meryem
+93
+CDA 08
+2020
+*
+KHEBBACHE
+Farida
+57
+CDA 08
+2020
+*
+KUNCA
+Thomas
+57
+CDA 08
+2020
+*
+MBATEU
+Pétronille Raissa
+95
+CDA 08
+2020
+*
+SERTCELIK
+Teoman
+93
+CDA 08
+2020
+*
+WATFA
+Diana
+91
+CDA 08
+2020
+*
+BENOIT
+Chunmei
+93
+CDA 09
+2021
+*
+BISSON
+Olivier
+91
+CDA 09
+2021
+*
+BROSSE
+Nicolas
+42
+CDA 09
+2021
+*
+DIAGNE
+Hawa
+78
+CDA 09
+2021
+*
+EL MEJJAD
+Youssef
+93
+CDA 09
+2021
+*
+MANDALANIC
+Marc
+34
+CDA 09
+2021
+*
+MANGA
+Marthe-Lorraine
+77
+CDA 09
+2021
+*
+MANIK
+Fitriana
+75
+CDA 09
+2021
+*
+NGUYEN
+Khang
+93
+CDA 09
+2021
+*
+PEYROT
+Emeline
+75
+CDA 09
+2021
+*
+RAKOTOARISOA
+Etienne
+93
+CDA 09
+2021
+*
+RICHEZ
+Geoffroy
+36
+CDA 09
+2021
+*
+ASSAS
+Amine
+31
+CDA 10
+2021
+*
+BAH
+Aissatou
+32
+CDA 10
+2021
+*
+BELALAHY
+Hortensia
+94
+CDA 10
+2021
+*
+BIEDRON
+Patrick
+92
+CDA 10
+2021
+*
+BOUZIDI
+Walid
+93
+CDA 10
+2021
+*
+CHOL
+Olivier
+33
+CDA 10
+2021
+*
+CRESPEL
+Romain
+93
+CDA 10
+2021
+*
+DEBAT
+Julien
+44
+CDA 10
+2021
+*
+ELDJAMA
+Atik
+75
+CDA 10
+2021
+*
+FATHALLAH
+Amine
+91
+CDA 10
+2021
+*
+FLAMARIQUE
+Paola
+75
+CDA 10
+2021
+*
+HODEL
+Mickael
+55
+CDA 10
+2021
+*
+LEBRETON
+Gaetan
+85
+CDA 10
+2021
+*
+MARTINETTI
+Sebastien
+31
+CDA 10
+2021
+*
+NGASSA
+Pinauchel
+75
+CDA 10
+2021
+*
+SMAOUI
+Marwa
+75
+CDA 10
+2021
+*
+AMIENS
+Jason
+91
+CDA 11
+2021
+*
+BAYE
+Mohamed
+75
+CDA 11
+2021
+*
+DECAMPS
+Jonathan
+38
+CDA 11
+2021
+*
+EDUARDA TORRES
+Maria
+75
+CDA 11
+2021
+*
+EUGENE
+Emmanuel
+93
+CDA 11
+2021
+*
+JELASSI
+Aymen
+60
+CDA 11
+2021
+*
+KRINBARG
+Lorraine
+75
+CDA 11
+2021
+*
+PEAN
+Eléonore
+75
+CDA 11
+2021
+*
+PETIT
+Jordan
+95
+CDA 11
+2021
+*
+PHOULEUANGTHONG
+Vina
+94
+CDA 11
+2021
+*
+POSCH
+Jasmin
+75
+CDA 11
+2021
+*
+RENNES
+Nathalie
+75
+CDA 11
+2021
+*
+SANKHOR
+Alpha
+25
+CDA 11
+2021
+*
+IKONNIKOVA
+Evgenia
+13
+CDA 12
+2021
+*
+ROJAS
+Tania
+28
+CDA 12
+2021
+*
+BENMOKRANE
+Houria
+95
+CDA 13
+2021
+*
+BRAGA DE SOUA
+Diego
+00
+CDA 13
+2021
+*
+PRISO
+Jeanne
+75
+CDA 13
+2021
+*
+BENCHEHIDA
+Nacer
+31
+CDA 14
+2021
+*
+BOUMEDIENE
+Leila
+92
+CDA 14
+2021
+*
+CISSE
+Djenaba
+92
+CDA 14
+2021
+*
+CISSE
+Ada
+95
+CDA 14
+2021
+*
+ENGELMANN
+Jeremy
+77
+CDA 14
+2021
+*
+EQUISOAIN
+Cristina
+91
+CDA 14
+2021
+*
+FAUCILLION
+Matthieu
+75
+CDA 14
+2021
+*
+KAYA
+Fatima
+59
+CDA 14
+2021
+*
+LAUNAY
+David
+92
+CDA 14
+2021
+*
+PROST TOURNIER
+Stéphane
+74
+CDA 14
+2021
+*
+RCHOUK
+Sara
+94
+CDA 14
+2021
+*
+TOYER
+Renaud
+75
+CDA 14
+2021
+*
+BENZIANE
+Bilal
+77
+CDA 15
+2021
+*
+BOULKEROUA
+Antoine
+94
+CDA 15
+2021
+*
+KAMMEGNE NGOUABOU
+Paul Henri
+60
+CDA 15
+2021
+*
+KANFANA
+Fatoumata
+94
+CDA 15
+2021
+*
+KASTANE
+GUYTRI
+78
+CDA 15
+2021
+*
+KOMBET
+Romy
+92
+CDA 15
+2021
+*
+KRID
+Othmann
+92
+CDA 15
+2021
+*
+MOTTE
+Antoine
+93
+CDA 15
+2021
+*
+PARMENON
+Damien
+45
+CDA 15
+2021
+*
+PROVENIER
+Bruno
+34
+CDA 15
+2021
+*
+RAZANAMANANA
+Faramalala
+75
+CDA 15
+2021
+*
+SENICOURT
+Yann
+78
+CDA 15
+2021
+*
+TIREL
+Mateusz
+92
+CDA 15
+2021
+*
+AYACHE
+ALI
+60
+CDA 16
+2022
+*
+BARROS
+Lionel
+75
+CDA 16
+2022
+*
+DE MARIGNAN
+Amaury
+56
+CDA 16
+2022
+*
+DU MANOIR
+Gaetan
+38
+CDA 16
+2022
+*
+GARITTE
+Pierre
+67
+CDA 16
+2022
+*
+HAMDI
+Maryem
+93
+CDA 16
+2022
+*
+GOMBAKOMBA
+Tanaka
+94
+CDA 16
+2022
+*
+KOUADA
+Sirine
+91
+CDA 16
+2022
+*
+LAURENT
+Jonathan
+92
+CDA 16
+2022
+*
+ROCHHI
+Mounia
+78
+CDA 16
+2022
+*
+SAMAGASSI
+Mohamed
+75
+CDA 16
+2022
+*
+SOURIGUES
+Yannick
+40
+CDA 17
+2022
+*
+BIAS BI NDOUM
+Jules
+38
+CDA 17
+2022
+*
+DUBOIS
+Benjamin
+60
+CDA 17
+2022
+*
+FERRIE
+Frederic Maurice
+75
+CDA 17
+2022
+*
+HABCHI
+Hamid
+78
+CDA 17
+2022
+*
+MADI
+Houda
+78
+CDA 17
+2022
+*
+NGUENGA DONGHO
+Romuald
+78
+CDA 17
+2022
+*
+TALEB
+Farah
+29
+CDA 17
+2022
+*
+BENMAKHLOUF
+Fouzi
+13
+CDA 18
+2022
+*
+DAUBERMANN
+Maxime
+62
+CDA 18
+2022
+*
+DELEUIL
+Adrien
+81
+CDA 18
+2022
+*
+EL HADJ
+Hideya
+71
+CDA 18
+2022
+*
+GHARBI 
+Tasnim
+77
+CDA 18
+2022
+*
+GUEYE
+Papa Modou
+76
+CDA 18
+2022
+*
+KALOMBO
+Valery
+77
+CDA 18
+2022
+*
+MBA ANDJEMBE
+Arsene Yorick
+49
+CDA 18
+2022
+*
+RAVELONARY
+Christophe
+92
+CDA 18
+2022
+*
+SORHAINDO
+Myriam
+91
+CDA 18
+2022
+*
+BADJI
+Ousmane
+93
+CDA 20
+2022
+*
+BADJI
+Maymouna
+78
+CDA 20
+2022
+*
+BOUSQUET
+Marianne
+11
+CDA 20
+2022
+*
+DIBOUNE
+Clement
+72
+CDA 20
+2022
+*
+HARISPURU
+Pierre
+65
+CDA 20
+2022
+*
+JABRANE
+Ayoub
+67
+CDA 20
+2022
+*
+PHO
+Anthony
+75
+CDA 20
+2022
+*
+PHUNG
+Wing Kit
+94
+CDA 20
+2022
+*
+SOUISSI
+Riadh
+92
+CDA 20
+2022
+*
+KAZANDJIAN
+Anna
+69
+CDA 21
+2022
+*
+BARREAU
+Joseph
+87
+CDA 21
+2022
+*
+BRIERRE
+Marie
+78
+CDA 21
+2022
+*
+DELAUNAY
+Sebastien
+44
+CDA 21
+2022
+*
+HURLIN
+Nathalie
+56
+CDA 21
+2022
+*
+KEUROGHLANIAN
+Rocio Yamila
+34
+CDA 21
+2022
+*
+LALONDE
+Tiphaine
+75
+CDA 21
+2022
+*
+OUAFO KENGNE
+Joachim
+27
+CDA 21
+2022
+*
+RULOF
+Melanie
+38
+CDA 21
+2022
+*
+TANGUY
+Franck
+93
+CDA 21
+2022
+*
+VALLIN
+Jerome
+69
+CDA 21
+2022
+*
+BONFIGLI
+Michelle
+33
+CDA 22
+2022
+*
+CASTILLO
+Abigael
+69
+CDA 22
+2022
+*
+CERISIER
+Adrien
+94
+CDA 22
+2022
+*
+EL MAHJOUR
+Asmma
+92
+CDA 22
+2022
+*
+FERCHOULI
+Nassim
+94
+CDA 22
+2022
+*
+GUILLIN
+Amaury
+91
+CDA 22
+2022
+*
+HARY
+Alexandre
+33
+CDA 22
+2022
+*
+HOSSEINI MILANI
+Hossein Seyed
+45
+CDA 22
+2022
+*
+PAUBEL
+Paul
+75
+CDA 22
+2022
+*
+REBAIA
+Sophiane
+83
+CDA 22
+2022
+*
+RIMBAULT
+Manuela
+38
+CDA 22
+2022
+*
+TIWA
+Gabin
+78
+CDA 22
+2022
+*
+ARBAM
+Saine
+95
+CDA 23
+2022
+*
+AYEB
+Wafa
+91
+CDA 23
+2022
+*
+BANOUH
+Syphax
+69
+CDA 23
+2022
+*
+Kamdem Kouam
+Yannick
+78
+CDA 23
+2022
+*
+LAGRANGE
+Laura
+74
+CDA 23
+2022
+*
+MONTIEL
+Sebastien
+30
+CDA 23
+2022
+*
+REJA
+Diane
+75
+CDA 23
+2022
+*
+SAID
+Moncif
+33
+CDA 23
+2022
+*
+Senant
+Trevor
+92
+CDA 23
+2022
+*
+TIGUEMOUNINE
+Imane
+60
+CDA 23
+2022
+*
+TOUDOIRE
+Louis-Marie
+92
+CDA 23
+2022
+*
+ZHANG
+Jin
+75
+CDA 23
+2022
+*
+LOUKIT
+TOUFIK
+75
+AL 10
+2021
+*
+LADUGUIE
+Quentin
+47
+AL 10
+2021
+*
+MARIADES
+Anton
+93
+AL 10
+2021
+*
+AMIENS
+Jason
+91
+AL 11
+2021
+*
+BAYE
+Mohamed
+75
+AL 11
+2021
+*
+DECAMPS
+Jonathan
+38
+AL 11
+2021
+*
+AIT-OUARAD
+Laetitia
+94
+AL 11
+2021
+*
+EDUARDA TORRES
+Maria
+75
+AL 11
+2021
+*
+JELASSI
+Aymen
+60
+AL 11
+2021
+*
+KRINBARG
+Lorraine
+75
+AL 11
+2021
+*
+PEAN
+Eléonore
+75
+AL 11
+2021
+*
+PETIT
+Jordan
+95
+AL 11
+2021
+*
+PHOULEUANGTHONG
+Vina
+94
+AL 11
+2021
+*
+SANKHOR
+Alpha
+25
+AL 11
+2021
+*
+SORHAINDO
+Marc
+93
+AL 11
+2021
+*
+ABRATE
+Alexis
+93
+AL 12
+2021
+*
+AGACIAK
+Philippe
+62
+AL 12
+2021
+*
+AIGRON
+Rene
+47
+AL 12
+2021
+*
+BOULET
+Bruno
+31
+AL 12
+2021
+*
+DEBUIRE
+Simon
+62
+AL 12
+2021
+*
+JAUBERTIE
+Arnaud
+31
+AL 12
+2021
+*
+LE PILLOUER
+Cécile
+78
+AL 12
+2021
+*
+OUEDRAOGO
+Abel
+59
+AL 12
+2021
+*
+SAIDANE
+Naziha
+75
+AL 12
+2021
+*
+ZAWARTOSKI
+Valentin
+78
+AL 12
+2021
+*
+DIENG
+Cheick
+75
+AL 13
+2022
+*
+KEMOGNE
+Sylvain Aymard
+78
+AL 13
+2022
+*
+BOULLOUD
+Sylvain
+38
+AL 13
+2022
+*
+PIMENTA DOS SANTOS
+Alexandra
+78
+AL 13
+2022
+*
+LAGARDE
+Valentin
+29
+AL 13
+2022
+*
+OLIVIER-DASSONNEVILLE
+Elise
+94
+AL 13
+2022
+*
+BENCHEHIDA
+Nacer
+31
+AL 14
+2022
+*
+ORFILA
+Chloe
+75
+AL 14
+2022
+*
+CAVAIGNAC
+Melanie
+22
+AL 14
+2022
+*
+BOUMEDIENE
+Leila
+92
+AL 14
+2022
+*
+LAUNAY
+David
+92
+AL 14
+2022
+*
+CISSE
+Djenaba
+92
+AL 14
+2022
+*
+CISSE
+Ada
+95
+AL 14
+2022
+*
+EQUISOAIN
+Cristina
+91
+AL 14
+2022
+*
+FAUCILLION
+Matthieu
+75
+AL 14
+2022
+*
+TOYER
+Renaud
+75
+AL 14
+2022
+*
+BOULKEROUA
+Antoine
+94
+AL 15
+2022
+*
+KANFANA
+Fatoumata
+94
+AL 15
+2022
+*
+KOMBET
+Romy
+92
+AL 15
+2022
+*
+KASTANE
+GUYTRI
+78
+AL 15
+2022
+*
+KRID
+Othmann
+92
+AL 15
+2022
+*
+PROVENIER
+Bruno
+34
+AL 15
+2022
+*
+RAZANAMANANA
+Faramalala
+75
+AL 15
+2022
+*
+RIVOSOANIAINA 
+Alain
+00
+AL 15
+2022
+*
+SENICOURT
+Yann
+78
+AL 15
+2022
+*
+TIREL
+Mateusz
+92
+AL 15
+2022
+*
+SOURIGUES
+Yannick
+40
+AL 17
+2022
+*
+AYACHE
+ALI
+60
+AL 17
+2022
+*
+BERNAL
+François-Noel
+38
+AL 17
+2022
+*
+CARKILAR
+Jeyan
+75
+AL 17
+2022
+*
+DAUPHIN
+Anthony
+17
+AL 17
+2022
+*
+DU MANOIR
+Gaetan
+38
+AL 17
+2022
+*
+FERRIE
+Frederic Maurice
+75
+AL 17
+2022
+*
+HABCHI
+Hamid
+78
+AL 17
+2022
+*
+HAMDI
+Maryem
+93
+AL 17
+2022
+*
+KOUADA
+Sirine
+91
+AL 17
+2022
+*
+LAURENT
+Jonathan
+92
+AL 17
+2022
+*
+NGUENGA DONGHO
+Romuald
+78
+AL 17
+2022
+*
+SAMAGASSI
+Mohamed
+75
+AL 17
+2022
+*
+TALEB
+Farah
+29
+AL 17
+2022
+*
+BENMAKHLOUF
+Fouzi
+13
+AL 18
+2022
+*
+DAUBERMANN
+Maxime
+62
+AL 18
+2022
+*
+DE MARIGNAN
+Amaury
+56
+AL 18
+2022
+*
+DELEUIL
+Adrien
+81
+AL 18
+2022
+*
+EL HADJ
+Hideya
+71
+AL 18
+2022
+*
+ENGELMANN
+Jeremy
+77
+AL 18
+2022
+*
+GUEYE
+Papa Modou
+76
+AL 18
+2022
+*
+MBA ANDJEMBE
+Arsene Yorick
+49
+AL 18
+2022
+*
+RAVELONARY
+Christophe
+92
+AL 18
+2022
+*
+SORHAINDO
+Myriam
+91
+AL 18
+2022
+*
+VAN HOVE
+Charlotte
+92
+AL 18
+2022
+*

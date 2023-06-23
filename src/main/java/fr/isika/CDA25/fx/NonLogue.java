@@ -26,6 +26,7 @@ public class NonLogue extends GridPane {
     private Button ajouter;
     private TextField txtRecherche;
     private ChoiceBox<String> filtre;
+   
     private TableView<Stagiaire> table;
     public Arbre annuaire = new Arbre();
 
@@ -38,23 +39,24 @@ public class NonLogue extends GridPane {
             annuaire.lister(0);
         } else {
             System.out.println("arbre existe deja");
-            annuaire.supprimer("LACROIX", "Pascale", "BOBI 5");
             annuaire.lister(0);
         }
 
         Label recherche = new Label("Rechercher par :");
-        ChoiceBox<String> filtre = new ChoiceBox<>();
+        this.filtre = new ChoiceBox<>();
         //filtre = new ChoiceBox<>();
         filtre.getItems().addAll("Filtre", "Nom", "Prénom", "Département", "Promotion", "Année");
         filtre.getSelectionModel().select(0);
         
-        txtRecherche = new TextField();
-        table = new TableView<Stagiaire>();
-        table.setEditable(true);
+        this.txtRecherche = new TextField();
+        this.table = new TableView<Stagiaire>();
+        this.table.setEditable(true);
         StackPane tableau = new StackPane();
         tableau.getChildren().add(table);
-        login = new Button("Log in");
-        ajouter = new Button ("Ajouter");
+        this.login = new Button("Log in");
+        this.ajouter = new Button ("Ajouter");
+       
+
 
         filtre.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> rechercher());
         txtRecherche.textProperty().addListener((observable, oldValue, newValue) -> rechercher());
@@ -105,7 +107,6 @@ public class NonLogue extends GridPane {
 		return ajouter;
 	}
 
-
     public TableView<Stagiaire> getTable() {
         return table;
     }
@@ -143,4 +144,8 @@ public class NonLogue extends GridPane {
             table.setItems(FXCollections.observableArrayList(annuaire.getListeTrie()));
         }
     }
+    public void setStagiaires(ArrayList<Stagiaire> stagiaires) {
+		table.setItems(FXCollections.observableArrayList(stagiaires));
+		
+	}
 }

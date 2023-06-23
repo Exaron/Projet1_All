@@ -79,12 +79,12 @@ public class LogIn extends GridPane {
 		return valider;
 	}
 
-	public String getTxtUtilisateur() {
-		return txtUtilisateur.getText();
+	public TextField getTxtUtilisateur() {
+		return txtUtilisateur;
 	}
 
-	public String getTxtMotDePasse() {
-		return txtMotDePasse.getText();
+	public PasswordField getTxtMotDePasse() {
+		return txtMotDePasse;
 	}
 
 	public Label getLabelUtilisateur() {

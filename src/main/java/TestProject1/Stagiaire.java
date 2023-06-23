@@ -38,15 +38,15 @@ public class Stagiaire {
 			}
 			return sb.toString();
 		}else if (nom.length()>NOM_LONG) {
-			return nom.substring(0, NOM_LONG);
+			return nom.substring(0, NOM_LONG).toUpperCase();
 		}
 		return sb.toString();
 	}
 	public void setNom(String nom) {
-		this.nom = nom;
+		this.nom = nom.toUpperCase();
 	}
 	public String getVraiNom() {
-		return this.nom;
+		return this.nom.toUpperCase();
 	}
 	
 	public String getVraiPrenom() {
@@ -68,13 +68,14 @@ public class Stagiaire {
 			}
 			return sb.toString();
 		}else if (prenom.length()>PRENOM_LONG) {
-			return prenom.substring(0, PRENOM_LONG);
+			 prenom =prenom.substring(0, PRENOM_LONG);
+			 return prenom.substring(0,1).toUpperCase()+prenom.substring(1);
 		}
 		return sb.toString();
 	}
 	
 	public void setPrenom(String prenom) {
-		this.prenom = prenom;
+		this.prenom = prenom.substring(0,1).toUpperCase()+prenom.substring(1);
 	}
 	public String getDepartement() {
 		StringBuilder sb = new StringBuilder(departement);
