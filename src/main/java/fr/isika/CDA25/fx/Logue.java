@@ -250,6 +250,7 @@ public class Logue extends GridPane {
 					return null;
 				}
 			});
+			
 			boolean showDialog = job.showPrintDialog(null);
 			if (showDialog) {
 				for (int pageIndex = 0; pageIndex < pageCount; pageIndex++) {
