@@ -161,7 +161,7 @@ public class Logue extends GridPane {
 	public void rechercher() {
 		String critere = filtre.getValue();
 		String recherche = txtRecherche.getText();
-
+		
 		// Réinitialiser la liste des stagiaires affichés dans la table
 		table.getItems().clear();
 

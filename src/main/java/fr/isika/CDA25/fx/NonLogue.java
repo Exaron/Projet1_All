@@ -116,6 +116,12 @@ public class NonLogue extends GridPane {
 	public void rechercher() {
         String critere = filtre.getValue();
         String recherche = txtRecherche.getText();
+        try {
+			annuaire.lister(0);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
         // Réinitialiser la liste des stagiaires affichés dans la table
         table.getItems().clear();

@@ -74,7 +74,7 @@ public class RechercheMulti extends StackPane {
 
 	public RechercheMulti() throws IOException {
 		super();
-		annuaire.lister(0);
+		
 		
 		this.myStack = new StackPane();
 		this.myVB = new VBox();
@@ -191,6 +191,12 @@ public class RechercheMulti extends StackPane {
 		// Vérifier si un critère de recherche et une valeur ont été sélectionnés
 
 		if (critere1 != null && !recherche1.isEmpty()) {
+			try {
+				annuaire.lister(0);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 			logue.getTable().getItems().clear();
 			ArrayList<Stagiaire> resultatRecherche1 = rechercher(critere1, recherche1, annuaire.getListeTrie());
 			resultatRecherche = resultatRecherche1;
