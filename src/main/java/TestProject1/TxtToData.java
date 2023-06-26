@@ -33,7 +33,7 @@ public class TxtToData {
             while ((line = br.readLine()) != null) {
                 if (line.equals("*")) {
                     listeStagiaires.add(stagiaire);
-                    System.out.println(stagiaire);
+               
                     ligneCount = 0;
                     stagiaire = new Stagiaire(line, line, line, line, line);
                 } else {
@@ -62,13 +62,7 @@ public class TxtToData {
         }
     }
 
-    /*public void ajout() {
-        Noeud arbre = new Noeud(new Stagiaire());
-        for (Stagiaire stagiaire : listeStagiaires) {
-            arbre.ajouterStagiaire(stagiaire);
-        }
-        System.out.println(arbre);
-    */
+    
 
     public void ecrireFichierBinaire(String nomFichier) {
         try (RandomAccessFile raf = new RandomAccessFile(nomFichier, "test")) {
@@ -79,7 +73,7 @@ public class TxtToData {
                 raf.writeUTF(stagiaire.getFormation());
                 raf.writeUTF(stagiaire.getAnnee());
             }
-            System.out.println("La liste des stagiaires a été écrite dans le fichier " + nomFichier + ".");
+           
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -34,12 +34,10 @@ public class NonLogue extends GridPane {
     public NonLogue() throws IOException {
         super();
 
-        if (annuaire.getRaf().length() == 0) {
-            System.out.println("fichier vide création");
+        if (annuaire.getRaf().length() == 0) {          
             annuaire.ajout();
             annuaire.lister(0);
-        } else {
-            System.out.println("arbre existe deja");
+        } else {           
             annuaire.lister(0);
         }
 
@@ -94,9 +92,6 @@ public class NonLogue extends GridPane {
         promoCol.setCellValueFactory(new PropertyValueFactory<Stagiaire, String>("formation"));
         anneeCol.setCellValueFactory(new PropertyValueFactory<Stagiaire, String>("annee"));
 
-        for (Stagiaire s : annuaire.getListeTrie()) {
-            System.out.println(s);
-        }
 
         table.getColumns().addAll(nomCol, prenomCol, departCol, promoCol, anneeCol);
         table.setItems(FXCollections.observableArrayList(annuaire.getListeTrie()));

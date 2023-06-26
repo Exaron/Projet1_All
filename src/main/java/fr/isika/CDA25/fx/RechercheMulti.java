@@ -75,7 +75,7 @@ public class RechercheMulti extends StackPane {
 	public RechercheMulti() throws IOException {
 		super();
 		annuaire.lister(0);
-
+		
 		this.myStack = new StackPane();
 		this.myVB = new VBox();
 		this.labelTitre = new Label("");

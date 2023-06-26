@@ -89,6 +89,7 @@ public class Logue extends GridPane {
 		this.setPadding(new Insets(10, 10, 10, 10));
 		this.setVgap(10);
 		this.setHgap(10);
+		
 
 		TableColumn<Stagiaire, String> nomCol = new TableColumn<Stagiaire, String>("Nom");
 		nomCol.setMinWidth(50);
@@ -110,15 +111,9 @@ public class Logue extends GridPane {
 		promoCol.setCellValueFactory(new PropertyValueFactory<Stagiaire, String>("formation"));
 		anneeCol.setCellValueFactory(new PropertyValueFactory<Stagiaire, String>("annee"));
 		imprimer.setOnAction(event -> {
-//			imprimerTable();
+
 		});
-		// caseCol.setCellFactory(CheckBoxTableCell.forTableColumn(caseCol));
-		// caseCol.setCellValueFactory(new PropertyValueFactory<>(" ")) ;
-
-		for (Stagiaire s : annuaire.getListeTrie()) {
-			System.out.println(s);
-		}
-
+		
 		table.getColumns().addAll(nomCol, prenomCol, departCol, promoCol, anneeCol);
 		table.setItems(FXCollections.observableArrayList(annuaire.getListeTrie()));
 	}
@@ -204,7 +199,7 @@ public class Logue extends GridPane {
 	}
 
 	public Stagiaire getSelectedStagiaire() {
-		// System.out.println("methode get selected stafiaires");
+		
 		return table.getSelectionModel().getSelectedItem();
 	}
 
@@ -214,59 +209,60 @@ public class Logue extends GridPane {
 	}
 
 	public void imprimerTable(ArrayList<Stagiaire> listeStagiaires) {
-		PrinterJob job = PrinterJob.createPrinterJob();
-		if (job != null) {
-
-			double printableHeight = job.getJobSettings().getPageLayout().getPrintableHeight();
-			int itemsPerPage = (int) Math.floor(printableHeight / 20);
-			StringBuilder content = new StringBuilder();
-			for (Stagiaire stagiaire : listeStagiaires) {
-				content.append(stagiaire.getNom()).append("\t").append(stagiaire.getPrenom()).append("\t")
-						.append(stagiaire.getDepartement()).append("\t").append(stagiaire.getFormation()).append("\t")
-						.append(stagiaire.getAnnee()).append("\n");
-			}
-			TextArea textArea = new TextArea(content.toString());
-			textArea.setFont(Font.font("Monospaced"));
-			Pagination pagination = new Pagination();
-			int pageCount = (int) Math.ceil((double) listeStagiaires.size() / itemsPerPage);
-			pagination.setPageCount(pageCount);
-			pagination.setPageFactory(pageIndex -> {
-				int fromIndex = pageIndex * itemsPerPage;
-				int toIndex = Math.min(fromIndex + itemsPerPage, listeStagiaires.size());
-				if (fromIndex < toIndex) {
-					List<Stagiaire> pageStagiaires = listeStagiaires.subList(fromIndex, toIndex);
-					StringBuilder pageContent = new StringBuilder();
-					for (Stagiaire stagiaire : pageStagiaires) {
-						pageContent.append(stagiaire.getNom()).append("\t").append(stagiaire.getPrenom()).append("\t")
-								.append(stagiaire.getDepartement()).append("\t").append(stagiaire.getFormation())
-								.append("\t").append(stagiaire.getAnnee()).append("\n");
-					}
-					TextArea pageTextArea = new TextArea(pageContent.toString());
-					pageTextArea.setFont(Font.font("Monospaced"));
-					pageTextArea.setEditable(false);
-					pageTextArea.setWrapText(true);
-					return pageTextArea;
-				} else {
-					return null;
-				}
-			});
-			
-			boolean showDialog = job.showPrintDialog(null);
-			if (showDialog) {
-				for (int pageIndex = 0; pageIndex < pageCount; pageIndex++) {
-					pagination.setCurrentPageIndex(pageIndex);
-					boolean impressionReussie = job.printPage(textArea);
-					if (!impressionReussie) {
-						System.out.println("ÉCHEC");
-						break;
-					}
-				}
-				
-				System.out.println("Impression réussie");
-				job.endJob();
-			}
-		}
+	    PrinterJob job = PrinterJob.createPrinterJob();
+	    if (job != null) {
+	       
+	        double printableHeight = job.getJobSettings().getPageLayout().getPrintableHeight();
+	        int itemsPerPage = (int) Math.floor(printableHeight / 20);
+	        StringBuilder content = new StringBuilder();
+	        for (Stagiaire stagiaire : listeStagiaires) {
+	            content.append(stagiaire.getNom()).append("\t")
+	                    .append(stagiaire.getPrenom()).append("\t")
+	                    .append(stagiaire.getDepartement()).append("\t")
+	                    .append(stagiaire.getFormation()).append("\t")
+	                    .append(stagiaire.getAnnee()).append("\n");
+	        }
+	        TextArea textArea = new TextArea(content.toString());
+	        textArea.setFont(Font.font("Monospaced"));
+	        Pagination pagination = new Pagination();
+	        int pageCount = (int) Math.ceil((double) listeStagiaires.size() / itemsPerPage);
+	        pagination.setPageCount(pageCount);
+	        pagination.setPageFactory(pageIndex -> {
+	            int fromIndex = pageIndex * itemsPerPage;
+	            int toIndex = Math.min(fromIndex + itemsPerPage, listeStagiaires.size());
+	            if (fromIndex < toIndex) {
+	                List<Stagiaire> pageStagiaires = listeStagiaires.subList(fromIndex, toIndex);
+	                StringBuilder pageContent = new StringBuilder();
+	                for (Stagiaire stagiaire : pageStagiaires) {
+	                    pageContent.append(stagiaire.getNom()).append("\t")
+	                            .append(stagiaire.getPrenom()).append("\t")
+	                            .append(stagiaire.getDepartement()).append("\t")
+	                            .append(stagiaire.getFormation()).append("\t")
+	                            .append(stagiaire.getAnnee()).append("\n");
+	                }
+	                TextArea pageTextArea = new TextArea(pageContent.toString());
+	                pageTextArea.setFont(Font.font("Monospaced"));
+	                pageTextArea.setEditable(false);
+	                pageTextArea.setWrapText(true);
+	                return pageTextArea;
+	            } else {
+	                return null;
+	            }
+	        });
+	        boolean showDialog = job.showPrintDialog(null);
+	        if (showDialog) {
+	            for (int pageIndex = 0; pageIndex < pageCount; pageIndex++) {
+	                pagination.setCurrentPageIndex(pageIndex);
+	                boolean impressionReussie = job.printPage(textArea);
+	                if (!impressionReussie) {
+	                    System.out.println("ÉCHEC");
+	                    break;
+	                }
+	            }
+	            System.out.println("Impression réussie");
+	            job.endJob();
+	        }
+	    }
 	}
-
 
 }

@@ -68,7 +68,7 @@ public class Arbre {
 				}
 				// arbre.ajouterStagiaire(stagiaire);
 			}
-			System.out.println(arbre);
+			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -88,15 +88,13 @@ public class Arbre {
 		Noeud noeud = new Noeud(new Stagiaire());
 
 		raf.seek(index);
-//		System.out.println(raf.getFilePointer());
 		Noeud noeud1 = noeud.lireNoeud(raf);
-//		System.out.println(noeud1.getCle());
-//		System.out.println(noeud1.getFilsGauche());
+		
 		if (noeud1.getFilsGauche() != -1) {
 			this.lister((int) (noeud1.getFilsGauche() * TAILLE_NOEUD));
 
 		}
-		System.out.println(noeud1);
+	
 		listeTrie.add(noeud1.getCle());
 		
 		if (noeud1.getSuivant() != -1) {
@@ -111,7 +109,7 @@ public class Arbre {
 	public String supprimer(String nom, String prenom, String formation) throws IOException {
 		Noeud noeud = new Noeud(new Stagiaire());
 		if(raf.length() == 0) {
-			System.out.println("arbre vide");
+			
 			return "";
 		} else {
 			raf.seek(0);
@@ -122,11 +120,10 @@ public class Arbre {
 	
 public void modifier(String rechercheNom, String recherchePrenom, String rechercheFormation,String nom, String prenom, String departement, String formation, String annee) throws IOException {
 		
-		String validation = this.supprimer(rechercheNom, recherchePrenom, rechercheFormation);
-		System.out.println("validation = " + validation);
+		String validation = this.supprimer(rechercheNom, recherchePrenom, rechercheFormation);		
 		
 		if (validation.equals("")) {
-			System.out.println("Stagiaire pas trouvé");
+			
 		} else {
 			Stagiaire stagiaireModif = new Stagiaire(nom, prenom, departement, formation, annee);
 			raf.seek(0);
@@ -147,7 +144,7 @@ public void ajouter(String nom, String prenom, String departement, String format
 			racine.ajouterStagiaire(stagiaireModif, raf);
 			
 		} else {
-			System.out.println("Stagiaire pas trouvé");
+			
 			
 		}
 		

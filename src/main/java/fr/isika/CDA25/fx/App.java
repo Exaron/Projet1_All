@@ -47,9 +47,9 @@ public class App extends Application {
 	ArrayList<Stagiaire> listeStagiaires = annuaire.getListeTrie();
 
 	public App() {
-		
+
 	}
-	
+
 	public Scene getScene() {
 		return scene;
 	}
@@ -75,6 +75,16 @@ public class App extends Application {
 
 			@Override
 			public void handle(ActionEvent event) {
+				try {
+					annuaire.refresh();
+					annuaire.lister(0);
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+
+				logue.setStagiaires(annuaire.getListeTrie());
+				logue.getTable().setItems(FXCollections.observableArrayList(annuaire.getListeTrie()));
 				scene.setRoot(logIn);
 			}
 
@@ -112,6 +122,16 @@ public class App extends Application {
 
 			@Override
 			public void handle(ActionEvent event) {
+				try {
+					annuaire.refresh();
+					annuaire.lister(0);
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+
+				nonLogue.setStagiaires(annuaire.getListeTrie());
+				nonLogue.getTable().setItems(FXCollections.observableArrayList(annuaire.getListeTrie()));
 				scene.setRoot(nonLogue);
 			}
 
@@ -130,7 +150,7 @@ public class App extends Application {
 			@Override
 			public void handle(ActionEvent event) {
 				scene.setRoot(ajoutLogue);
-				
+
 			}
 
 		});
@@ -139,6 +159,8 @@ public class App extends Application {
 
 			@Override
 			public void handle(ActionEvent event) {
+				logue.setStagiaires(annuaire.getListeTrie());
+				logue.getTable().setItems(FXCollections.observableArrayList(annuaire.getListeTrie()));
 				scene.setRoot(multicritere);
 				critere = 1;
 			}
@@ -149,14 +171,15 @@ public class App extends Application {
 
 			@Override
 			public void handle(ActionEvent event) {
-				
-				
+
 				if (multicritere.recherche() > 0) {
 					// Mettre à jour la table avec les résultats de recherche
-					if(critere > 0) {
-					logue.getTable().setItems(FXCollections.observableArrayList(multicritere.getResultatRecherche()));
+					if (critere > 0) {
+						logue.getTable()
+								.setItems(FXCollections.observableArrayList(multicritere.getResultatRecherche()));
 					} else {
-						nonLogue.getTable().setItems(FXCollections.observableArrayList(multicritere.getResultatRecherche()));
+						nonLogue.getTable()
+								.setItems(FXCollections.observableArrayList(multicritere.getResultatRecherche()));
 					}
 				} else {
 					// Aucun critère de recherche ou valeur sélectionnés, afficher tous les
@@ -206,7 +229,7 @@ public class App extends Application {
 					logue.getTable().setItems(FXCollections.observableArrayList(annuaire.getListeTrie()));
 				} else {
 					scene.setRoot(nonLogue);
-				
+
 					try {
 						annuaire.refresh();
 					} catch (IOException e) {
@@ -221,7 +244,7 @@ public class App extends Application {
 					}
 					nonLogue.getTable().setItems(FXCollections.observableArrayList(annuaire.getListeTrie()));
 				}
-				
+
 			}
 
 		});
@@ -233,19 +256,21 @@ public class App extends Application {
 			public void handle(ActionEvent event) {
 				scene.setRoot(ajoutNonLogue);
 			}
-			
+
 		});
-		
+
 		nonLogue.getRechercheMulti().setOnAction(new EventHandler<ActionEvent>() {
 
 			@Override
 			public void handle(ActionEvent event) {
 				scene.setRoot(multicritere);
 				critere = -1;
+				nonLogue.setStagiaires(annuaire.getListeTrie());
+				nonLogue.getTable().setItems(FXCollections.observableArrayList(annuaire.getListeTrie()));
 			}
-			
+
 		});
-		
+
 		// Retour de ajout à Logue
 		ajoutLogue.getRetourAjoutLogue().setOnAction(new EventHandler<ActionEvent>() {
 			@Override
@@ -271,15 +296,18 @@ public class App extends Application {
 				String nom = ajoutLogue.txtNom.getText().toUpperCase();
 				String prenom = ajoutLogue.txtPrenom.getText();
 				prenom = prenom.substring(0, 1).toUpperCase() + prenom.substring(1);
-				String department = ajoutLogue.txtAnnee.getText();
+				String department = ajoutLogue.txtDepart.getText();
 				String formation = ajoutLogue.txtProm.getText();
 				String annee = ajoutLogue.txtAnnee.getText();
 				try {
 					if (!nom.equals("") && !prenom.equals("") && !department.equals("") && !formation.equals("")
 							&& !annee.equals("")) {
 						annuaire.ajouter(nom, prenom, department, formation, annee);
+						System.out.println(department + "departement");
 						annuaire.refresh();
-						System.out.println("Ajout bien pris en compte");
+						annuaire.lister(0);
+						logue.getTable().setItems(FXCollections.observableArrayList(annuaire.getListeTrie()));
+						logue.setStagiaires(annuaire.getListeTrie());
 						scene.setRoot(logue);
 					} else {
 						ajoutLogue.getErreur().setTextFill(Color.RED);
@@ -305,7 +333,8 @@ public class App extends Application {
 				String nom = ajoutNonLogue.txtNom.getText().toUpperCase();
 				String prenom = ajoutNonLogue.txtPrenom.getText();
 				prenom = prenom.substring(0, 1).toUpperCase() + prenom.substring(1);
-				String department = ajoutNonLogue.txtAnnee.getText();
+				String department = ajoutNonLogue.txtDepart.getText();
+				System.out.println(department + "departement");
 				String formation = ajoutNonLogue.txtProm.getText();
 				String annee = ajoutNonLogue.txtAnnee.getText();
 
@@ -314,10 +343,12 @@ public class App extends Application {
 							&& !annee.equals("")) {
 						annuaire.ajouter(nom, prenom, department, formation, annee);
 						annuaire.refresh();
-						System.out.println("Ajout bien pris en compte");
+						annuaire.lister(0);
+						nonLogue.setStagiaires(annuaire.getListeTrie());
+						nonLogue.getTable().setItems(FXCollections.observableArrayList(annuaire.getListeTrie()));
 						scene.setRoot(nonLogue);
 					} else {
-						ajoutLogue.getErreur().setTextFill(Color.RED);
+						ajoutNonLogue.getErreur().setTextFill(Color.RED);
 						ajoutNonLogue.getErreur().setText("Toutes les cases doivent être remplies");
 					}
 					nonLogue.setStagiaires(annuaire.getListeTrie());
@@ -338,10 +369,10 @@ public class App extends Application {
 
 				try {
 					Stagiaire stagiaire = logue.getSelectedStagiaire();
-					System.out.println("stagiaire a supp " + stagiaire);
 					annuaire.supprimer(stagiaire.getVraiNom(), stagiaire.getVraiPrenom(), stagiaire.getVraiFormation());
 					annuaire.refresh();
 					logue.setStagiaires(annuaire.getListeTrie());
+					logue.getTable().setItems(FXCollections.observableArrayList(annuaire.getListeTrie()));
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -390,7 +421,9 @@ public class App extends Application {
 								stagiaire.getVraiFormation(), nomModif, prenomModif, departModif, promModif,
 								anneeModif);
 						annuaire.refresh();
+						annuaire.lister(0);
 						logue.setStagiaires(annuaire.getListeTrie());
+						logue.getTable().setItems(FXCollections.observableArrayList(annuaire.getListeTrie()));
 						scene.setRoot(logue);
 
 					} else {
@@ -403,22 +436,22 @@ public class App extends Application {
 				}
 			}
 		});
-		
+
 		modif.getRetour().setOnAction(new EventHandler<ActionEvent>() {
 			@Override
 			public void handle(ActionEvent event) {
 				scene.setRoot(logue);
 			}
 		});
-		
+
 		logue.getImprimer().setOnAction(new EventHandler<ActionEvent>() {
 			@Override
 			public void handle(ActionEvent event) {
-				logue.imprimerTable(listeStagiaires);
+				logue.imprimerTable(annuaire.getListeTrie());
 				scene.setRoot(logue);
 			}
 		});
-			
+
 		stage.setTitle("Annuaire Isika");
 		stage.setScene(scene);
 		stage.show();
